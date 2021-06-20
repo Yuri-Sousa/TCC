@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.mapaloaddvcombo_services,mapaloaddvcombo" %>

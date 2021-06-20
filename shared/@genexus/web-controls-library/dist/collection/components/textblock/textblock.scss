@@ -1,0 +1,5 @@
+@import "../common/_base";
+
+gx-textblock {
+  @include visibility(inline-block);
+}

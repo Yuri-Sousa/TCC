@@ -1,0 +1,10 @@
+gx-radio-group {
+  display: block; }
+  gx-radio-group[hidden] {
+    display: none; }
+    gx-radio-group[hidden][invisible-mode="keep-space"] {
+      display: block;
+      visibility: hidden; }
+  gx-radio-group[direction="horizontal"] > gx-radio-option {
+    display: inline-flex;
+    margin-right: 1rem; }

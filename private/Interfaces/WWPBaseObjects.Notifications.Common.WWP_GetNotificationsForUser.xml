@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CallableObject guid="91ce5082-b39e-4cc0-8632-9505701ac9c0" name="WWPBaseObjects.Notifications.Common.WWP_GetNotificationsForUser" description="Get Notifications For User" namespace="GeneXus.Programs">
+  <Signature name="parm">
+    <Parameter name="ReturnValue" accessor="out">
+      <Field name="WWP_SDTNotificationsData" description="WWP_SDTNotifications Data" collection="true">
+        <Fields>
+          <Field name="NotificationId" description="Notification Id">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Numeric</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>5</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="NotificationIconClass" description="Notification Icon Class">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>40</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="NotificationTitle" description="Notification Title">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>200</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="NotificationDescription" description="Notification Description">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>200</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="NotificationDatetime" description="Notification Datetime">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>DateTime</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>8</Value>
+              </Property>
+              <Property>
+                <Name>Decimals</Name>
+                <Value>5</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="NotificationLink" description="Notification Link">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>1000</Value>
+              </Property>
+            </Properties>
+          </Field>
+        </Fields>
+      </Field>
+    </Parameter>
+  </Signature>
+</CallableObject>

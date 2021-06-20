@@ -1,0 +1,476 @@
+<!-- Dependencias MapBoxGL -->
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css' rel='stylesheet' />
+
+<!-- Dependencias Geocoder (Barra de busca) -->
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.min.js"></script>
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.css" type="text/css"/>
+<!-- Promise polyfill script required to use Mapbox GL Geocoder in IE 11 -->
+<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+
+<!-- Dependencias Draw MapBoxGL -->
+<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.2.0/mapbox-gl-draw.css' type='text/css' />
+
+<!-- Dependencias Animação -->
+<script src="https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v2.0.0/turf.min.js" charset="utf-8"></script>
+
+<!-- Dependencia Calcular Distância -->
+<script src="https://npmcdn.com/@turf/turf@5.1.6/turf.min.js"></script>
+
+<!-- Dependencia Roteirizador -->
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.js"></script>
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.css" type="text/css"/>
+
+<!-- Dependencia Circulos MapBox GL -->
+<script src='https://npmcdn.com/mapbox-gl-circle/dist/mapbox-gl-circle.min.js'></script>
+
+<!-- Dependencia para simplificar LineStrings (Rotas) -->
+<script>
+
+!function(t){if("object"==typeof exports&&"undefined"!=typeof module)module.exports=t();else if("function"==typeof define&&define.amd)define([],t);else{("undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:this).cheapRuler=t()}}(function(){return function t(n,e,r){function i(u,f){if(!e[u]){if(!n[u]){var a="function"==typeof require&&require;if(!f&&a)return a(u,!0);if(o)return o(u,!0);var s=new Error("Cannot find module '"+u+"'");throw s.code="MODULE_NOT_FOUND",s}var h=e[u]={exports:{}};n[u][0].call(h.exports,function(t){var e=n[u][1][t];return i(e||t)},h,h.exports,t,n,e,r)}return e[u].exports}for(var o="function"==typeof require&&require,u=0;u<r.length;u++)i(r[u]);return i}({1:[function(t,n,e){"use strict";function r(t,n){return new i(t,n)}function i(t,n){if(void 0===t)throw new Error("No latitude given.");if(n&&!f[n])throw new Error("Unknown unit "+n+". Use one of: "+Object.keys(f).join(", "));var e=n?f[n]:1,r=Math.cos(t*Math.PI/180),i=2*r*r-1,o=2*r*i-r,u=2*r*o-i,a=2*r*u-o;this.kx=e*(111.41513*r-.09455*o+12e-5*a),this.ky=e*(111.13209-.56605*i+.0012*u)}function o(t,n){return t[0]===n[0]&&t[1]===n[1]}function u(t,n,e){var r=n[0]-t[0],i=n[1]-t[1];return[t[0]+r*e,t[1]+i*e]}n.exports=r,n.exports.default=r;var f=r.units={kilometers:1,miles:1e3/1609.344,nauticalmiles:1e3/1852,meters:1e3,metres:1e3,yards:1e3/.9144,feet:1e3/.3048,inches:1e3/.0254};r.fromTile=function(t,n,e){var r=Math.PI*(1-2*(t+.5)/Math.pow(2,n));return new i(180*Math.atan(.5*(Math.exp(r)-Math.exp(-r)))/Math.PI,e)},i.prototype={distance:function(t,n){var e=(t[0]-n[0])*this.kx,r=(t[1]-n[1])*this.ky;return Math.sqrt(e*e+r*r)},bearing:function(t,n){var e=(n[0]-t[0])*this.kx,r=(n[1]-t[1])*this.ky;if(!e&&!r)return 0;var i=180*Math.atan2(e,r)/Math.PI;return i>180&&(i-=360),i},destination:function(t,n,e){var r=(90-e)*Math.PI/180;return this.offset(t,Math.cos(r)*n,Math.sin(r)*n)},offset:function(t,n,e){return[t[0]+n/this.kx,t[1]+e/this.ky]},lineDistance:function(t){for(var n=0,e=0;e<t.length-1;e++)n+=this.distance(t[e],t[e+1]);return n},area:function(t){for(var n=0,e=0;e<t.length;e++)for(var r=t[e],i=0,o=r.length,u=o-1;i<o;u=i++)n+=(r[i][0]-r[u][0])*(r[i][1]+r[u][1])*(e?-1:1);return Math.abs(n)/2*this.kx*this.ky},along:function(t,n){var e=0;if(n<=0)return t[0];for(var r=0;r<t.length-1;r++){var i=t[r],o=t[r+1],f=this.distance(i,o);if((e+=f)>n)return u(i,o,(n-(e-f))/f)}return t[t.length-1]},pointOnLine:function(t,n){for(var e,r,i,o,u=1/0,f=0;f<t.length-1;f++){var a=t[f][0],s=t[f][1],h=(t[f+1][0]-a)*this.kx,c=(t[f+1][1]-s)*this.ky;if(0!==h||0!==c){var l=((n[0]-a)*this.kx*h+(n[1]-s)*this.ky*c)/(h*h+c*c);l>1?(a=t[f+1][0],s=t[f+1][1]):l>0&&(a+=h/this.kx*l,s+=c/this.ky*l)}var d=(h=(n[0]-a)*this.kx)*h+(c=(n[1]-s)*this.ky)*c;d<u&&(u=d,e=a,r=s,i=f,o=l)}return{point:[e,r],index:i,t:Math.max(0,Math.min(1,o))}},lineSlice:function(t,n,e){var r=this.pointOnLine(e,t),i=this.pointOnLine(e,n);if(r.index>i.index||r.index===i.index&&r.t>i.t){var u=r;r=i,i=u}var f=[r.point],a=r.index+1,s=i.index;!o(e[a],f[0])&&a<=s&&f.push(e[a]);for(var h=a+1;h<=s;h++)f.push(e[h]);return o(e[s],i.point)||f.push(i.point),f},lineSliceAlong:function(t,n,e){for(var r=0,i=[],o=0;o<e.length-1;o++){var f=e[o],a=e[o+1],s=this.distance(f,a);if((r+=s)>t&&0===i.length&&i.push(u(f,a,(t-(r-s))/s)),r>=n)return i.push(u(f,a,(n-(r-s))/s)),i;r>t&&i.push(a)}return i},bufferPoint:function(t,n){var e=n/this.ky,r=n/this.kx;return[t[0]-r,t[1]-e,t[0]+r,t[1]+e]},bufferBBox:function(t,n){var e=n/this.ky,r=n/this.kx;return[t[0]-r,t[1]-e,t[2]+r,t[3]+e]},insideBBox:function(t,n){return t[0]>=n[0]&&t[0]<=n[2]&&t[1]>=n[1]&&t[1]<=n[3]}}},{}]},{},[1])(1)});
+
+/*
+ (c) 2017, Mapbox
+ Based on simplify-js (c) 2017, Vladimir Agafonkin
+ Simplify.js, a high-performance JS polyline simplification library
+ mourner.github.io/simplify-js
+*/
+'use strict';
+
+const rulerCache = {};
+
+function getRuler(latitude) {
+// Cache rulers every 0.00001 degrees of latitude
+    const roundedLatitude = Math.round(latitude * 100000);
+    if (rulerCache[roundedLatitude] === undefined) {
+        rulerCache[roundedLatitude] = cheapRuler(latitude, 'meters');
+    }
+    return rulerCache[roundedLatitude];
+}
+
+// Distance between two points in metres
+function getDist(p1, p2) {
+    getRuler(p1[1]).distance(p1, p2);
+}
+
+// Distance from a point to a segment (line between two points) in metres
+function getSegDist(p, p1, p2) {
+    const ruler = getRuler(p[1]);
+    const pointOnLine = ruler.pointOnLine([p1, p2], p).point;
+    return ruler.distance(p, pointOnLine);
+}
+
+function simplifyDPStep(points, first, last, offsetTolerance, gapTolerance, simplified) {
+    let maxDistanceFound = offsetTolerance,
+        index;
+
+    for (let i = first + 1; i < last; i++) {
+        const distance = getSegDist(points[i], points[first], points[last]);
+
+        if (distance > maxDistanceFound) {
+            index = i;
+            maxDistanceFound = distance;
+        }
+    }
+
+    // Don't remove a point if it would create a segment longer
+    // than gapTolerance
+    const firstLastDist = getDist(points[first], points[last]);
+
+    if (maxDistanceFound > offsetTolerance || firstLastDist > gapTolerance) {
+        if (index - first > 1) simplifyDPStep(points, first, index, offsetTolerance, gapTolerance, simplified);
+        simplified.push(points[index]);
+        if (last - index > 1) simplifyDPStep(points, index, last, offsetTolerance, gapTolerance, simplified);
+    }
+}
+
+// simplification using Ramer-Douglas-Peucker algorithm
+function simplifyDouglasPeucker(points, offsetTolerance, gapTolerance) {
+    const last = points.length - 1;
+    const simplified = [points[0]];
+    simplifyDPStep(points, 0, last, offsetTolerance, gapTolerance, simplified);
+    simplified.push(points[last]);
+    return simplified;
+}
+
+function simplify(points, offsetTolerance, gapTolerance) {
+    if (points.length <= 2) return points;
+    points = simplifyDouglasPeucker(points, offsetTolerance, gapTolerance);
+    return points;
+}
+
+</script>
+
+<!-- Classe dos controles Top-left-->
+<style>
+
+.mapboxgl-ctrl-top-left {
+    top: 40px;
+    left: 0;
+}
+
+</style>
+
+<!-- Classe dos controles Top-Right-->
+<style>
+
+.mapboxgl-ctrl-top-right {
+    top: 40px;
+    right: 0;
+}
+
+</style>
+
+<!-- Classe botão close geocoder -->
+<style>
+.geocoder-icon-close {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiBoZWlnaHQ9IjIwIiB3aWR0aD0iMjAiPg0KICA8cGF0aCBkPSJtNSA1IDAgMS41IDMuNSAzLjUtMy41IDMuNSAwIDEuNSAxLjUgMCAzLjUtMy41IDMuNSAzLjUgMS41IDAgMC0xLjUtMy41LTMuNSAzLjUtMy41IDAtMS41LTEuNSAwLTMuNSAzLjUtMy41LTMuNS0xLjUgMHoiIGZpbGw9IiMwMDAiLz4NCjwvc3ZnPg==);
+    visibility: hidden;
+}
+</style>
+
+<!-- Classe do Scroll do MenuLateral -->
+<style>
+#MenuMapaLateralDireita::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+}
+
+#MenuMapaLateralDireita::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+#MenuMapaLateralDireita::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: background: rgba(51, 51, 51,0.2);
+}
+</style>
+
+<!-- Classe do popup-->
+<style>
+
+.popupMapBoxRastreamento {
+	width: 325px;
+	max-width: 325px !important;
+}
+
+.mapboxgl-popup-content {
+   	position: relative;
+    	background: #fff;
+    	border-radius: 12px;
+    	box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    	padding: 10px 10px 15px;
+    	pointer-events: auto;
+	box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+}
+
+.mapboxgl-popup-close-button {
+    position: absolute;
+    right: 2px;
+    top: 1px;
+    border: 0;
+    border-radius: 0 3px 0 0;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+</style>
+
+<!-- Classes da função de calcular distância-->
+<style>
+.distance-container {
+position: absolute;
+top: 7px;
+left: 395px;
+z-index: 1;
+}
+ 
+.distance-container > * {
+background-color: rgba(0, 0, 0, 0.5);
+color: #fff;
+font-size: 11px;
+line-height: 18px;
+display: block;
+margin: 0;
+padding: 5px 10px;
+border-radius: 3px;
+}
+</style>
+
+<!-- Classes do popup de adicionar nome ao polígono-->
+<style>
+/* The Modal (background) */
+.modalMap {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  padding-top: 20%; /* Location of the box */
+  padding-left: 40%;
+  padding-right: 40%;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modalMap-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 250px;
+}
+
+/* The Close Button */
+.closeMap {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeMap:hover,
+.closeMap:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+
+<!-- Classes para toast message ao salvar os itens do mapa-->
+<style>
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #005baa;
+  color: #fff;
+  font-weight: 800;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 50px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+</style>
+
+<!-- Classes para menu no mapa-->
+<style>
+.sidenav {
+  /*top: -60px;*/
+  background-color: #ffffff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  margin-left:auto;
+  right:0;
+  padding-top:60px;
+  float:right;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #000;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+} 
+
+#mainHoverMenu {
+    transition: margin-left .5s;
+    padding: 16px;
+    margin-right: 5px;
+    position: relative;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    z-index: 999;
+    float: right;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+
+<!-- Div onde irá ficar o mapa -->
+<div id='map' style='width: {{gxTpr_Width}}{{Width}}{{^Width}}100%{{/Width}}; height: {{gxTpr_Height}}{{Height}}{{^Height}}80vh{{/Height}};'></div>
+
+<!-- Div com o menu lateral no mapa -->
+<div id="mySidenav" class="sidenav" style="position: absolute;z-index: 1001;margin-right: auto; height: 100%;padding-bottom: 10px; left: auto;box-shadow: rgba(0, 0, 0, 0.65) 0px 1px 5px;">
+  <a href="javascript:void(0)" class="closebtn" onclick="mythisMapBoxGL._openCloseMenuMapa()">&times;</a> <!-- Ao clicar fecha o menu -->
+</div>
+
+<!-- Div Modal nome polígono -->
+<div id="myModal" class="modalMap">
+  <div class="modalMap-content">
+	<p style="font-weight: 800;height: 20px;">Informe o nome do polígono</p>
+	<input type="text" Id="InputPoligono" name="NomePoligono" placeholder="Entre com o nome do polígono..." style=" width: 100%;border-color: black;border-width: 1px;margin: 0;"><br>
+	<p Id="MensagemErroNomePoligono" style="font-weight: 400;color: red;visibility: hidden;font-size: 10px;">Já existe um poligono com este nome.</p>
+	<div style="position: relative;height: 30px;">
+		<div style="font-weight: 900;background-color: white;border-color: lightgray;border-width: 0.5px;height: 30px;width: 80px;margin-top: 10px;border: 1px solid lightgray;text-align: center;padding-top: 5px;cursor: pointer;position: relative;float: left;margin-left: 20px;background: #005baa;color: white;" onclick="mythisMapBoxGL._VerificaErrosNomePoligono()">Salvar</div>
+		<div style="font-weight: 900;background-color: white;border-color: lightgray;border-width: 0.5px;height: 30px;width: 80px;margin-top: 10px;border: 1px solid lightgray;text-align: center;padding-top: 5px;cursor: pointer;float: right;position: relative;margin-right: 20px;" onclick="mythisMapBoxGL._CancelaInsercaoPoligono()">Cancelar</div>
+	</div>  
+	<!-- <div style="font-weight: 900;background-color: white;border-color: lightgray;border-width: 0.5px;height: 30px;width: 80px;margin-top: 10px;border: 1px solid lightgray;text-align: center;padding-top: 5px;cursor: pointer;" onclick="mythisMapBoxGL._VerificaErrosNomePoligono()">Salvar</div>
+  	-->
+  </div>
+</div>
+
+<!-- Div Modal nome e largura rota -->
+<!--
+<div id="myModalRota" class="modalMap">
+  <div class="modalMap-content">
+	
+	<p style="font-weight: 800;height: 20px;">Informe o nome da rota</p>
+	<input type="text" Id="InputRota" name="NomeRota" placeholder="Entre com o nome da rota..." style=" width: 100%;border-color: black;border-width: 1px;"><br>
+	<p Id="MensagemErroNomeRota" style="font-weight: 400;color: red;visibility: hidden;font-size: 10px;">Já existe uma rota com este nome.</p>
+ 
+  	<p style="font-weight: 800;height: 20px;">Informe a largura da rota</p>
+	<input type="number" Id="InputLarguraRota" name="LarguraRota" placeholder="Entre com a largura da rota..." style=" width: 100%;border-color: black;border-width: 1px;"><br>
+	<p Id="MensagemLarguraRota" style="font-weight: 400;color: red;visibility: hidden;font-size: 10px;">Informe a largura da rota.</p>
+
+	<div style="font-weight: 900;background-color: white;border-color: lightgray;border-width: 0.5px;height: 30px;width: 80px;margin-top: 10px;border: 1px solid lightgray;text-align: center;padding-top: 5px;cursor: pointer;" onclick="mythisMapBoxGL._VerificaErrosNomeRota()">Salvar</div>
+	
+  </div>
+</div>
+-->
+
+<!-- Div Modal nome do circulo -->
+<div id="myModalCirculo" class="modalMap">
+ <div class="modalMap-content">
+	<p style="font-weight: 800;height: 20px;">Informe o nome do círculo</p>
+	<input type="text" Id="InputNomeCirculo" name="NomeCirculo" placeholder="Entre com o nome do círculo..." style=" width: 100%;border-color: black;border-width: 1px;margin: 0;"><br>
+	<p Id="MensagemErroNomeCirculo" style="font-weight: 400;color: red;visibility: hidden;font-size: 10px;">Já existe um círculo com este nome.</p>
+	<div style="position: relative;height: 30px;">
+		<div style="font-weight: 900;background-color: white;border-color: lightgray;border-width: 0.5px;height: 30px;width: 80px;margin-top: 10px;border: 1px solid lightgray;text-align: center;padding-top: 5px;cursor: pointer;position: relative;float: left;margin-left: 20px;background: #005baa;color: white;" onclick="mythisMapBoxGL._VerificaErrosNomeCirculo()">Salvar</div>
+		<div style="font-weight: 900;background-color: white;border-color: lightgray;border-width: 0.5px;height: 30px;width: 80px;margin-top: 10px;border: 1px solid lightgray;text-align: center;padding-top: 5px;cursor: pointer;float: right;position: relative;margin-right: 20px;" onclick="mythisMapBoxGL._CancelaInsercaoCirculo()">Cancelar</div>
+	</div>  
+  </div>
+</div>
+
+<!-- Div com o controle de Menu no Mapa -->
+<div id="GrupoMenuMapa" class="mapboxgl-ctrl mapboxgl-ctrl-group">
+	<button id="btnMenuMapa" class="" type="button" title="Menu" aria-label="Zoom in" onclick="mythisMapBoxGL._openCloseMenuMapa()">
+		<i class="fas fa-bars" style="font-size: 15px;color: black;"></i>
+	</button>
+</div>
+
+<!-- Div com o controle de percurso -->
+<div id="GrupoControle" class="mapboxgl-ctrl mapboxgl-ctrl-group">
+<button Id="btnPercurso" class="" type="button" title="Percurso" aria-label="Zoom in" onclick="openCloseNav()">
+<i class="fas fa-route" style="font-size: 15px;"></i>
+</button>
+<button Id="btnDistancia" class="" type="button" title="Distância" aria-label="Zoom in" onclick="mythisMapBoxGL._CalculaDistancia()">
+<i class="fas fa-ruler" style="font-size: 15px;"></i>
+</button>
+<button Id="btnRota" class="" type="button" title="Roteirizador" aria-label="Zoom in" onclick="mythisMapBoxGL._openCloseControleRotas()">
+<i class="fas fa-directions" style="font-size: 15px;"></i>
+</button>
+</div>
+
+<!-- Botão de salvar desenhos do mapa -->
+<button Id="btnSaveDrawMap" class="" type="button" title="Salvar" aria-label="Zoom in" onclick="mythisMapBoxGL.salvaDesenhosMapa()">
+<i class="fas fa-save" style="font-size: 15px;color: black;"></i>
+</button>
+
+<!-- Botão de remover desenhos do mapa -->
+<button Id="btnRemoveDrawMap" class="" type="button" title="Remover" aria-label="Zoom in" onclick="mythisMapBoxGL._removeDesenhosMapa()">
+<i class="fas fa-trash-alt" style="font-size: 15px;color: black;"></i>
+</button>
+
+<!-- Botão de sair da tela -->
+<button id="btnBack" class="" type="button" title="Sair" aria-label="Zoom in" onclick="mythisMapBoxGL.Sair()">
+<i class="fas fa-sign-out-alt" style="font-size: 15px;color: black;" aria-hidden="true"></i>
+</button>
+
+<!-- Botão de desenhar circulo no mapa -->
+<button id="BtnDrawCircle" type="button" class="mapbox-gl-draw_ctrl-draw-btn fal fa-draw-circle" title="Círculo" style="font-weight: 800;font-size: 15px;color: black;" onclick="mythisMapBoxGL._AdicionaCirculoMapa()">
+</button>
+
+<!-- Div com a lupa de busca -->
+<div id="DivBusca" style="height: 100%;width: 30px;position: absolute;cursor: pointer;">
+<i class="fas fa-search" style="cursor: pointer;font-size: 15px;top: 8px;left: 7.5px;width: 20px;height: 20px;position: absolute;"></i>
+</div>
+
+<!-- Div com a função de calcular distância -->
+<div id="distance" class="distance-container"></div>
+
+<!-- Div com a toast message ao salvar o mapa -->
+<div id="snackbar">Salvo com sucesso.</div>
+
+<script>
+var marker = [];
+var htmlMarker = [];
+var htmlMarkerRota = [];
+var markerRota = [];
+var pontosRemovidos = [];
+var CalcularDistanciaEmUso = 'false';
+var ControleRotasEmUso = 'false';
+var CircleResultGeocoder = [];
+var ControleCirculosEmUso = 'false';
+var idCirculo = 0;
+var NomeRotaAdicionada;
+var LarguraRotaAdicionada;
+//var CarregamentoGeoJson = false;
+var idPoligonoCriado;
+var PoligonoCriado;
+var ListaNomePoligonos;
+var controleRoteirizador;
+var GeocoderCircle;
+var idCirculoSelecionado;
+var teste;
+var TabAtivaMenuMapa = '';
+var MenuOpen = false;
+</script>

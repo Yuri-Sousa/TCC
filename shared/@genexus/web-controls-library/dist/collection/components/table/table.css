@@ -1,0 +1,7 @@
+gx-table {
+  display: grid; }
+  gx-table[hidden] {
+    display: none; }
+    gx-table[hidden][invisible-mode="keep-space"] {
+      display: grid;
+      visibility: hidden; }

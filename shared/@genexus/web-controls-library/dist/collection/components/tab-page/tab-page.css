@@ -1,0 +1,7 @@
+gx-tab-page {
+  display: block; }
+  gx-tab-page[hidden] {
+    display: none; }
+    gx-tab-page[hidden][invisible-mode="keep-space"] {
+      display: block;
+      visibility: hidden; }

@@ -1,0 +1,6 @@
+@import "../common/_base";
+@import "../renders/bootstrap/navbar/navbar-render";
+
+gx-navbar {
+  @include visibility(block);
+}

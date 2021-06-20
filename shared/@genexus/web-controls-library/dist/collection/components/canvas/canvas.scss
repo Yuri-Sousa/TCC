@@ -1,0 +1,7 @@
+@import "../common/_base";
+
+gx-canvas {
+  @include visibility(block);
+
+  position: relative;
+}

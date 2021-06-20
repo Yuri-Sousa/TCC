@@ -1,0 +1,63 @@
+// GxWebControls: Custom Elements Define Library, ES Module/ES5 Target
+import { defineCustomElement } from './gx-web-controls.core.js';
+import {
+  Button,
+  Canvas,
+  CanvasCell,
+  Card,
+  CheckBox,
+  Edit,
+  FormField,
+  Image,
+  LayoutEditor,
+  LayoutEditorPlaceholder,
+  Lottie,
+  Message,
+  Modal,
+  NavBar,
+  NavBarLink,
+  PasswordEdit,
+  ProgressBar,
+  RadioGroup,
+  RadioOption,
+  Select,
+  SelectOption,
+  Tab,
+  TabCaption,
+  TabPage,
+  Table,
+  TableCell,
+  TextBlock
+} from './gx-web-controls.components.js';
+
+export function defineCustomElements(window, opts) {
+  defineCustomElement(window, [
+    Button,
+    Canvas,
+    CanvasCell,
+    Card,
+    CheckBox,
+    Edit,
+    FormField,
+    Image,
+    LayoutEditor,
+    LayoutEditorPlaceholder,
+    Lottie,
+    Message,
+    Modal,
+    NavBar,
+    NavBarLink,
+    PasswordEdit,
+    ProgressBar,
+    RadioGroup,
+    RadioOption,
+    Select,
+    SelectOption,
+    Tab,
+    TabCaption,
+    TabPage,
+    Table,
+    TableCell,
+    TextBlock
+  ], opts);
+}

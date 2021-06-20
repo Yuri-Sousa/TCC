@@ -1,0 +1,5 @@
+@import "../common/_base";
+
+gx-table {
+  @include visibility(grid);
+}

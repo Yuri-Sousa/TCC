@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Objects xmlns="qv">
+  <Object name="WWPBaseObjects.GetSomeHomeModulesSample" id="1" type="DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="WWPBaseObjects.GetHomeModulesSample" id="2" type="DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="WWPBaseObjects.GetMainHomeModulesSample" id="3" type="DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="WWPBaseObjects.SecGAMGetAdvancedSecurityWWPFunctionalities" id="4" type="DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="WWPBaseObjects.Notifications.Common.WWP_AutomaticNotificationDefinitionsToLoad" id="5" type="DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="WWPBaseObjects.Notifications.Common.WWP_GetNotificationsForUser" id="6" type="DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="WWPBaseObjects.MenuOptionsData" id="7" type="DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="WWPBaseObjects.DVHorizontalMenuDataLoaded" id="8" type="DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="WWPBaseObjects.WWP_LoadTreeViewSampleData" id="9" type="DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+</Objects>

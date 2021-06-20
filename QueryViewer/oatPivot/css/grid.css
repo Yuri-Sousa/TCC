@@ -1,0 +1,139 @@
+.oatgrid_top_div, .oatgrid {
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+/* ---------------- top -------------- */
+.oatgrid_top_div {
+	border: 1px solid #BBB;
+	border-bottom: none;
+	cursor: default !important;
+	background-color: rgba(15, 91, 120, 0.25);
+	box-sizing: border-box;
+	padding: 5px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+/* ---------------- table -------------- */
+.oatgrid {
+	border-collapse: collapse;
+	margin-bottom: 9px;
+}
+
+/* ---------------- rows -------------- */
+.oatgrid tr {
+	border-left: 1px solid #BBB;
+	border-right: 1px solid #BBB;
+}
+
+.oatgrid .even {
+	background-color: rgba(15, 91, 120, 0.05);
+}
+
+.oatgrid .odd {
+	background-color: #FEFEFE;
+}
+
+.oatgrid tr.selected {
+	background-color: #ff0000;
+	color: #FEFEFE;
+}
+
+/* ---------------- cols -------------- */
+.oatgrid thead td {
+	background-color: #ebeadb;
+}
+
+.oatgrid td {
+	border-bottom: 1px solid #BBB;
+	border-left: 1px solid #BBB;
+	border-right: 1px solid #BBB;
+	padding: 0px;
+}
+
+.oatgrid td.index {
+	background-color: #aaa;
+}
+
+.oatgrid .header_value {
+	background-color: rgba(15, 91, 120, 1);
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+.oatgrid .row_value {
+	padding: 5px;
+}
+
+/*styles pop up*/
+.oatfilterwindow {
+	background: url("") repeat-x scroll 0 0 transparent;
+	padding: 0px;
+}
+
+.oatfilterwindow_small .search_input {
+	width: 100%;
+}
+
+.oatfilterwindowGrid {
+	background: url("") repeat-x scroll 0 0 #FFFFFF;
+	padding: 0px;
+}
+
+.oatfilterwindow hr {
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+	width: 80%;
+}
+
+.oatfilterwindowGrid hr {
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+	width: 100%;
+}
+
+.promp-grid-button {
+	width: 100%;
+}
+
+
+.oatfilterwindow > div {
+	margin-left: 16px;
+	margin-right: 16px;
+	margin-bottom: 8px;
+}
+
+.oatfilterwindowGrid > div {
+	margin-left: 10px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+.oatfilterwindow > .last_div_popup {
+	margin-bottom: 16px;
+}
+
+.oatfilterwindowGrid > .last_div_popup {
+	margin-bottom: 16px;
+}
+
+
+/* ---------------- sort image -------------- */
+.table-sort-image {
+	position: absolute;
+	right: 0px;
+	bottom: 2px;
+}
+
+.table-sort-asc i {
+	color: white;
+	line-height: 1;
+}
+
+.table-sort-desc i {
+	color: white;
+	line-height: 1;
+}

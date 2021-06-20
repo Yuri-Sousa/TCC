@@ -1,0 +1,33 @@
+import '../../../../stencil.core';
+import { EventEmitter } from "../../../../stencil.core";
+declare type Constructor<T> = new (...args: any[]) => T;
+export declare function RadioOptionRender<T extends Constructor<{}>>(Base: T): {
+    new (...args: any[]): {
+        checkedTmr: any;
+        didLoad: boolean;
+        element: HTMLElement;
+        caption: string;
+        checked: boolean;
+        cssClass: string;
+        disabled: boolean;
+        id: string;
+        invisibleMode: string;
+        name: string;
+        value: string;
+        nativeInput: HTMLInputElement;
+        inputId: string;
+        onChange: EventEmitter<any>;
+        gxSelect: EventEmitter<any>;
+        getNativeInputId(): string;
+        getCssClasses(): string;
+        getInnerControlContainerClass(): string;
+        handleClick(): void;
+        handleChange(event: UIEvent): void;
+        checkedChanged(isChecked: boolean): void;
+        disabledChanged(isDisabled: boolean): void;
+        componentDidLoad(): void;
+        componentDidUnload(): void;
+        render(): JSX.Element;
+    };
+} & T;
+export {};

@@ -1,0 +1,24 @@
+/t:library
+/w:0
+/debug /r:bin\GeneXus.Security.API.Common.dll
+
+/r:bin\GXClasses.dll
+/r:bin\GxEncrypt.dll
+/r:system.web.dll
+/r:system.web.services.dll
+/r:system.web.dll
+/r:bin\Interop.GXOFFICE2Lib.dll
+/r:bin\GxExcelI.dll
+/r:bin\GxMail.dll
+/r:system.dll
+/r:system.data.dll
+/r:system.data.dll
+/r:bin\GeneXus.Programs.Common.dll
+/r:bin\GeneXusSecurity.dll
+/r:bin\GeneXus.dll
+/r:GxBaseBuilder.dll
+/out:bin\wwpbaseobjects.notifications.common.wwp_masterpagenotificationswc.dll
+wwpbaseobjects\secgamisauthbyfunctionalitykey.cs
+wwpbaseobjects\notifications\common\wwp_getnotificationsforuser.cs
+wwpbaseobjects\wwp_getloggeduserid.cs
+wwpbaseobjects\notifications\common\wwp_masterpagenotificationswc.cs

@@ -1,0 +1,9 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+
+<Target Name="Build">
+	<GenerateResource  Sources="$(Resource)" OutputResources="$(OutputFile)">
+			<Output TaskParameter="OutputResources" ItemName="Resources"/>
+	</GenerateResource>
+</Target>
+
+</Project>

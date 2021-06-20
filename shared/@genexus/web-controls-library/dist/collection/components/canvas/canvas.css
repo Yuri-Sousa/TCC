@@ -1,0 +1,8 @@
+gx-canvas {
+  display: block;
+  position: relative; }
+  gx-canvas[hidden] {
+    display: none; }
+    gx-canvas[hidden][invisible-mode="keep-space"] {
+      display: block;
+      visibility: hidden; }

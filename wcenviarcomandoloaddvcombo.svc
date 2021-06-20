@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.wcenviarcomandoloaddvcombo_services,wcenviarcomandoloaddvcombo" %>

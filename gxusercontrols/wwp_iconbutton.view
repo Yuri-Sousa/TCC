@@ -1,0 +1,5 @@
+<button  data-event="Event"  class="{{gxTpr_Class}}{{Class}}"> 
+	<i class="{{gxTpr_BeforeIconClass}}{{BeforeIconClass}}"></i>
+	{{gxTpr_Caption}}{{Caption}}
+	<i class="{{gxTpr_AfterIconClass}}{{AfterIconClass}}"></i>
+</button>

@@ -1,0 +1,10 @@
+generatorNumber=15
+modelNumber=2
+statePath=..\state\
+modelPath=..\..\
+compilePath=..\compile\
+appnamespace=GeneXus.Programs
+staticPath=
+helpPath=Help/
+webStaticFiles=calendar.js;calendar-setup.js;calendar-pt.js;calendar-system.css;messages.por.js;gxdec.js;jquery.js;gxgral.js;gxcfg.js;prompt.gif;collapse.gif;expand.gif;calendar-img.gif;prev.gif;next.gif;last.gif;indicator.gif;first.gif;desc.gif;asc.gif;delete_16x.jpg;blank.jpg;min.gif;max.gif;close.gif;resize.gif;autosuggest.css;download.gif;prgs.xsl;prompt.gif;gxi.js;html2canvas.js;howler.js;gxtimezone.js
+webStaticDirectories=bootstrap

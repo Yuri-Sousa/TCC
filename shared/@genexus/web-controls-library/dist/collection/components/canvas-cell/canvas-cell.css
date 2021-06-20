@@ -1,0 +1,22 @@
+gx-canvas-cell {
+  position: absolute;
+  display: flex; }
+  gx-canvas-cell[hidden] {
+    display: none; }
+    gx-canvas-cell[hidden][invisible-mode="keep-space"] {
+      display: flex;
+      visibility: hidden; }
+  gx-canvas-cell[overflow-mode="clip"] {
+    overflow: hidden; }
+  gx-canvas-cell[overflow-mode="scroll"] {
+    overflow: auto; }
+  gx-canvas-cell:not([align]) > *, gx-canvas-cell[align="left"] > * {
+    flex-grow: 1; }
+  gx-canvas-cell[align="center"] {
+    justify-content: center; }
+  gx-canvas-cell[align="right"] {
+    justify-content: flex-end; }
+  gx-canvas-cell[valign="middle"] {
+    align-items: center; }
+  gx-canvas-cell[valign="bottom"] {
+    align-items: flex-end; }

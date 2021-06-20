@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Objects xmlns="qv">
+  <Object name="Mapa" securityLevel="SecurityHigh" permissionPrefix="Mapa" xmlns="qv" />
+  <Object name="GAMRecoverPasswordStep1" securityLevel="SecurityNone" permissionPrefix="GAMRecoverPasswordStep1" xmlns="qv" />
+  <Object name="GAMRecoverPasswordStep2" securityLevel="SecurityNone" permissionPrefix="GAMRecoverPasswordStep2" xmlns="qv" />
+  <Object name="GAMExampleLogin" securityLevel="SecurityNone" permissionPrefix="GAMExampleLogin" xmlns="qv" />
+  <Object name="WWPBaseObjects.NotAuthorized" securityLevel="SecurityHigh" permissionPrefix="NotAuthorized" xmlns="qv" />
+  <Object name="WWPBaseObjects.Notifications.Common.WWP_VisualizeNotification" securityLevel="SecurityNone" permissionPrefix="WWPVisualizeNotification" xmlns="qv" />
+  <Object name="UltimoDadoLido" securityLevel="SecurityHigh" permissionPrefix="UltimoDadoLido" xmlns="qv" />
+  <Object name="HomeIOT" securityLevel="SecurityLow" permissionPrefix="ConexaoIOT" xmlns="qv" />
+  <Object name="FrotaWW" securityLevel="SecurityHigh" permissionPrefix="FrotaWW" xmlns="qv" />
+  <Object name="ComandoEnviadoWW" securityLevel="SecurityHigh" permissionPrefix="ComandoEnviadoWW" xmlns="qv" />
+  <Object name="ComandoEnviado" securityLevel="SecurityHigh" permissionPrefix="ComandoEnviado" xmlns="qv" />
+  <Object name="RastreadorWW" securityLevel="SecurityHigh" permissionPrefix="RastreadorWW" xmlns="qv" />
+  <Object name="VeiculoRastreador" securityLevel="SecurityHigh" permissionPrefix="VeiculoRastreador" xmlns="qv" />
+  <Object name="UltimoDadoLidoWW" securityLevel="SecurityHigh" permissionPrefix="UltimoDadoLidoWW" xmlns="qv" />
+  <Object name="VeiculoWW" securityLevel="SecurityHigh" permissionPrefix="VeiculoWW" xmlns="qv" />
+  <Object name="ChipGSM" securityLevel="SecurityHigh" permissionPrefix="ChipGSM" xmlns="qv" />
+  <Object name="ChipGSMPrompt" securityLevel="SecurityHigh" permissionPrefix="ChipGSMPrompt" xmlns="qv" />
+  <Object name="Rastreador" securityLevel="SecurityHigh" permissionPrefix="Rastreador" xmlns="qv" />
+  <Object name="ChipGSMWW" securityLevel="SecurityHigh" permissionPrefix="ChipGSMWW" xmlns="qv" />
+  <Object name="Veiculo" securityLevel="SecurityHigh" permissionPrefix="Veiculo" xmlns="qv" />
+  <Object name="WWPBaseObjects.Notifications.Common.WWP_VisualizeAllNotifications" securityLevel="SecurityNone" permissionPrefix="WWPVisualizeAllNotifications" xmlns="qv" />
+  <Object name="RelatorioPosicao" securityLevel="SecurityHigh" permissionPrefix="RelatorioPosicao" xmlns="qv" />
+  <Object name="RelatorioUtilizacao" securityLevel="SecurityHigh" permissionPrefix="RelatorioUtilizacao" xmlns="qv" />
+  <Object name="RelatorioHorasTrabalhadas" securityLevel="SecurityHigh" permissionPrefix="RelatorioHorasTrabalhadas" xmlns="qv" />
+  <Object name="GAMRegisterUser" securityLevel="SecurityNone" permissionPrefix="GAMRegisterUser" xmlns="qv" />
+</Objects>

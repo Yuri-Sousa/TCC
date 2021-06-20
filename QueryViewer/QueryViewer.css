@@ -1,0 +1,378 @@
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url(fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url(fonts/MaterialIcons-Outlined.ttf);
+}
+
+.material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-size: 1.7em;
+	display: inline-block;
+	line-height: 0;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	vertical-align: middle;
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+	/* Support for IE. */
+	font-feature-settings: 'liga';
+	/* No select*/
+	-webkit-touch-callout: none; /* iOS Safari */
+	  -webkit-user-select: none; /* Safari */
+	   -khtml-user-select: none; /* Konqueror HTML */
+	     -moz-user-select: none; /* Firefox */
+	      -ms-user-select: none; /* Internet Explorer/Edge */
+	          user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+.qv-card {
+	font-family: 'Source Sans Pro';
+}
+
+.qv-chart .highcharts-root text, .qv-chart .QVTimelineHeaderContainer, .qv-chart .QVTimelineHeaderContainer a, .qv-chart .QVTimelineHeaderContainer select {
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+}
+
+.qv-card, .qv-card *, .qv-chart, .qv-chart *, qv-pivottable, qv-pivottable *, qv-table, qv-table * {
+	box-sizing: border-box;
+}
+
+.qv-chart {
+	background-color: white;
+}
+
+.gx-qv-centered-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 10px;
+}
+
+.gx-qv-loading {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url(indicator.gif);
+	min-height: 40px;
+}
+
+.gx-qv-loading-children {
+	opacity: 0.5 !important;
+	transition: opacity 500ms;
+}
+
+.gx-qv-footer {
+	position: relative;
+}
+
+.gx-qv-footer-slider{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	z-index:1;
+	overflow:hidden;
+}
+
+.gx-qv-footer-range{
+	opacity: 0.5;
+}
+
+.gx-qv-footer-left-cursor{
+	float: left;
+	background-image: url(SliderLeft.png);
+	cursor: ew-resize;
+}
+
+.gx-qv-footer-right-cursor{
+	float: right;
+	background-image: url(SliderRight.png);
+	cursor: ew-resize;
+}
+
+.gx-qv-footer-center{
+	position: relative;
+	background-image: url(SliderCenter.png);
+	cursor: pointer;
+}
+
+.gx-qv-footer-chart{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color:lightgray;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color:lightgray;
+}
+
+.highcharts-color-0 {
+	fill: #0F5B78;
+	stroke: #0F5B78;
+}
+
+.highcharts-color-1 {
+	fill: #C02E1D;
+	stroke: #C02E1D;
+}
+
+.highcharts-color-2 {
+	fill: #ECAA38;
+	stroke: #ECAA38;
+}
+
+.highcharts-color-3 {
+	fill: #A2B86C;
+	stroke: #A2B86C;
+}
+
+.highcharts-color-4 {
+	fill: #117899;
+	stroke: #117899;
+}
+
+.highcharts-color-5 {
+	fill: #F16C20;
+	stroke: #F16C20;
+}
+
+.highcharts-color-6 {
+	fill: #EBC844;
+	stroke: #EBC844;
+}
+
+.highcharts-color-7 {
+	fill: #1395BA;
+	stroke: #1395BA;
+}
+
+.highcharts-color-8 {
+	fill: #0D3C55;
+	stroke: #0D3C55;
+}
+
+.highcharts-color-9 {
+	fill: #D94E1F;
+	stroke: #D94E1F;
+}
+
+.highcharts-color-10 {
+	fill: #EF8B2C;
+	stroke: #EF8B2C;
+}
+
+.highcharts-color-11 {
+	fill: #5CA793;
+	stroke: #5CA793;
+}
+
+.highcharts-color-12 {
+	fill: #afc7f8;
+	stroke: #afc7f8;
+}
+
+.highcharts-color-13 {
+	fill: #f6f30f;
+	stroke: #f6f30f;
+}
+
+.highcharts-color-14 {
+	fill: #60ba00;
+	stroke: #60ba00;
+}
+
+.highcharts-color-15 {
+	fill: #ffb946;
+	stroke: #ffb946;
+}
+
+.highcharts-color-16 {
+	fill: #006d8e;
+	stroke: #006d8e;
+}
+
+.highcharts-color-17 {
+	fill: #d66846;
+	stroke: #d66846;
+}
+
+.highcharts-color-18 {
+	fill: #8e467d;
+	stroke: #8e467d;
+}
+
+.highcharts-color-19 {
+	fill: #428526;
+	stroke: #428526;
+}
+
+.highcharts-color-20 {
+	fill: #92b300;
+	stroke: #92b300;
+}
+
+.highcharts-color-21 {
+	fill: #005bd6;
+	stroke: #005bd6;
+}
+
+.highcharts-color-22 {
+	fill: #9d2608;
+	stroke: #9d2608;
+}
+
+.highcharts-color-23 {
+	fill: #ae86be;
+	stroke: #ae86be;
+}
+
+.highcharts-color-24 {
+	fill: #afb6f8;
+	stroke: #afb6f8;
+}
+
+.highcharts-color-25 {
+	fill: #c2f60f;
+	stroke: #c2f60f;
+}
+
+.highcharts-color-26 {
+	fill: #34ba00;
+	stroke: #34ba00;
+}
+
+.highcharts-color-27 {
+	fill: #ffe546;
+	stroke: #ffe546;
+}
+
+.highcharts-color-28 {
+	fill: #004b8e;
+	stroke: #004b8e;
+}
+
+.highcharts-color-29 {
+	fill: #d68a46;
+	stroke: #d68a46;
+}
+
+.highcharts-color-30 {
+	fill: #8e466c;
+	stroke: #8e466c;
+}
+
+.highcharts-color-31 {
+	fill: #2b8526;
+	stroke: #2b8526;
+}
+
+.highcharts-color-32 {
+	fill: #68b300;
+	stroke: #68b300;
+}
+
+.highcharts-color-33 {
+	fill: #0029d6;
+	stroke: #0029d6;
+}
+
+.highcharts-color-34 {
+	fill: #9d4908;
+	stroke: #9d4908;
+}
+
+.highcharts-color-35 {
+	fill: #bb86be;
+	stroke: #bb86be;
+}
+
+.highcharts-point-select {
+	fill: lightcoral !important;
+	stroke: lightcoral !important;
+}
+
+.highcharts-background {
+	stroke-width: 0;
+}
+
+.highcharts-no-background .highcharts-background {
+	fill: none !important;
+}
+
+.highcharts-data-label-connector {
+	fill: none !important;
+}
+
+.highcharts-no-axis-line .highcharts-axis-line {
+	stroke: none !important;
+}
+
+.highcharts-no-grid-line .highcharts-grid-line {
+	stroke: none !important;
+}
+
+.highcharts-yes-grid-line .highcharts-grid-line {
+	stroke-width: 1px !important;
+}
+
+.highcharts-plot-band, .highcharts-pane {
+	stroke-width: 0 !important;
+	fill-opacity: 0.3 !important;
+}
+
+.highcharts-dashed-plot-line {
+	stroke-dasharray: 1, 1 !important;
+}
+
+.highcharts-dashed-series-line {
+	stroke-dasharray: 1, 4 !important;
+}
+
+.highcharts-solidgauge-series .highcharts-graph {
+	stroke-width: 0 !important;
+}
+
+.QVTimelineHeaderContainer {
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+
+.qv-card-element-value {
+	font-size: 36px;
+	line-height: normal;
+}
+
+.qv-card-max-and-min-value {
+	font-size: 18px;
+	line-height: normal;
+}
+
+.gx-qv-clickable-element {
+	cursor: pointer;
+}
+
+.gx-qv-clickable-element:hover {
+	text-decoration: underline;
+}
+
+.gx-qv-selected-element {
+	background-color: lightcoral;
+}

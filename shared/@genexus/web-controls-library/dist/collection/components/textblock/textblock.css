@@ -1,0 +1,7 @@
+gx-textblock {
+  display: inline-block; }
+  gx-textblock[hidden] {
+    display: none; }
+    gx-textblock[hidden][invisible-mode="keep-space"] {
+      display: inline-block;
+      visibility: hidden; }

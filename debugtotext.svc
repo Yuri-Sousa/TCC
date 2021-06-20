@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.debugtotext_services,debugtotext" %>

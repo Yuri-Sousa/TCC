@@ -1,0 +1,201 @@
+.pivot_filter_div, .pivot_table {
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+.pivot_filter_div {
+	border: 1px solid #BBB;
+	color: black;
+	cursor: default !important;
+	background-color: rgba(15, 91, 120, 0.25);
+	border-bottom: none;
+	border-bottom-width: 0;
+	box-sizing: border-box;
+	padding: 5px;
+	float: left;
+}
+
+.pivot_filter_div > span {
+	float: left;
+}
+
+.pivot_table {
+	margin-bottom: 9px;
+	border-collapse: collapse;
+	line-height: normal;
+}
+
+.pivot_table th, .pivot_table td {
+	border: 1px solid #BBB;
+	padding: 5px;
+	min-width: 60px;
+}
+
+.pivot_table td {
+	text-align: right;
+}
+
+.gtotal {
+	background-color: rgba(15, 91, 120, 0.02);
+}
+
+.firstlevelvalue {
+	background-color: rgba(15, 91, 120, 0.15);
+	font-weight: bold;
+}
+
+.grandtotalvalue {
+	background-color: rgba(15, 91, 120, 0.25);
+	font-weight: bold;
+}
+
+.total {
+	background-color: #EBEBEB;
+}
+
+.subtotal {
+	background-color: #EBEBEB;
+}
+
+.gx-pv-even-row {
+	background-color: #FEFEFE;
+	font-weight: inherit;
+	padding: 5px;
+}
+
+.pivot_table .evennormal {
+	background-color: #FEFEFE;
+	padding: 5px;
+}
+
+.pivot_table th.h1 {
+	background-color: #f0f0f0;
+}
+
+.pivot_table th.h2 {
+	background-color: #f0f0f0;
+}
+
+.h2title {
+	background-color: rgba(15, 91, 120, 1);
+	font-weight: inherit;
+	color: white;
+	cursor: pointer;
+}
+
+.h2subtitle {
+	background-color: rgba(15, 91, 120, 0.02);
+	border-color: #BBBBBB;
+	font-weight: inherit;
+}
+
+.grandtotaltitle {
+	background-color: rgba(15, 91, 120, 0.25);
+	font-weight: bold;
+}
+
+.subtitleFirstLevel {
+	background-color: rgba(15, 91, 120, 0.15);
+	font-weight: bold;
+}
+
+.h2titlewhite {
+	background-color: rgba(15, 91, 120, 1);
+	font-weight: inherit;
+	color: white;
+	cursor: default;
+}
+
+.pivot_pag_div {
+	width: 398px;	
+}
+
+
+.inner_filter_div {
+	float: left;
+	overflow: hidden;
+	margin-right: 15px;
+	width: max-content;
+	white-space:nowrap;
+}
+
+.conteiner_table_div {
+	position: relative;
+	clear: both;
+}
+
+.inner_filter_div select {
+	margin: 0;
+}
+
+/*styles pop up*/
+#pop-up {
+	background: repeat-x scroll 0 0 transparent;
+}
+
+#pop-up hr {
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+#pop-up > div {
+	margin-left: 16px;
+	margin-right: 16px;
+	margin-bottom: 8px;
+}
+
+#pop-up > .last_div_popup {
+	margin-bottom: 16px;
+}
+
+.pivot_popup_fix {
+	height: 190px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.uncheck_item_img:hover {
+	background-color: #EBEBEB;
+}
+
+.close_span_filter {
+	display: inline-block;
+}
+
+.close_span_filter i {
+	font-size: 1em;
+	color: #0F5B78;
+}
+
+.pivot_table th.h2title .sort-asc i, .pivot_table th.h2title .sort-desc i {
+	color: white;
+}
+
+.pivot_table th.even .expanded, .pivot_table td.even .expanded, .pivot_table th.even .collapsed, .pivot_table td.even .collapsed {
+	margin-left: 3px;
+	margin-right: 3px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.pivot_table th.even .expanded i, .pivot_table td.even .expanded i, .pivot_table th.even .collapsed i, .pivot_table td.even .collapsed i {
+	font-size: 1.1em;
+	color: #0F5B78;
+	opacity: 0.4;
+	position: relative;
+	top: -1px;
+}
+
+.pivot_table th.even .expanded:hover i, .pivot_table td.even .expanded:hover i, .pivot_table th.even .collapsed:hover i, .pivot_table td.even .collapsed:hover i {
+	opacity: 1;
+}
+
+.h2title > div {
+	width: 100% !important;
+}
+
+.oat_winrect_content_small .search_input {
+	width: 100%;
+}
+

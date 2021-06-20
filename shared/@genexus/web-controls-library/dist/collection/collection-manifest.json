@@ -1,0 +1,1365 @@
+{
+  "components": [
+    {
+      "tag": "gx-button",
+      "dependencies": [],
+      "componentClass": "Button",
+      "componentPath": "components/button/button.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/button/button.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "cssClass",
+          "type": "String",
+          "attr": "css-class"
+        },
+        {
+          "name": "disabled",
+          "type": "Boolean",
+          "attr": "disabled"
+        },
+        {
+          "name": "imagePosition",
+          "type": "String",
+          "attr": "image-position"
+        },
+        {
+          "name": "invisibleMode",
+          "type": "String",
+          "attr": "invisible-mode"
+        },
+        {
+          "name": "size",
+          "type": "String",
+          "attr": "size"
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      },
+      "events": [
+        {
+          "event": "onClick"
+        }
+      ]
+    },
+    {
+      "tag": "gx-canvas",
+      "dependencies": [],
+      "componentClass": "Canvas",
+      "componentPath": "components/canvas/canvas.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/canvas/canvas.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "type": "Boolean",
+          "attr": "disabled"
+        },
+        {
+          "name": "invisibleMode",
+          "type": "String",
+          "attr": "invisible-mode"
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      },
+      "events": [
+        {
+          "event": "onClick"
+        }
+      ]
+    },
+    {
+      "tag": "gx-canvas-cell",
+      "dependencies": [],
+      "componentClass": "CanvasCell",
+      "componentPath": "components/canvas-cell/canvas-cell.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/canvas-cell/canvas-cell.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "align",
+          "type": "String",
+          "attr": "align"
+        },
+        {
+          "name": "overflowMode",
+          "type": "String",
+          "attr": "overflow-mode"
+        },
+        {
+          "name": "valign",
+          "type": "String",
+          "attr": "valign"
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      }
+    },
+    {
+      "tag": "gx-card",
+      "dependencies": [],
+      "componentClass": "Card",
+      "componentPath": "components/card/card.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/card/card.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "invisibleMode",
+          "type": "String",
+          "attr": "invisible-mode"
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      }
+    },
+    {
+      "tag": "gx-checkbox",
+      "dependencies": [],
+      "componentClass": "CheckBox",
+      "componentPath": "components/checkbox/checkbox.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/checkbox/checkbox.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "caption",
+          "type": "String",
+          "attr": "caption"
+        },
+        {
+          "name": "checked",
+          "type": "Boolean",
+          "mutable": true,
+          "attr": "checked",
+          "watch": [
+            "checkedChanged"
+          ]
+        },
+        {
+          "name": "cssClass",
+          "type": "String",
+          "attr": "css-class"
+        },
+        {
+          "name": "disabled",
+          "type": "Boolean",
+          "attr": "disabled"
+        },
+        {
+          "name": "id",
+          "type": "String",
+          "attr": "id"
+        },
+        {
+          "name": "invisibleMode",
+          "type": "String",
+          "attr": "invisible-mode"
+        }
+      ],
+      "methods": [
+        {
+          "name": "getNativeInputId"
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      },
+      "events": [
+        {
+          "event": "onChange"
+        }
+      ]
+    },
+    {
+      "tag": "gx-edit",
+      "dependencies": [],
+      "componentClass": "Edit",
+      "componentPath": "components/edit/edit.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/edit/edit.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "area",
+          "type": "String",
+          "attr": "area"
+        },
+        {
+          "name": "autocapitalize",
+          "type": "String",
+          "attr": "autocapitalize"
+        },
+        {
+          "name": "autocomplete",
+          "type": "String",
+          "attr": "autocomplete"
+        },
+        {
+          "name": "autocorrect",
+          "type": "String",
+          "attr": "autocorrect"
+        },
+        {
+          "name": "disabled",
+          "type": "Boolean",
+          "attr": "disabled"
+        },
+        {
+          "name": "id",
+          "type": "String",
+          "attr": "id"
+        },
+        {
+          "name": "invisibleMode",
+          "type": "String",
+          "attr": "invisible-mode"
+        },
+        {
+          "name": "multiline",
+          "type": "Boolean",
+          "attr": "multiline"
+        },
+        {
+          "name": "placeholder",
+          "type": "String",
+          "attr": "placeholder"
+        },
+        {
+          "name": "readonly",
+          "type": "Boolean",
+          "attr": "readonly"
+        },
+        {
+          "name": "showTrigger",
+          "type": "Boolean",
+          "attr": "show-trigger"
+        },
+        {
+          "name": "triggerText",
+          "type": "String",
+          "attr": "trigger-text"
+        },
+        {
+          "name": "type",
+          "type": "String",
+          "attr": "type"
+        },
+        {
+          "name": "value",
+          "type": "String",
+          "mutable": true,
+          "attr": "value",
+          "watch": [
+            "valueChanged"
+          ]
+        }
+      ],
+      "methods": [
+        {
+          "name": "getNativeInputId"
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      },
+      "events": [
+        {
+          "event": "gxTriggerClick"
+        },
+        {
+          "event": "onChange"
+        },
+        {
+          "event": "onInput"
+        }
+      ]
+    },
+    {
+      "tag": "gx-form-field",
+      "dependencies": [],
+      "componentClass": "FormField",
+      "componentPath": "components/form-field/form-field.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/form-field/form-field.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "labelCaption",
+          "type": "String",
+          "attr": "label-caption"
+        },
+        {
+          "name": "labelPosition",
+          "type": "String",
+          "attr": "label-position"
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      }
+    },
+    {
+      "tag": "gx-image",
+      "dependencies": [],
+      "componentClass": "Image",
+      "componentPath": "components/image/image.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/image/image.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "alt",
+          "type": "String",
+          "attr": "alt"
+        },
+        {
+          "name": "cssClass",
+          "type": "String",
+          "attr": "css-class"
+        },
+        {
+          "name": "disabled",
+          "type": "Boolean",
+          "attr": "disabled"
+        },
+        {
+          "name": "height",
+          "type": "String",
+          "attr": "height"
+        },
+        {
+          "name": "invisibleMode",
+          "type": "String",
+          "attr": "invisible-mode"
+        },
+        {
+          "name": "lowResolutionSrc",
+          "type": "String",
+          "attr": "low-resolution-src"
+        },
+        {
+          "name": "src",
+          "type": "String",
+          "attr": "src"
+        },
+        {
+          "name": "width",
+          "type": "String",
+          "attr": "width"
+        }
+      ],
+      "events": [
+        {
+          "event": "onClick"
+        }
+      ]
+    },
+    {
+      "tag": "gx-layout-editor",
+      "dependencies": [
+        "gx-button",
+        "gx-edit",
+        "gx-form-field",
+        "gx-image",
+        "gx-layout-editor-placeholder",
+        "gx-table",
+        "gx-table-cell",
+        "gx-textblock"
+      ],
+      "componentClass": "LayoutEditor",
+      "componentPath": "components/layout-editor/layout-editor.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/layout-editor/layout-editor.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "model",
+          "type": "Any",
+          "attr": "model"
+        },
+        {
+          "name": "selectedCells",
+          "mutable": true,
+          "attr": "selected-cells",
+          "watch": [
+            "watchSelectedCells"
+          ]
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      },
+      "events": [
+        {
+          "event": "controlAdded"
+        },
+        {
+          "event": "controlRemoved"
+        },
+        {
+          "event": "controlSelected"
+        },
+        {
+          "event": "moveCompleted"
+        }
+      ]
+    },
+    {
+      "tag": "gx-layout-editor-placeholder",
+      "dependencies": [],
+      "componentClass": "LayoutEditorPlaceholder",
+      "componentPath": "components/layout-editor-placeholder/layout-editor-placeholder.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/layout-editor-placeholder/layout-editor-placeholder.scss"
+          ]
+        }
+      },
+      "hostElement": {
+        "name": "element"
+      }
+    },
+    {
+      "tag": "gx-lottie",
+      "dependencies": [],
+      "componentClass": "Lottie",
+      "componentPath": "components/lottie/lottie.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/lottie/lottie.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "animationData",
+          "type": "Any",
+          "attr": "animation-data",
+          "watch": [
+            "animationDataChanged"
+          ]
+        },
+        {
+          "name": "autoPlay",
+          "type": "Boolean",
+          "attr": "auto-play"
+        },
+        {
+          "name": "disabled",
+          "type": "Boolean",
+          "attr": "disabled"
+        },
+        {
+          "name": "invisibleMode",
+          "type": "String",
+          "attr": "invisible-mode"
+        },
+        {
+          "name": "loop",
+          "type": "Boolean",
+          "attr": "loop"
+        },
+        {
+          "name": "path",
+          "type": "String",
+          "attr": "path",
+          "watch": [
+            "pathChanged"
+          ]
+        }
+      ],
+      "methods": [
+        {
+          "name": "pause"
+        },
+        {
+          "name": "play"
+        },
+        {
+          "name": "setProgress"
+        },
+        {
+          "name": "stop"
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      },
+      "events": [
+        {
+          "event": "animationLoad"
+        },
+        {
+          "event": "onClick"
+        }
+      ]
+    },
+    {
+      "tag": "gx-message",
+      "dependencies": [],
+      "componentClass": "Message",
+      "componentPath": "components/message/message.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/message/message.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "closeButtonText",
+          "type": "String",
+          "attr": "close-button-text"
+        },
+        {
+          "name": "duration",
+          "type": "Number",
+          "attr": "duration"
+        },
+        {
+          "name": "invisibleMode",
+          "type": "String",
+          "attr": "invisible-mode"
+        },
+        {
+          "name": "showCloseButton",
+          "type": "Boolean",
+          "attr": "show-close-button"
+        },
+        {
+          "name": "type",
+          "type": "String",
+          "attr": "type"
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      }
+    },
+    {
+      "tag": "gx-modal",
+      "dependencies": [],
+      "componentClass": "Modal",
+      "componentPath": "components/modal/modal.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/modal/modal.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "autoClose",
+          "type": "Boolean",
+          "attr": "auto-close"
+        },
+        {
+          "name": "closeButtonLabel",
+          "type": "String",
+          "attr": "close-button-label"
+        },
+        {
+          "name": "opened",
+          "type": "Boolean",
+          "mutable": true,
+          "attr": "opened",
+          "watch": [
+            "openedHandler"
+          ]
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      },
+      "events": [
+        {
+          "event": "onClose"
+        },
+        {
+          "event": "onOpen"
+        }
+      ]
+    },
+    {
+      "tag": "gx-navbar",
+      "dependencies": [],
+      "componentClass": "NavBar",
+      "componentPath": "components/navbar/navbar.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/navbar/navbar.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "caption",
+          "type": "String",
+          "attr": "caption"
+        },
+        {
+          "name": "cssClass",
+          "type": "String",
+          "attr": "css-class"
+        },
+        {
+          "name": "invisibleMode",
+          "type": "String",
+          "attr": "invisible-mode"
+        },
+        {
+          "name": "toggleButtonLabel",
+          "type": "String",
+          "attr": "toggle-button-label"
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      }
+    },
+    {
+      "tag": "gx-navbar-link",
+      "dependencies": [],
+      "componentClass": "NavBarLink",
+      "componentPath": "components/navbar-link/navbar-link.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/navbar-link/navbar-link.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "active",
+          "type": "Boolean",
+          "attr": "active"
+        },
+        {
+          "name": "cssClass",
+          "type": "String",
+          "attr": "css-class"
+        },
+        {
+          "name": "disabled",
+          "type": "Boolean",
+          "attr": "disabled"
+        },
+        {
+          "name": "href",
+          "type": "String",
+          "attr": "href"
+        },
+        {
+          "name": "invisibleMode",
+          "type": "String",
+          "attr": "invisible-mode"
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      },
+      "events": [
+        {
+          "event": "onClick"
+        }
+      ]
+    },
+    {
+      "tag": "gx-password-edit",
+      "dependencies": [
+        "gx-edit"
+      ],
+      "componentClass": "PasswordEdit",
+      "componentPath": "components/password-edit/password-edit.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/password-edit/password-edit.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "cssClass",
+          "type": "String",
+          "attr": "css-class"
+        },
+        {
+          "name": "disabled",
+          "type": "Boolean",
+          "attr": "disabled"
+        },
+        {
+          "name": "id",
+          "type": "String",
+          "attr": "id"
+        },
+        {
+          "name": "invisibleMode",
+          "type": "String",
+          "attr": "invisible-mode"
+        },
+        {
+          "name": "placeholder",
+          "type": "String",
+          "attr": "placeholder"
+        },
+        {
+          "name": "readonly",
+          "type": "Boolean",
+          "attr": "readonly"
+        },
+        {
+          "name": "revealButtonTextOff",
+          "type": "String",
+          "attr": "reveal-button-text-off"
+        },
+        {
+          "name": "revealButtonTextOn",
+          "type": "String",
+          "attr": "reveal-button-text-on"
+        },
+        {
+          "name": "showRevealButton",
+          "type": "Boolean",
+          "attr": "show-reveal-button"
+        },
+        {
+          "name": "value",
+          "type": "String",
+          "mutable": true,
+          "attr": "value",
+          "watch": [
+            "valueChanged"
+          ]
+        }
+      ],
+      "states": [
+        {
+          "name": "revealed"
+        }
+      ],
+      "listeners": [
+        {
+          "event": "gxTriggerClick",
+          "method": "handleTriggerClick",
+          "passive": false,
+          "capture": false
+        }
+      ],
+      "methods": [
+        {
+          "name": "getNativeInputId"
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      },
+      "events": [
+        {
+          "event": "onChange"
+        },
+        {
+          "event": "onInput"
+        }
+      ]
+    },
+    {
+      "tag": "gx-progress-bar",
+      "dependencies": [],
+      "componentClass": "ProgressBar",
+      "componentPath": "components/progress-bar/progress-bar.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/progress-bar/progress-bar.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "value",
+          "type": "Number",
+          "attr": "value"
+        }
+      ],
+      "host": {
+        "role": "progressbar"
+      }
+    },
+    {
+      "tag": "gx-radio-group",
+      "dependencies": [],
+      "componentClass": "RadioGroup",
+      "componentPath": "components/radio-group/radio-group.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/radio-group/radio-group.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "direction",
+          "type": "String",
+          "attr": "direction"
+        },
+        {
+          "name": "disabled",
+          "type": "Boolean",
+          "attr": "disabled",
+          "watch": [
+            "disabledChanged"
+          ]
+        },
+        {
+          "name": "id",
+          "type": "String",
+          "attr": "id"
+        },
+        {
+          "name": "invisibleMode",
+          "type": "String",
+          "attr": "invisible-mode"
+        },
+        {
+          "name": "name",
+          "type": "String",
+          "attr": "name"
+        },
+        {
+          "name": "value",
+          "type": "String",
+          "mutable": true,
+          "attr": "value",
+          "watch": [
+            "valueChanged"
+          ]
+        }
+      ],
+      "listeners": [
+        {
+          "event": "gxRadioDidLoad",
+          "method": "onRadioDidLoad",
+          "passive": false,
+          "capture": false
+        },
+        {
+          "event": "gxRadioDidUnload",
+          "method": "onRadioDidUnload",
+          "passive": false,
+          "capture": false
+        },
+        {
+          "event": "gxSelect",
+          "method": "onRadioSelect",
+          "passive": false,
+          "capture": false
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      },
+      "events": [
+        {
+          "event": "onChange"
+        }
+      ]
+    },
+    {
+      "tag": "gx-radio-option",
+      "dependencies": [],
+      "componentClass": "RadioOption",
+      "componentPath": "components/radio-option/radio-option.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/radio-option/radio-option.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "caption",
+          "type": "String",
+          "attr": "caption"
+        },
+        {
+          "name": "checked",
+          "type": "Boolean",
+          "mutable": true,
+          "attr": "checked",
+          "watch": [
+            "checkedChanged"
+          ]
+        },
+        {
+          "name": "cssClass",
+          "type": "String",
+          "attr": "css-class"
+        },
+        {
+          "name": "disabled",
+          "type": "Boolean",
+          "attr": "disabled",
+          "watch": [
+            "disabledChanged"
+          ]
+        },
+        {
+          "name": "id",
+          "type": "String",
+          "attr": "id"
+        },
+        {
+          "name": "invisibleMode",
+          "type": "String",
+          "attr": "invisible-mode"
+        },
+        {
+          "name": "name",
+          "type": "String",
+          "attr": "name"
+        },
+        {
+          "name": "value",
+          "type": "String",
+          "mutable": true,
+          "attr": "value"
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      },
+      "events": [
+        {
+          "event": "gxRadioDidLoad"
+        },
+        {
+          "event": "gxRadioDidUnload"
+        },
+        {
+          "event": "gxSelect"
+        },
+        {
+          "event": "onChange"
+        }
+      ]
+    },
+    {
+      "tag": "gx-select",
+      "dependencies": [],
+      "componentClass": "Select",
+      "componentPath": "components/select/select.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "cssClass",
+          "type": "String",
+          "attr": "css-class"
+        },
+        {
+          "name": "disabled",
+          "type": "Boolean",
+          "attr": "disabled"
+        },
+        {
+          "name": "id",
+          "type": "String",
+          "attr": "id"
+        },
+        {
+          "name": "invisibleMode",
+          "type": "String",
+          "attr": "invisible-mode"
+        },
+        {
+          "name": "readonly",
+          "type": "Boolean",
+          "attr": "readonly"
+        },
+        {
+          "name": "value",
+          "type": "String",
+          "mutable": true,
+          "attr": "value",
+          "watch": [
+            "valueChanged"
+          ]
+        }
+      ],
+      "states": [
+        {
+          "name": "options"
+        }
+      ],
+      "listeners": [
+        {
+          "event": "gxDisable",
+          "method": "onSelectOptionDisable",
+          "passive": false,
+          "capture": false
+        },
+        {
+          "event": "gxSelect",
+          "method": "onSelectOptionSelect",
+          "passive": false,
+          "capture": false
+        },
+        {
+          "event": "gxSelectDidLoad",
+          "method": "onSelectOptionDidLoad",
+          "passive": false,
+          "capture": false
+        },
+        {
+          "event": "gxSelectDidUnload",
+          "method": "onSelectOptionDidUnload",
+          "passive": false,
+          "capture": false
+        },
+        {
+          "event": "onChange",
+          "method": "onSelectOptionChange",
+          "passive": false,
+          "capture": false
+        }
+      ],
+      "methods": [
+        {
+          "name": "getNativeInputId"
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      },
+      "events": [
+        {
+          "event": "onChange"
+        }
+      ]
+    },
+    {
+      "tag": "gx-select-option",
+      "dependencies": [],
+      "componentClass": "SelectOption",
+      "componentPath": "components/select-option/select-option.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "cssClass",
+          "type": "String",
+          "attr": "css-class"
+        },
+        {
+          "name": "disabled",
+          "type": "Boolean",
+          "attr": "disabled",
+          "watch": [
+            "disabledChanged"
+          ]
+        },
+        {
+          "name": "selected",
+          "type": "Boolean",
+          "mutable": true,
+          "attr": "selected",
+          "watch": [
+            "selectedChanged"
+          ]
+        },
+        {
+          "name": "value",
+          "type": "String",
+          "mutable": true,
+          "attr": "value",
+          "watch": [
+            "valueChanged"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "event": "gxDisable"
+        },
+        {
+          "event": "gxSelect"
+        },
+        {
+          "event": "gxSelectDidLoad"
+        },
+        {
+          "event": "gxSelectDidUnload"
+        },
+        {
+          "event": "onChange"
+        }
+      ]
+    },
+    {
+      "tag": "gx-tab",
+      "dependencies": [],
+      "componentClass": "Tab",
+      "componentPath": "components/tab/tab.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/tab/tab.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "invisibleMode",
+          "type": "String",
+          "attr": "invisible-mode"
+        }
+      ],
+      "listeners": [
+        {
+          "event": "onTabSelect",
+          "method": "tabClickHandler",
+          "passive": false,
+          "capture": false
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      },
+      "events": [
+        {
+          "event": "onTabChange"
+        }
+      ]
+    },
+    {
+      "tag": "gx-tab-caption",
+      "dependencies": [],
+      "componentClass": "TabCaption",
+      "componentPath": "components/tab-caption/tab-caption.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/tab-caption/tab-caption.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "type": "Boolean",
+          "attr": "disabled"
+        },
+        {
+          "name": "selected",
+          "type": "Boolean",
+          "attr": "selected"
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      },
+      "events": [
+        {
+          "event": "onTabSelect"
+        }
+      ]
+    },
+    {
+      "tag": "gx-tab-page",
+      "dependencies": [],
+      "componentClass": "TabPage",
+      "componentPath": "components/tab-page/tab-page.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/tab-page/tab-page.scss"
+          ]
+        }
+      },
+      "hostElement": {
+        "name": "element"
+      }
+    },
+    {
+      "tag": "gx-table",
+      "dependencies": [],
+      "componentClass": "Table",
+      "componentPath": "components/table/table.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/table/table.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "areasTemplate",
+          "type": "String",
+          "attr": "areas-template"
+        },
+        {
+          "name": "columnsTemplate",
+          "type": "String",
+          "attr": "columns-template"
+        },
+        {
+          "name": "disabled",
+          "type": "Boolean",
+          "attr": "disabled"
+        },
+        {
+          "name": "invisibleMode",
+          "type": "String",
+          "attr": "invisible-mode"
+        },
+        {
+          "name": "rowsTemplate",
+          "type": "String",
+          "attr": "rows-template"
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      },
+      "events": [
+        {
+          "event": "onClick"
+        }
+      ]
+    },
+    {
+      "tag": "gx-table-cell",
+      "dependencies": [],
+      "componentClass": "TableCell",
+      "componentPath": "components/table-cell/table-cell.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/table-cell/table-cell.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "align",
+          "type": "String",
+          "attr": "align"
+        },
+        {
+          "name": "area",
+          "type": "String",
+          "attr": "area"
+        },
+        {
+          "name": "overflowMode",
+          "type": "String",
+          "attr": "overflow-mode"
+        },
+        {
+          "name": "valign",
+          "type": "String",
+          "attr": "valign"
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      }
+    },
+    {
+      "tag": "gx-textblock",
+      "dependencies": [],
+      "componentClass": "TextBlock",
+      "componentPath": "components/textblock/textblock.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/textblock/textblock.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "type": "Boolean",
+          "attr": "disabled"
+        },
+        {
+          "name": "href",
+          "type": "String",
+          "attr": "href"
+        },
+        {
+          "name": "invisibleMode",
+          "type": "String",
+          "attr": "invisible-mode"
+        }
+      ],
+      "events": [
+        {
+          "event": "onClick"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.11.3",
+    "typescriptVersion": "2.9.2"
+  },
+  "bundles": []
+}

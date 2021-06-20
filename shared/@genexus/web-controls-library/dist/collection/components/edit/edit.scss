@@ -1,0 +1,6 @@
+@import "../common/_base";
+@import "../renders/bootstrap/edit/edit-render";
+
+gx-edit {
+  @include visibility(block);
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		   targetNamespace="dv"
+		   xmlns="dv"
+		   elementFormDefault="qualified">
+	<xs:element name="Objects">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Object" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Spec" type="xs:string"/>
+						</xs:sequence>
+						<xs:attribute name="name" type="xs:string" use="required"/>
+						<xs:attribute name="id" type="xs:nonNegativeInteger" use="required"/>
+						<xs:attribute name="type" type="objectType" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="objectType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Dashboard"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

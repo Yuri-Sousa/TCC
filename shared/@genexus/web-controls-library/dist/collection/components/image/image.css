@@ -1,0 +1,7 @@
+gx-image {
+  display: inline-block; }
+  gx-image[hidden] {
+    display: none; }
+    gx-image[hidden][invisible-mode="keep-space"] {
+      display: inline-block;
+      visibility: hidden; }

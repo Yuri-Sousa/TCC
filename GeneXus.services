@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExposableServices module="GeneXus">
+  <Service name="GeneXus.SD.Synchronization.OfflineEventReplicator" fullName="GeneXus.Core.genexus.sd.synchronization.offlineeventreplicator" />
+</ExposableServices>

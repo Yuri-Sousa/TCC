@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		   targetNamespace="qv"
+		   xmlns="qv"
+		   elementFormDefault="qualified">
+	<xs:element name="Queries">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Query" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType mixed="true">
+						<xs:sequence>
+							<xs:element name="ConnectionInfo">
+								<xs:complexType>
+									<xs:choice>
+										<xs:element name="IsDefault" type="xs:boolean"/>
+										<xs:element name="DataStore" type="xs:string"/>
+									</xs:choice>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Fields">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Field" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Name" type="xs:string"/>
+													<xs:element name="Caption" type="xs:string"/>
+													<xs:element name="GXType" type="gxType"/>
+													<xs:element name="Grouping" minOccurs="0">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="GroupByYear" type="xs:boolean"/>
+																<xs:element name="YearTitle" type="xs:string" minOccurs="0"/>
+																<xs:element name="GroupBySemester" type="xs:boolean"/>
+																<xs:element name="SemesterTitle" type="xs:string" minOccurs="0"/>
+																<xs:element name="GroupByQuarter" type="xs:boolean"/>
+																<xs:element name="QuarterTitle" type="xs:string" minOccurs="0"/>
+																<xs:element name="GroupByMonth" type="xs:boolean"/>
+																<xs:element name="MonthTitle" type="xs:string" minOccurs="0"/>
+																<xs:element name="GroupByDayOfWeek" type="xs:boolean"/>
+																<xs:element name="DayOfWeekTitle" type="xs:string" minOccurs="0"/>
+																<xs:element name="HideValue" type="xs:boolean"/>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="DataColumn">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Caption" type="xs:string" minOccurs="0"/>
+																<xs:element name="ColumnName" type="xs:string"/>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="Format">
+														<xs:complexType>
+															<xs:attribute name="Visible" type="visibleType"/>
+															<xs:attribute name="Type" type="elementType"/>
+															<xs:attribute name="Axis" type="axisType"/>
+															<xs:attribute name="Picture" type="xs:string"/>
+															<xs:attribute name="TargetValue" type="xs:decimal"/>
+															<xs:attribute name="MaximumValue" type="xs:decimal"/>
+															<xs:attribute name="Subtotals" type="subtotalsType"/>
+															<xs:attribute name="CanDragToPages" type="xs:boolean"/>
+															<xs:attribute name="OrderType" type="orderType"/>
+															<xs:attribute name="OrderValues" type="xs:string"/>
+															<xs:attribute name="ExpandCollapse" type="expandCollapseType"/>
+															<xs:attribute name="ExpandedValues" type="xs:string"/>
+															<xs:attribute name="FilterType" type="filterType"/>
+															<xs:attribute name="ShowedValues" type="xs:string"/>
+															<xs:attribute name="Style" type="xs:string"/>
+															<xs:attribute name="ValuesStyles" type="xs:string"/>
+															<xs:attribute name="ConditionalStyles" type="xs:string"/>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="Actions">
+														<xs:complexType>
+															<xs:attribute name="RaiseItemClick" type="xs:boolean"/>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="ispercentage" type="xs:boolean"/>
+												<xs:attribute name="IsComponent" type="xs:boolean"/>
+												<xs:attribute name="Aggregation" type="aggregationType"/>
+												<xs:attribute name="Numerator" type="xs:string"/>
+												<xs:attribute name="Denominator" type="xs:string"/>
+												<xs:attribute name="translatable" type="xs:boolean"/>
+												<xs:attribute name="IsClientSideFormula" type="xs:boolean"/>
+												<xs:attribute name="ClientSideFormula" type="xs:string"/>
+												<xs:attribute name="ForEach" type="xs:string"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Parameters">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Parameter" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Name" type="xs:string"/>
+													<xs:element name="Description" type="xs:string"/>
+													<xs:element name="Type" type="gxType"/>
+													<xs:element name="IsCollection" type="xs:boolean"/>
+													<xs:element name="Value" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>									
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="name" type="xs:string" use="required"/>
+						<xs:attribute name="id" type="xs:nonNegativeInteger" use="required"/>
+						<xs:attribute name="textForNullValues" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="visibleType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Yes"/>
+			<xs:enumeration value="No"/>
+			<xs:enumeration value="Never"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="elementType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Axis"/>
+			<xs:enumeration value="Datum"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="axisType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Rows"/>
+			<xs:enumeration value="Columns"/>
+			<xs:enumeration value="Pages"/>
+			<xs:enumeration value="Data"/>
+			<xs:enumeration value="Hidden"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="subtotalsType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Yes"/>
+			<xs:enumeration value="No"/>
+			<xs:enumeration value="Hidden"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="filterType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ShowAllValues"/>
+			<xs:enumeration value="HideAllValues"/>
+			<xs:enumeration value="ShowSomeValues"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="orderType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="None"/>
+			<xs:enumeration value="Ascending"/>
+			<xs:enumeration value="Descending"/>
+			<xs:enumeration value="Custom"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="expandCollapseType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ExpandAllValues"/>
+			<xs:enumeration value="CollapseAllValues"/>
+			<xs:enumeration value="ExpandSomeValues"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="aggregationType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value=""/>
+			<xs:enumeration value="Sum"/>
+			<xs:enumeration value="Average"/>
+			<xs:enumeration value="Count"/>
+			<xs:enumeration value="Max"/>
+			<xs:enumeration value="Min"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="gxType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Integer"/>
+			<xs:enumeration value="Real"/>
+			<xs:enumeration value="Character"/>
+			<xs:enumeration value="Boolean"/>
+			<xs:enumeration value="Date"/>
+			<xs:enumeration value="DateTime"/>
+			<xs:enumeration value="GUID"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

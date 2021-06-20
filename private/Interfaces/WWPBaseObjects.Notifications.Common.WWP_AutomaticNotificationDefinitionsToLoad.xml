@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CallableObject guid="15fb90f5-9adb-4ecc-926e-a98e947eb964" name="WWPBaseObjects.Notifications.Common.WWP_AutomaticNotificationDefinitionsToLoad" description="WWP_Automatic Notification Definitions To Load" namespace="GeneXus.Programs">
+  <Signature name="parm">
+    <Parameter name="ReturnValue" accessor="out" collection="true">
+      <Field name="WWP_NotificationDefinition" description="Notification Definition">
+        <Fields>
+          <Field name="WWPNotificationDefinitionId" description="Notification Definition Id">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Numeric</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>10</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="WWPNotificationDefinitionName" description="Notification Definition Internal Name">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>100</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="WWPNotificationDefinitionAppliesTo" description="Notification Definition Applies To">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Numeric</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>1</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="WWPNotificationDefinitionAllowUserSubscription" description="Notification Definition Allow User Subscription">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Boolean</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="WWPNotificationDefinitionDescription" description="Notification Definition Description">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>200</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="WWPNotificationDefinitionIcon" description="Notification Definition Default Icon">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>40</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="WWPNotificationDefinitionTitle" description="Notification Definition Default Title">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>200</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="WWPNotificationDefinitionShortDescription" description="Notification Definition Default Short Description">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>200</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="WWPNotificationDefinitionLongDescription" description="Notification Definition Default Long Description">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>1000</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="WWPNotificationDefinitionLink" description="Notification Definition Default Link">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>1000</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="WWPEntityId" description="Entity Id">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Numeric</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>10</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="WWPEntityName" description="Entity Name">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>100</Value>
+              </Property>
+            </Properties>
+          </Field>
+        </Fields>
+      </Field>
+    </Parameter>
+  </Signature>
+</CallableObject>

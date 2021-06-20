@@ -1,0 +1,6 @@
+@import "../common/_base";
+@import "../renders/bootstrap/form-field/form-field-render";
+
+gx-form-field {
+  @include visibility(block);
+}

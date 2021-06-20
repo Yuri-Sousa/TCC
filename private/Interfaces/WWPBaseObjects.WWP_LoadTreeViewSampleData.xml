@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CallableObject guid="6b6d1ca5-fb93-49cb-9adb-4ec8aa80675b" name="WWPBaseObjects.WWP_LoadTreeViewSampleData" description="WWP_Load Tree View Sample Data" namespace="GeneXus.Programs">
+  <Signature name="parm">
+    <Parameter name="ReturnValue" accessor="out">
+      <Field name="TreeNodeCollection" description="Tree Node Collection" collection="true">
+        <Fields>
+          <Field name="Id" description="Id">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Character</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>500</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="Name" description="Name">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Character</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>500</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="Link" description="Link">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Character</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>500</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="LinkTarget" description="Link Target">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Character</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>500</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="Expanded" description="Expanded">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Boolean</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="DynamicLoad" description="Dynamic Load">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Boolean</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="Icon" description="Icon">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Character</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>500</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="IconWhenSelected" description="Icon When Selected">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Character</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>500</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="Nodes" description="Nodes">
+            <Fields />
+          </Field>
+        </Fields>
+      </Field>
+    </Parameter>
+  </Signature>
+</CallableObject>

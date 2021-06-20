@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CallableObject guid="21053622-870a-4b8c-a8b2-0405e8acbbfb" name="WWPBaseObjects.SecGAMGetAdvancedSecurityWWPFunctionalities" description="Get Advanced Security WWP Functionalities" namespace="GeneXus.Programs">
+  <Signature name="parm">
+    <Parameter name="ReturnValue" accessor="out" collection="true">
+      <Field name="SecGAMFunctionalitiesToLoad" description="Sec GAMFunctionalities To Load">
+        <Fields>
+          <Field name="SecGAMFunctionalityKey" description="Functionality Id">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>100</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="SecGAMFunctionalityDsc" description="Functionality Description">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>100</Value>
+              </Property>
+            </Properties>
+          </Field>
+        </Fields>
+      </Field>
+    </Parameter>
+  </Signature>
+</CallableObject>

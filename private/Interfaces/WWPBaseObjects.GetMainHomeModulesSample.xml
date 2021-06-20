@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CallableObject guid="21d54640-528e-445a-8469-371d2e0d41b9" name="WWPBaseObjects.GetMainHomeModulesSample" description="Get Main Home Modules Sample" namespace="GeneXus.Programs">
+  <Signature name="parm">
+    <Parameter name="ReturnValue" accessor="out">
+      <Field name="HomeModulesSDT" description="Home Modules SDT" collection="true">
+        <Fields>
+          <Field name="OptionTitle" description="Option Title">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>100</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="OptionDescription" description="Option Description">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>100</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="OptionIconThemeClass" description="Option Icon Theme Class">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>40</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="OptionType" description="Option Type">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Numeric</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>1</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="OptionBackgroundImage" description="Option Background Image">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Image</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="OptionSize" description="Option Size">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Numeric</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>1</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="OptionProgressValue" description="Option Progress Value">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Numeric</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>2</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="OptionWCLink" description="Option WCLink">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>200</Value>
+              </Property>
+            </Properties>
+          </Field>
+        </Fields>
+      </Field>
+    </Parameter>
+  </Signature>
+</CallableObject>

@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.enviarnotificacaowebsocket_services,enviarnotificacaowebsocket" %>

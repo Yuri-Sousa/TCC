@@ -1,0 +1,7 @@
+gx-navbar-link {
+  display: inline; }
+  gx-navbar-link[hidden] {
+    display: none; }
+    gx-navbar-link[hidden][invisible-mode="keep-space"] {
+      display: inline;
+      visibility: hidden; }

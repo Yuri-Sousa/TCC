@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+	<title>GeneXus Developer Menu</title>
+	<script src="devmenu/wgxpath.install.js"></script>
+	<script src="devmenu/developermenu.js"></script>
+	<link rel="stylesheet" href="devmenu/normalize.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="devmenu/developermenu.css" type="text/css" media="screen" />
+</head>
+<body onload="DeveloperMenu.initialize();" class="loading sd-off">
+	<header id="header" class="main-layout">
+		Developer Menu
+	</header>
+	<nav class="nav-menu">
+		<ul>
+			<li><a id="nav-webobjects" class="nav-item" href="#webobjects">Web Objects</a></li>
+			<li><a id="nav-ios" class="nav-item" href="#ios">Install iOS Apps</a></li>
+			<li><a id="nav-android" class="nav-item" href="#android">Install Android Apps</a></li>
+		</ul>
+	</nav>
+	<div id="main" class="main-layout">
+		<div id="objs-box" class="box">
+			<div class="box-title">
+				<h1 id="webobjects">Browse Web Objects</h1>
+			</div>
+			<ul id="objs-list" class="link-list"></ul>
+		</div>
+		<div id="kbn-box" class="box clearfix">
+			<header class="box-title">
+				<h1 id="ios">Install iOS Apps</h1>
+			</header>
+			<div class="box-content">
+				<div class="action-box qrcode-box">
+					<figure>
+						<img id="kbn-qrcode" class="qrcode" src="" alt="QRCode for iOS"/>
+						<figcaption>
+							<header>
+								<h2>QRCode for iOS</h2>
+							</header>
+							<a href="" target="_blank">Services URL for KBN</a>
+						</figcaption>
+					</figure>
+					<img id="kbn-qrcode-zoom" src="devmenu/Zoom_In.png" alt="Zoom QR code" title="Click to zoom QR code" class="qrcode-zoom"/>
+				</div>
+				<div class="action-box download-box">
+					<figure>
+						<a href="https://apps.apple.com/app/id1144118177" target="_blank">
+							<img id="kbn-icon" src="devmenu/KBN.png" alt="Download Knowledge Base Navigator"/>
+						</a>
+						<figcaption>
+							<header>
+								<h2>Knowledge Base Navigator</h2>
+							</header>
+							<p>The KBN app makes native iOS online apps prototyping simple. <a href="https://apps.apple.com/app/id1144118177" target="_blank">Download</a></p>
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+		<div id="sdapps-box" class="box clearfix">
+			<header class="box-title">
+				<h1 id="android">Install Android Apps</h1>
+			</header>
+			<div id="sdapps-box-content" class="box-content"></div>
+		</div>
+	</div>
+</body>
+</html>

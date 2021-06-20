@@ -1,0 +1,5559 @@
+﻿/* [gx-css-import ignore - start] */
+.BaseRBtn{
+	display:inline-block;
+}
+.BaseRBtn span, .RoundedBtn input{
+	display:block;
+	float: left;
+}
+.BaseRBtn .BtnLeft{
+	background: transparent no-repeat scroll 0 0;
+}
+.BaseRBtn .BtnRight{
+	background: transparent no-repeat scroll right 0;
+}
+.BaseRBtn .BtnBackground{
+	overflow:hidden;
+	background: transparent repeat-x scroll;
+}
+.BaseRBtn .BtnText{
+	border: 0px;
+	background: transparent;
+	margin:0;
+	white-space:nowrap;
+	width:auto;
+	overflow:visible;
+}
+/* [gx-css-import ignore - end] */
+.Flex
+{
+	border-style: none;
+	border-width: 0px;
+}
+.Rating.rating-container .rating-stars
+{
+	color: #f5c145;
+}
+.Rating.rating-container
+{
+	color: #e6e6e6;
+}
+.TabPage,.WWTabPage,.WWTabPageSelected,.WWTabPage.active A,div.WWTab UL.nav-tabs LI A.active A, div.WWTab UL.nav-tabs LI.active A,div.WWTab UL.nav-tabs LI:first-child A.active A,div.WWTab UL.nav-tabs LI:last-child A.active A,.WWTabPageSelected.active A,.WWTabPageHovered.active A,.WWTabPage:hover.active A,div.WWTab UL.nav-tabs LI A:hover.active A, div.WWTab UL.nav-tabs LI:hover.active A,div.WWTab UL.nav-tabs LI:first-child A:hover.active A,div.WWTab UL.nav-tabs LI:last-child A:hover.active A,.WWTabPageSelected:hover.active A,.WWTabPageHovered:hover.active A,.WWFirstTabPage:hover.active A,.WWFirstTabPage.active A,.WWTabPageHovered,.WWTabPage:hover,div.WWTab UL.nav-tabs LI A:hover, div.WWTab UL.nav-tabs LI:hover,div.WWTab UL.nav-tabs LI:first-child A:hover,div.WWTab UL.nav-tabs LI:last-child A:hover,.WWTabPageSelected:hover,.WWTabPage.active A:hover,div.WWTab UL.nav-tabs LI A.active A:hover, div.WWTab UL.nav-tabs LI.active A:hover,div.WWTab UL.nav-tabs LI:first-child A.active A:hover,div.WWTab UL.nav-tabs LI:last-child A.active A:hover,.WWTabPageSelected.active A:hover,.WWTabPageHovered.active A:hover,.WWFirstTabPage.active A:hover,.WWTabPageHovered:hover,.WWFirstTabPage:hover,.WWFirstTabPage,div.WWTab UL.nav-tabs LI A, div.WWTab UL.nav-tabs LI,div.WWTab UL.nav-tabs LI:first-child A,div.WWTab UL.nav-tabs LI:last-child A
+{
+	border-style: none;
+	border-width: 0px;
+}
+.WWTabPage,.WWTabPageSelected,.WWTabPage.active A,div.WWTab UL.nav-tabs LI A.active A, div.WWTab UL.nav-tabs LI.active A,div.WWTab UL.nav-tabs LI:first-child A.active A,div.WWTab UL.nav-tabs LI:last-child A.active A,.WWTabPageSelected.active A,.WWTabPageHovered.active A,.WWTabPage:hover.active A,div.WWTab UL.nav-tabs LI A:hover.active A, div.WWTab UL.nav-tabs LI:hover.active A,div.WWTab UL.nav-tabs LI:first-child A:hover.active A,div.WWTab UL.nav-tabs LI:last-child A:hover.active A,.WWTabPageSelected:hover.active A,.WWTabPageHovered:hover.active A,.WWFirstTabPage:hover.active A,.WWFirstTabPage.active A,.WWTabPageHovered,.WWTabPage:hover,div.WWTab UL.nav-tabs LI A:hover, div.WWTab UL.nav-tabs LI:hover,div.WWTab UL.nav-tabs LI:first-child A:hover,div.WWTab UL.nav-tabs LI:last-child A:hover,.WWTabPageSelected:hover,.WWTabPage.active A:hover,div.WWTab UL.nav-tabs LI A.active A:hover, div.WWTab UL.nav-tabs LI.active A:hover,div.WWTab UL.nav-tabs LI:first-child A.active A:hover,div.WWTab UL.nav-tabs LI:last-child A.active A:hover,.WWTabPageSelected.active A:hover,.WWTabPageHovered.active A:hover,.WWFirstTabPage.active A:hover,.WWTabPageHovered:hover,.WWFirstTabPage:hover,.WWFirstTabPage,div.WWTab UL.nav-tabs LI A, div.WWTab UL.nav-tabs LI,div.WWTab UL.nav-tabs LI:first-child A,div.WWTab UL.nav-tabs LI:last-child A
+{
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	height: 50px;
+	font-family: Arial;
+	font-weight: 400;
+	color: #b80545;
+}
+.WWTabPageSelected,.WWTabPage.active A,div.WWTab UL.nav-tabs LI A.active A, div.WWTab UL.nav-tabs LI.active A,div.WWTab UL.nav-tabs LI:first-child A.active A,div.WWTab UL.nav-tabs LI:last-child A.active A,.WWTabPageSelected.active A,.WWTabPageHovered.active A,.WWTabPage:hover.active A,div.WWTab UL.nav-tabs LI A:hover.active A, div.WWTab UL.nav-tabs LI:hover.active A,div.WWTab UL.nav-tabs LI:first-child A:hover.active A,div.WWTab UL.nav-tabs LI:last-child A:hover.active A,.WWTabPageSelected:hover.active A,.WWTabPageHovered:hover.active A,.WWFirstTabPage:hover.active A,.WWFirstTabPage.active A
+{
+	background-color: white;
+	border-bottom: none;
+	border-left: solid #EAEAEA 1px;
+	border-right: solid #EAEAEA 1px;
+	border-top: solid #EAEAEA 1px;
+	color: #2a3143;
+}
+.WWTabPageHovered,.WWTabPage:hover,div.WWTab UL.nav-tabs LI A:hover, div.WWTab UL.nav-tabs LI:hover,div.WWTab UL.nav-tabs LI:first-child A:hover,div.WWTab UL.nav-tabs LI:last-child A:hover,.WWTabPageSelected:hover,.WWTabPage.active A:hover,div.WWTab UL.nav-tabs LI A.active A:hover, div.WWTab UL.nav-tabs LI.active A:hover,div.WWTab UL.nav-tabs LI:first-child A.active A:hover,div.WWTab UL.nav-tabs LI:last-child A.active A:hover,.WWTabPageSelected.active A:hover,.WWTabPageHovered.active A:hover,.WWFirstTabPage.active A:hover,.WWTabPageHovered:hover,.WWFirstTabPage:hover
+{
+	text-decoration: underline;
+}
+.WWFirstTabPage
+{
+	border-top-left-radius: 8px;
+}
+.GridPageController .slick-dots li button:before
+{
+	content: '\2022';
+}
+.GridPageController .slick-dots li.slick-active button:before
+{
+	color: black;
+}
+.GridPageController .slick-prev:before
+{
+	content: '\2190';
+}
+.GridPageController .slick-next:before
+{
+	content: '\2192';
+}
+.gx-switch-Switch .on
+{
+	background-color: #5cb85c !important;
+	color: #fff !important;
+}
+.gx-switch-Switch .off
+{
+	background-color: #eee !important;
+	color: #000 !important;
+}
+/* [gx-css-import ignore - start] */
+
+.NavigationStyle #gx-column-targets {
+	display: table;
+	width: 100%;
+	height: calc(100vh - 15vh - 10vh);
+	table-layout: fixed;
+}
+
+.NavigationStyle .gx-call-target {
+	overflow: auto;
+}
+
+.NavigationStyle .gx-center-target {
+	display: table-cell;
+}
+
+.NavigationStyle .gx-call-target.top {
+	height: 15vh;
+}
+
+.NavigationStyle .gx-call-target.right {
+	display: table-cell;
+	width: 400px;
+}
+
+.NavigationStyle .gx-call-target.bottom {
+	height: 10vh;
+}
+
+.NavigationStyle .gx-call-target.left {
+	display: table-cell;
+	width: 400px;
+}
+
+
+.ResponsiveSlide #gx-column-targets {
+	display: table;
+	width: 100%;
+	height: calc(100vh - 15vh - 10vh);
+	table-layout: fixed;
+}
+
+.ResponsiveSlide .gx-call-target {
+	overflow: auto;
+}
+
+.ResponsiveSlide .gx-center-target {
+	display: table-cell;
+}
+
+.ResponsiveSlide .gx-call-target.top {
+	height: 15vh;
+}
+
+.ResponsiveSlide .gx-call-target.right {
+	display: table-cell;
+	width: 400px;
+}
+
+.ResponsiveSlide .gx-call-target.bottom {
+	height: 10vh;
+}
+
+.ResponsiveSlide .gx-call-target.left {
+	display: table-cell;
+	width: 400px;
+}
+
+
+.Form #gx-column-targets {
+	display: table;
+	width: 100%;
+	height: calc(100vh - 15vh - 10vh);
+	table-layout: fixed;
+}
+
+.Form .gx-call-target {
+	overflow: auto;
+}
+
+.Form .gx-center-target {
+	display: table-cell;
+}
+
+.Form .gx-call-target.top {
+	height: 15vh;
+}
+
+.Form .gx-call-target.right {
+	display: table-cell;
+	width: 400px;
+}
+
+.Form .gx-call-target.bottom {
+	height: 10vh;
+}
+
+.Form .gx-call-target.left {
+	display: table-cell;
+	width: 400px;
+}
+
+/* [gx-css-import ignore - end] */
+/* [gx-css-import ignore - start] */
+
+.ResponsiveSlide #gx-column-targets {
+	display: table;
+	width: 100%;
+	height: calc(100vh - 15vh - 10vh);
+	table-layout: fixed;
+}
+
+.ResponsiveSlide .gx-call-target {
+	overflow: auto;
+}
+
+.ResponsiveSlide .gx-center-target {
+	display: table-cell;
+}
+
+.ResponsiveSlide .gx-call-target.top {
+	height: 15vh;
+}
+
+.ResponsiveSlide .gx-call-target.right {
+	display: table-cell;
+	width: 400px;
+}
+
+.ResponsiveSlide .gx-call-target.bottom {
+	height: 10vh;
+}
+
+.ResponsiveSlide .gx-call-target.left {
+	display: table-cell;
+	width: 400px;
+}
+
+
+.Form #gx-column-targets {
+	display: table;
+	width: 100%;
+	height: calc(100vh - 15vh - 10vh);
+	table-layout: fixed;
+}
+
+.Form .gx-call-target {
+	overflow: auto;
+}
+
+.Form .gx-center-target {
+	display: table-cell;
+}
+
+.Form .gx-call-target.top {
+	height: 15vh;
+}
+
+.Form .gx-call-target.right {
+	display: table-cell;
+	width: 400px;
+}
+
+.Form .gx-call-target.bottom {
+	height: 10vh;
+}
+
+.Form .gx-call-target.left {
+	display: table-cell;
+	width: 400px;
+}
+
+/* [gx-css-import ignore - end] */
+.TableRow,.WWPagingFooterRow,.BackgroundColorRow
+{
+	border-style: none;
+	border-width: 0px;
+}
+.WWPagingFooterRow
+{
+	background-color: white;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: -30px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+.BackgroundColorRow
+{
+	background-color: #efefef;
+}
+.TableCell,.WWPagingFooterCell
+{
+	border-style: none;
+	border-width: 0px;
+}
+.WWPagingFooterCell
+{
+	padding-left: 0px;
+	padding-right: 30px;
+	padding-top: 5px;
+	position: absolute;
+}
+.Animation
+{
+	--gx-animation-type: 'idNative';
+}
+.Grid,.GridDragging,.GridAcceptDrag,.GridNoAcceptDrag,.GridNoData,.Grid[data-gx-grid-nodata],.GridDragging[data-gx-grid-nodata],.GridAcceptDrag[data-gx-grid-nodata],.GridNoAcceptDrag[data-gx-grid-nodata],.GridNoData[data-gx-grid-nodata],.WorkWith[data-gx-grid-nodata],.PromptGrid[data-gx-grid-nodata],.ViewGrid[data-gx-grid-nodata],.FreeStyleGrid[data-gx-grid-nodata],.VerticalTabGrid[data-gx-grid-nodata],.TrnSublevelGrid[data-gx-grid-nodata],.RecentLinksGrid[data-gx-grid-nodata],.WorkWith,.PromptGrid,.ViewGrid
+{
+	border-style: none;
+	border-width: 1px;
+}
+
+.Grid[data-bkgstyle='none']>thead>tr, .Grid[data-bkgstyle='none']>tfoot>tr
+{
+	background-color: transparent;}
+
+.GridDragging[data-bkgstyle='none']>thead>tr, .GridDragging[data-bkgstyle='none']>tfoot>tr
+{
+	background-color: transparent;}
+
+.GridAcceptDrag[data-bkgstyle='none']>thead>tr, .GridAcceptDrag[data-bkgstyle='none']>tfoot>tr
+{
+	background-color: transparent;}
+
+.GridNoAcceptDrag[data-bkgstyle='none']>thead>tr, .GridNoAcceptDrag[data-bkgstyle='none']>tfoot>tr
+{
+	background-color: transparent;}
+
+.GridNoData,.Grid[data-gx-grid-nodata],.GridDragging[data-gx-grid-nodata],.GridAcceptDrag[data-gx-grid-nodata],.GridNoAcceptDrag[data-gx-grid-nodata],.GridNoData[data-gx-grid-nodata],.WorkWith[data-gx-grid-nodata],.PromptGrid[data-gx-grid-nodata],.ViewGrid[data-gx-grid-nodata],.FreeStyleGrid[data-gx-grid-nodata],.VerticalTabGrid[data-gx-grid-nodata],.TrnSublevelGrid[data-gx-grid-nodata],.RecentLinksGrid[data-gx-grid-nodata]
+{
+	background-color: lightgray;
+	min-height: 4em;
+	width: 100%;
+}
+
+.GridNoData[data-bkgstyle='none']>thead>tr, .GridNoData[data-bkgstyle='none']>tfoot>tr
+{
+	background-color: transparent;}
+
+.WorkWith,.PromptGrid,.ViewGrid
+{
+	background-color: white;
+	margin-bottom: 30.5px;
+	margin-top: 24.5px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	width: 100%;
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.WorkWith>tbody>tr,.WorkWith>[data-gxrow]
+{
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	background-color: white;
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.WorkWith>thead>tr, .WorkWith>tfoot>tr
+{
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.WorkWith[data-bkgstyle='none']>thead>tr, .WorkWith[data-bkgstyle='none']>tfoot>tr
+{
+	background-color: transparent;}
+
+.WorkWith[data-bkgstyle='none']>tbody>tr
+{
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	background-color: white;
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.WorkWith[data-bkgstyle='uniform']>tbody>tr:nth-child(odd), .WorkWith[data-bkgstyle='uniform']>tbody>tr:nth-child(even), .WorkWith[data-bkgstyle='uniform']>thead>tr, .WorkWith[data-bkgstyle='uniform']>tfoot>tr
+{
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.WorkWith[data-bkgstyle='header']>tbody>tr:nth-child(odd), .WorkWith[data-bkgstyle='header']>tbody>tr:nth-child(even), .WorkWith[data-bkgstyle='report']>tbody>tr:nth-child(odd)
+{
+	background-color: white;
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.WorkWith[data-bkgstyle='report']>tbody>tr:nth-child(even)
+{
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.WorkWith[data-bkgstyle='header']>thead>tr, .WorkWith[data-bkgstyle='header']>tfoot>tr, .WorkWith[data-bkgstyle='report']>thead>tr, .WorkWith[data-bkgstyle='report']>tfoot>tr
+{
+	background-color: #f9f9f9;
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.PromptGrid>tbody>tr,.PromptGrid>[data-gxrow]
+{
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	background-color: white;
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.PromptGrid>thead>tr, .PromptGrid>tfoot>tr
+{
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.PromptGrid[data-bkgstyle='none']>thead>tr, .PromptGrid[data-bkgstyle='none']>tfoot>tr
+{
+	background-color: transparent;}
+
+.PromptGrid[data-bkgstyle='none']>tbody>tr
+{
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	background-color: white;
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.PromptGrid[data-bkgstyle='uniform']>tbody>tr:nth-child(odd), .PromptGrid[data-bkgstyle='uniform']>tbody>tr:nth-child(even), .PromptGrid[data-bkgstyle='uniform']>thead>tr, .PromptGrid[data-bkgstyle='uniform']>tfoot>tr
+{
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.PromptGrid[data-bkgstyle='header']>tbody>tr:nth-child(odd), .PromptGrid[data-bkgstyle='header']>tbody>tr:nth-child(even), .PromptGrid[data-bkgstyle='report']>tbody>tr:nth-child(odd)
+{
+	background-color: white;
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.PromptGrid[data-bkgstyle='report']>tbody>tr:nth-child(even)
+{
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.PromptGrid[data-bkgstyle='header']>thead>tr, .PromptGrid[data-bkgstyle='header']>tfoot>tr, .PromptGrid[data-bkgstyle='report']>thead>tr, .PromptGrid[data-bkgstyle='report']>tfoot>tr
+{
+	background-color: #f9f9f9;
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.ViewGrid
+{
+	margin-bottom: -2px;
+	margin-top: 0px;
+}
+
+.ViewGrid>tbody>tr,.ViewGrid>[data-gxrow]
+{
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	background-color: white;
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.ViewGrid>thead>tr, .ViewGrid>tfoot>tr
+{
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.ViewGrid[data-bkgstyle='none']>thead>tr, .ViewGrid[data-bkgstyle='none']>tfoot>tr
+{
+	background-color: transparent;}
+
+.ViewGrid[data-bkgstyle='none']>tbody>tr
+{
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	background-color: white;
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.ViewGrid[data-bkgstyle='uniform']>tbody>tr:nth-child(odd), .ViewGrid[data-bkgstyle='uniform']>tbody>tr:nth-child(even), .ViewGrid[data-bkgstyle='uniform']>thead>tr, .ViewGrid[data-bkgstyle='uniform']>tfoot>tr
+{
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.ViewGrid[data-bkgstyle='header']>tbody>tr:nth-child(odd), .ViewGrid[data-bkgstyle='header']>tbody>tr:nth-child(even), .ViewGrid[data-bkgstyle='report']>tbody>tr:nth-child(odd)
+{
+	background-color: white;
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.ViewGrid[data-bkgstyle='report']>tbody>tr:nth-child(even)
+{
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.ViewGrid[data-bkgstyle='header']>thead>tr, .ViewGrid[data-bkgstyle='header']>tfoot>tr, .ViewGrid[data-bkgstyle='report']>thead>tr, .ViewGrid[data-bkgstyle='report']>tfoot>tr
+{
+	background-color: #f9f9f9;
+	text-align: left;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.Group,.GroupTitle
+{
+	border-style: none;
+	border-width: 0px;
+}
+
+.TextBlock,.TextBlockDragging,.TextBlockAcceptDrag,.TextBlockNoAcceptDrag,.bullet,.subBullet,.TextTable,.TBLeftMenu,.SmallText,.SelectedTab,.UnSelectedTab,.FieldSetTitle,.Mesage,.FooterText,.VerticalMenuOption,.TextLikeLink,.LinkText,.AttributeLabel,.TableHeaderText,.Grid>caption,.GridDragging>caption,.GridAcceptDrag>caption,.GridNoAcceptDrag>caption,.GridNoData>caption,.Grid[data-gx-grid-nodata]>caption,.GridDragging[data-gx-grid-nodata]>caption,.GridAcceptDrag[data-gx-grid-nodata]>caption,.GridNoAcceptDrag[data-gx-grid-nodata]>caption,.GridNoData[data-gx-grid-nodata]>caption,.WorkWith[data-gx-grid-nodata]>caption,.PromptGrid[data-gx-grid-nodata]>caption,.ViewGrid[data-gx-grid-nodata]>caption,.FreeStyleGrid[data-gx-grid-nodata]>caption,.VerticalTabGrid[data-gx-grid-nodata]>caption,.TrnSublevelGrid[data-gx-grid-nodata]>caption,.RecentLinksGrid[data-gx-grid-nodata]>caption,.WorkWith>caption,.PromptGrid>caption,.ViewGrid>caption,.Table>caption,.TableDragging>caption,.TableAcceptDrag>caption,.TableNoAcceptDrag>caption,.TableContent>caption,.TableLeftMenu>caption,.TableHorizontalLine>caption,.header_pink_line>caption,.HorizontalSpace>caption,.RecentLinksTable>caption,.Table80>caption,.Table95>caption,.Table960>caption,.TableGreyFooter>caption,.TableBlackFooter>caption,.TableBlackHeader>caption,.td5>caption,.td100>caption,.Container>caption,.ContainerFluid>caption,.PromptContainer>caption,.PromptMainTable>caption,.GridTabMainTable>caption,.TableBorder100x100>caption,.HorizantalSpace>caption,.td10px>caption,.ViewTable>caption,.ToolbarMain>caption,.LevelTable>caption,.MainContainer>caption,.OrdersTable>caption,.RecentLinksMainTable>caption,.RecentLinksMainTableExpanded>caption,.Table100x100>caption,.TableBorder>caption,.TableGrid>caption,.TableTop>caption,.TableTopSearch>caption,.TableTopMenu>caption,.TableBottom>caption,.TableButtons>caption,.Table435x370>caption,.SmallTableLogin>caption,.LargeTableLogin>caption,.WelcomeTable>caption,.BodyContainer>caption,.LoginContainer>caption,.HeaderContainer>caption,.RecentLinksContainer>caption,.ThinHeaderContainer>caption,.FormContainer>caption,.TabsFormContainer>caption,.NegativeMarginTop10>caption,.AdvancedContainer>caption,.AdvancedContainerVisible>caption,.WWAdvancedContainer>caption,.TableHeaderRight>caption,.TableLogo>caption,.FiltersContainer>caption,.FiltersContainerItem>caption,.FilterContainerItemSearch>caption,.Table193x216>caption,.Table193x216Collapsed>caption,.ActionsContainer>caption,.ActionsContainerItem>caption,.ActionsContainerVisible>caption,.AdvancedContainerItem>caption,.AdvancedContainerItemExpanded>caption,.ViewAdvancedContainer>caption,.ViewAdvancedContainerVisible>caption,.Padding5Tbl>caption,.TopBottom30>caption,.TopBottom5>caption,.MainMenuTitle,.GridNoDataText,.Grid+.gx-text-gridnodata,.GridDragging+.gx-text-gridnodata,.GridAcceptDrag+.gx-text-gridnodata,.GridNoAcceptDrag+.gx-text-gridnodata,.GridNoData+.gx-text-gridnodata,.Grid[data-gx-grid-nodata]+.gx-text-gridnodata,.GridDragging[data-gx-grid-nodata]+.gx-text-gridnodata,.GridAcceptDrag[data-gx-grid-nodata]+.gx-text-gridnodata,.GridNoAcceptDrag[data-gx-grid-nodata]+.gx-text-gridnodata,.GridNoData[data-gx-grid-nodata]+.gx-text-gridnodata,.WorkWith[data-gx-grid-nodata]+.gx-text-gridnodata,.PromptGrid[data-gx-grid-nodata]+.gx-text-gridnodata,.ViewGrid[data-gx-grid-nodata]+.gx-text-gridnodata,.FreeStyleGrid[data-gx-grid-nodata]+.gx-text-gridnodata,.VerticalTabGrid[data-gx-grid-nodata]+.gx-text-gridnodata,.TrnSublevelGrid[data-gx-grid-nodata]+.gx-text-gridnodata,.RecentLinksGrid[data-gx-grid-nodata]+.gx-text-gridnodata,.WorkWith+.gx-text-gridnodata,.PromptGrid+.gx-text-gridnodata,.ViewGrid+.gx-text-gridnodata,.FreeStyleGrid+.gx-text-gridnodata,.VerticalTabGrid+.gx-text-gridnodata,.TrnSublevelGrid+.gx-text-gridnodata,.RecentLinksGrid+.gx-text-gridnodata,.GridLoadingText,.Grid+div.gx-grid-loading,.GridDragging+div.gx-grid-loading,.GridAcceptDrag+div.gx-grid-loading,.GridNoAcceptDrag+div.gx-grid-loading,.GridNoData+div.gx-grid-loading,.Grid[data-gx-grid-nodata]+div.gx-grid-loading,.GridDragging[data-gx-grid-nodata]+div.gx-grid-loading,.GridAcceptDrag[data-gx-grid-nodata]+div.gx-grid-loading,.GridNoAcceptDrag[data-gx-grid-nodata]+div.gx-grid-loading,.GridNoData[data-gx-grid-nodata]+div.gx-grid-loading,.WorkWith[data-gx-grid-nodata]+div.gx-grid-loading,.PromptGrid[data-gx-grid-nodata]+div.gx-grid-loading,.ViewGrid[data-gx-grid-nodata]+div.gx-grid-loading,.FreeStyleGrid[data-gx-grid-nodata]+div.gx-grid-loading,.VerticalTabGrid[data-gx-grid-nodata]+div.gx-grid-loading,.TrnSublevelGrid[data-gx-grid-nodata]+div.gx-grid-loading,.RecentLinksGrid[data-gx-grid-nodata]+div.gx-grid-loading,.WorkWith+div.gx-grid-loading,.PromptGrid+div.gx-grid-loading,.ViewGrid+div.gx-grid-loading,.FreeStyleGrid+div.gx-grid-loading,.VerticalTabGrid+div.gx-grid-loading,.TrnSublevelGrid+div.gx-grid-loading,.RecentLinksGrid+div.gx-grid-loading,.Separator,.RecentLink,.RecentLinkItem>A,.TextBlockHeader,.TextBlockHeaderLinkClass,.TextBlockHeader>A,.TextBlockHeaderLinkClass>A,.PopupTitle,.RecentLinkItem,.RecentsTitle,.Title,.SubTitle,.BigTitle,.SeparateBigTitle,.UncollapsedBigTitle,.SectionTitle,.TBTopMenu,.Label,.RequiredLabel,.gx-label.RequiredAttributeLabel,.gx-label.BlobContentRequiredAttributeLabel,.gx-label.ReadonlyBlobContentRequiredAttributeLabel,.gx-label.BlobInputRequiredAttributeLabel,.gx-label.ReadonlyRequiredAttributeLabel,.gx-label.RatingLabel,.gx-label.AttributeLabel,.gx-label.BlobContentAttributeLabel,.gx-label.ReadonlyBlobContentAttributeLabel,.gx-label.AttributeDraggingLabel,.gx-label.VideoAttributeLabel,.gx-label.ReadonlyVideoAttributeLabel,.gx-label.AudioAttributeLabel,.gx-label.ReadonlyAudioAttributeLabel,.gx-label.IME_ActiveLabel,.gx-label.BlobContentIME_ActiveLabel,.gx-label.ReadonlyBlobContentIME_ActiveLabel,.gx-label.BlobInputIME_ActiveLabel,.gx-label.ReadonlyIME_ActiveLabel,.gx-label.IME_InactiveLabel,.gx-label.BlobContentIME_InactiveLabel,.gx-label.ReadonlyBlobContentIME_InactiveLabel,.gx-label.BlobInputIME_InactiveLabel,.gx-label.ReadonlyIME_InactiveLabel,.gx-label.IME_DisabledLabel,.gx-label.BlobContentIME_DisabledLabel,.gx-label.ReadonlyBlobContentIME_DisabledLabel,.gx-label.BlobInputIME_DisabledLabel,.gx-label.ReadonlyIME_DisabledLabel,.gx-label.MedidaLabel,.gx-label.BlobContentMedidaLabel,.gx-label.ReadonlyBlobContentMedidaLabel,.gx-label.BlobInputMedidaLabel,.gx-label.ReadonlyMedidaLabel,.gx-label.SubMedidaLabel,.gx-label.BlobContentSubMedidaLabel,.gx-label.ReadonlyBlobContentSubMedidaLabel,.gx-label.BlobInputSubMedidaLabel,.gx-label.ReadonlySubMedidaLabel,.gx-label.DescriptionAttributeLabel,.gx-label.BlobContentDescriptionAttributeLabel,.gx-label.ReadonlyBlobContentDescriptionAttributeLabel,.gx-label.BlobInputDescriptionAttributeLabel,.gx-label.ReadonlyDescriptionAttributeLabel,.gx-label.TextAttributeLabel,.gx-label.BlobContentTextAttributeLabel,.gx-label.ReadonlyBlobContentTextAttributeLabel,.gx-label.BlobInputTextAttributeLabel,.gx-label.ReadonlyTextAttributeLabel,.gx-label.TextActionAttributeLabel,.gx-label.BlobContentTextActionAttributeLabel,.gx-label.ReadonlyBlobContentTextActionAttributeLabel,.gx-label.BlobInputTextActionAttributeLabel,.gx-label.ReadonlyTextActionAttributeLabel,.gx-label.LowerTextActionAttributeLabel,.gx-label.BlobContentLowerTextActionAttributeLabel,.gx-label.ReadonlyBlobContentLowerTextActionAttributeLabel,.gx-label.BlobInputLowerTextActionAttributeLabel,.gx-label.ReadonlyLowerTextActionAttributeLabel,.gx-label.DownloadAttributeLabel,.gx-label.ReadonlyDownloadAttributeLabel,.gx-label.ReadonlyAttributeLabel,.gx-label.ReadonlyMedioLabel,.gx-label.BlobContentReadonlyMedioLabel,.gx-label.ReadonlyBlobContentReadonlyMedioLabel,.gx-label.BlobInputReadonlyMedioLabel,.gx-label.ReadonlyReadonlyMedioLabel,.gx-label.BlobInputAttributeLabel,.gx-label.AttributeAcceptDragLabel,.gx-label.AttributeNoAcceptDragLabel,.gx-label.ErrorAttributeLabel,.gx-label.WarningAttributeLabel,.gx-label.ImageAttributeLabel,.gx-label.ReadonlyImageAttributeLabel,.gx-label.ActionImageAttributeLabel,.gx-label.BlobContentActionImageAttributeLabel,.gx-label.ReadonlyBlobContentActionImageAttributeLabel,.gx-label.ReadonlyActionImageAttributeLabel,.gx-label.DeleteAttributeLabel,.gx-label.BlobContentDeleteAttributeLabel,.gx-label.ReadonlyBlobContentDeleteAttributeLabel,.gx-label.ReadonlyDeleteAttributeLabel,.gx-label.BlobInputDeleteAttributeLabel,.gx-label.DisplayAttributeLabel,.gx-label.BlobContentDisplayAttributeLabel,.gx-label.ReadonlyBlobContentDisplayAttributeLabel,.gx-label.ReadonlyDisplayAttributeLabel,.gx-label.BlobInputDisplayAttributeLabel,.gx-label.DisabledActionAttributeLabel,.gx-label.BlobContentDisabledActionAttributeLabel,.gx-label.ReadonlyBlobContentDisabledActionAttributeLabel,.gx-label.ReadonlyDisabledActionAttributeLabel,.gx-label.BlobInputDisabledActionAttributeLabel,.gx-label.BlobInputActionImageAttributeLabel,.gx-label.UpdateAttributeLabel,.gx-label.BlobContentUpdateAttributeLabel,.gx-label.ReadonlyBlobContentUpdateAttributeLabel,.gx-label.ReadonlyUpdateAttributeLabel,.gx-label.BlobInputUpdateAttributeLabel,.gx-label.SelectionAttributeLabel,.gx-label.BlobContentSelectionAttributeLabel,.gx-label.ReadonlyBlobContentSelectionAttributeLabel,.gx-label.ReadonlySelectionAttributeLabel,.gx-label.BlobInputSelectionAttributeLabel,.gx-label.ProfileImageAttributeLabel,.gx-label.BlobContentProfileImageAttributeLabel,.gx-label.ReadonlyBlobContentProfileImageAttributeLabel,.gx-label.BlobInputProfileImageAttributeLabel,.gx-label.ReadonlyProfileImageAttributeLabel,.gx-label.SmallProfileImageAttributeLabel,.gx-label.BlobContentSmallProfileImageAttributeLabel,.gx-label.ReadonlyBlobContentSmallProfileImageAttributeLabel,.gx-label.BlobInputSmallProfileImageAttributeLabel,.gx-label.ReadonlySmallProfileImageAttributeLabel,.gx-label.ResponsiveImageAttributeLabel,.gx-label.BlobContentResponsiveImageAttributeLabel,.gx-label.ReadonlyBlobContentResponsiveImageAttributeLabel,.gx-label.ReadonlyResponsiveImageAttributeLabel,.gx-label.BlobInputResponsiveImageAttributeLabel,.gx-label.AttSubTitleLabel,.gx-label.BlobInputAttSubTitleLabel,.gx-label.BlobContentAttSubTitleLabel,.gx-label.ReadonlyBlobContentAttSubTitleLabel,.gx-label.ReadonlyAttSubTitleLabel,.gx-label.CheckboxLabelLabel,.gx-label.BlobContentCheckboxLabelLabel,.gx-label.ReadonlyBlobContentCheckboxLabelLabel,.gx-label.BlobInputCheckboxLabelLabel,.gx-label.ReadonlyCheckboxLabelLabel,.gx-label.CheckBoxLabel,.gx-label.BlobContentCheckBoxLabel,.gx-label.ReadonlyBlobContentCheckBoxLabel,.gx-label.BlobInputCheckBoxLabel,.gx-label.ReadonlyCheckBoxLabel,.gx-label.LoginAttributeLabel,.gx-label.BlobContentLoginAttributeLabel,.gx-label.ReadonlyBlobContentLoginAttributeLabel,.gx-label.BlobInputLoginAttributeLabel,.gx-label.ReadonlyLoginAttributeLabel,.gx-label.LoginComboAttributeLabel,.gx-label.BlobContentLoginComboAttributeLabel,.gx-label.ReadonlyBlobContentLoginComboAttributeLabel,.gx-label.BlobInputLoginComboAttributeLabel,.gx-label.ReadonlyLoginComboAttributeLabel,.gx-label.RegistrationAttributeLabel,.gx-label.BlobContentRegistrationAttributeLabel,.gx-label.ReadonlyBlobContentRegistrationAttributeLabel,.gx-label.BlobInputRegistrationAttributeLabel,.gx-label.ReadonlyRegistrationAttributeLabel,.gx-label.InactiveAttributeLabel,.gx-label.BlobContentInactiveAttributeLabel,.gx-label.ReadonlyBlobContentInactiveAttributeLabel,.gx-label.BlobInputInactiveAttributeLabel,.gx-label.ReadonlyInactiveAttributeLabel,.gx-label.ComboAttributeLabel,.gx-label.BlobContentComboAttributeLabel,.gx-label.ReadonlyBlobContentComboAttributeLabel,.gx-label.BlobInputComboAttributeLabel,.gx-label.ReadonlyComboAttributeLabel,.gx-label.SubtitleAttributeLabel,.gx-label.BlobContentSubtitleAttributeLabel,.gx-label.ReadonlyBlobContentSubtitleAttributeLabel,.gx-label.BlobInputSubtitleAttributeLabel,.gx-label.ReadonlySubtitleAttributeLabel,.gx-label.URLAttributeLabel,.gx-label.BlobContentURLAttributeLabel,.gx-label.ReadonlyBlobContentURLAttributeLabel,.gx-label.BlobInputURLAttributeLabel,.gx-label.ReadonlyURLAttributeLabel,.gx-label.FilterAttributeLabel,.gx-label.ReadonlyFilterSearchAttributeLabel,.gx-label.BlobContentFilterAttributeLabel,.gx-label.ReadonlyBlobContentFilterAttributeLabel,.gx-label.BlobInputFilterAttributeLabel,.gx-label.ReadonlyFilterAttributeLabel,.gx-label.FilterComboAttributeLabel,.gx-label.BlobContentFilterComboAttributeLabel,.gx-label.ReadonlyBlobContentFilterComboAttributeLabel,.gx-label.BlobInputFilterComboAttributeLabel,.gx-label.ReadonlyFilterComboAttributeLabel,.gx-label.FilterSearchAttributeLabel,.gx-label.BlobContentFilterSearchAttributeLabel,.gx-label.ReadonlyBlobContentFilterSearchAttributeLabel,.gx-label.BlobInputFilterSearchAttributeLabel,.gx-label.FilterSearchAttributeFocusLabel,.gx-label.BlobContentFilterSearchAttributeFocusLabel,.gx-label.ReadonlyBlobContentFilterSearchAttributeFocusLabel,.gx-label.BlobInputFilterSearchAttributeFocusLabel,.gx-label.ReadonlyFilterSearchAttributeFocusLabel,.gx-label.DateFilterSearchAttributeLabel,.gx-label.BlobContentDateFilterSearchAttributeLabel,.gx-label.ReadonlyBlobContentDateFilterSearchAttributeLabel,.gx-label.BlobInputDateFilterSearchAttributeLabel,.gx-label.ReadonlyDateFilterSearchAttributeLabel,.gx-label.FilterPanelLabel,.gx-label.BlobContentFilterPanelLabel,.gx-label.ReadonlyBlobContentFilterPanelLabel,.gx-label.BlobInputFilterPanelLabel,.gx-label.ReadonlyFilterPanelLabel,.gx-label.Fixed30Label,.MenuOption,.SelectedMenuOption,.gx-navbar.ActionGroup .navbar-nav>li>a,.ActionGroup.gx-dropdown-menu.dropdown-menu>li>a,.gx-navbar.MainMenu .navbar-nav>li>a,.MainMenu.gx-dropdown-menu.dropdown-menu>li>a,.gx-navbar.Submenu .navbar-nav>li>a,.Submenu.gx-dropdown-menu.dropdown-menu>li>a,.gx-navbar.Confirm .navbar-nav>li>a,.Confirm.gx-dropdown-menu.dropdown-menu>li>a,.gx-navbar.WWViewActions .navbar-nav>li>a,.WWViewActions.gx-dropdown-menu.dropdown-menu>li>a,.SmallLink,.SmallLink>A,.WWAdvancedLabel,.WWOrderByLabel,.WWFilterLabel,.WWDateFilterLabel,.WelcomeText,.WelcomeTextName,.WelcomeTextMarginLeft,.PagingText,.SelectedPagingText,.PagingText>A,.SelectedPagingText>A,.GlobalTitle,.BigGlobalTitle,.BigGlobalTitle>A,.GlobalTitle>A,.FilterLabel,.SubtitleLabel,.LogoutMenuOption,.SpecialText,.SpecialTextLabel,.RoundedImageText,.LinkRoundedImageText,.RoundedImageText>A,.LinkRoundedImageText>A,.GridNewRow,.GridNewRowWhite,.TrnSublevelGridFooter>.gx_newrow,.Grid>tfoot .gx_newrow,.GridDragging>tfoot .gx_newrow,.GridAcceptDrag>tfoot .gx_newrow,.GridNoAcceptDrag>tfoot .gx_newrow,.GridNoData>tfoot .gx_newrow,.Grid[data-gx-grid-nodata]>tfoot .gx_newrow,.GridDragging[data-gx-grid-nodata]>tfoot .gx_newrow,.GridAcceptDrag[data-gx-grid-nodata]>tfoot .gx_newrow,.GridNoAcceptDrag[data-gx-grid-nodata]>tfoot .gx_newrow,.GridNoData[data-gx-grid-nodata]>tfoot .gx_newrow,.WorkWith[data-gx-grid-nodata]>tfoot .gx_newrow,.PromptGrid[data-gx-grid-nodata]>tfoot .gx_newrow,.ViewGrid[data-gx-grid-nodata]>tfoot .gx_newrow,.FreeStyleGrid[data-gx-grid-nodata]>tfoot .gx_newrow,.VerticalTabGrid[data-gx-grid-nodata]>tfoot .gx_newrow,.TrnSublevelGrid[data-gx-grid-nodata]>tfoot .gx_newrow,.RecentLinksGrid[data-gx-grid-nodata]>tfoot .gx_newrow,.WorkWith>tfoot .gx_newrow,.PromptGrid>tfoot .gx_newrow,.ViewGrid>tfoot .gx_newrow,.FreeStyleGridFooter>.gx_newrow,.VerticalTabGridFooter>.gx_newrow,.RecentLinksGridFooter>.gx_newrow,.ActionText,.WWOrderItem,.WWLinkOrderItem,.WWOrderItem>A,.WWLinkOrderItem>A,.WWOrderItemHover>A,.WWOrderItem:hover>A,.WWLinkOrderItem:hover>A,.WWOrderItemHover:hover>A,.WWOrderItemHover,.WWOrderItem:hover,.WWLinkOrderItem:hover,.WWOrderItem>A:hover,.WWLinkOrderItem>A:hover,.WWOrderItemHover>A:hover,.WWOrderItemHover:hover,.WWOrderItemSelected,.WWLinkOrderItemSelected,.WWOrderItemSelected>A,.WWLinkOrderItemSelected>A,.WWOrderItemSelectedHover>A,.WWOrderItemSelected:hover>A,.WWLinkOrderItemSelected:hover>A,.WWOrderItemSelectedHover:hover>A,.WWOrderItemSelectedHover,.WWOrderItemSelected:hover,.WWLinkOrderItemSelected:hover,.WWOrderItemSelected>A:hover,.WWLinkOrderItemSelected>A:hover,.WWOrderItemSelectedHover>A:hover,.WWOrderItemSelectedHover:hover,.FloatingVersionText,.FloatingVersionTextColoured,.VersionText,.HomeBodyText,.HomeBodyTextLink,.HomeBodyText>A
+{
+	border-style: none;
+	border-width: 0px;
+}
+.BtnTextBlockBack,.BtnTextBlockBackLink>A
+{
+	background-position: 6px;
+	background-repeat: no-repeat;
+	margin-top: 3px;
+	padding-left: 30px;
+	padding-top: 8px;
+	background-image: url(../CarmineGAM/Back.png);
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #b80545;
+	letter-spacing: 1.8px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.BtnTextBlockBackLink,.BtnTextBlockBack>A
+{
+	margin-top: 5px;
+	padding-left: 7px;
+	background-image: none;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #b80545;
+	letter-spacing: 1.8px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.MainMenuTitle
+{
+	display: none;
+}
+.GridNoDataText,.Grid+.gx-text-gridnodata,.GridDragging+.gx-text-gridnodata,.GridAcceptDrag+.gx-text-gridnodata,.GridNoAcceptDrag+.gx-text-gridnodata,.GridNoData+.gx-text-gridnodata,.Grid[data-gx-grid-nodata]+.gx-text-gridnodata,.GridDragging[data-gx-grid-nodata]+.gx-text-gridnodata,.GridAcceptDrag[data-gx-grid-nodata]+.gx-text-gridnodata,.GridNoAcceptDrag[data-gx-grid-nodata]+.gx-text-gridnodata,.GridNoData[data-gx-grid-nodata]+.gx-text-gridnodata,.WorkWith[data-gx-grid-nodata]+.gx-text-gridnodata,.PromptGrid[data-gx-grid-nodata]+.gx-text-gridnodata,.ViewGrid[data-gx-grid-nodata]+.gx-text-gridnodata,.FreeStyleGrid[data-gx-grid-nodata]+.gx-text-gridnodata,.VerticalTabGrid[data-gx-grid-nodata]+.gx-text-gridnodata,.TrnSublevelGrid[data-gx-grid-nodata]+.gx-text-gridnodata,.RecentLinksGrid[data-gx-grid-nodata]+.gx-text-gridnodata,.WorkWith+.gx-text-gridnodata,.PromptGrid+.gx-text-gridnodata,.ViewGrid+.gx-text-gridnodata,.FreeStyleGrid+.gx-text-gridnodata,.VerticalTabGrid+.gx-text-gridnodata,.TrnSublevelGrid+.gx-text-gridnodata,.RecentLinksGrid+.gx-text-gridnodata
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	font-size: 1.5em;
+	color: gray;
+	text-align: center;
+	vertical-align: middle;
+}
+.GridLoadingText,.Grid+div.gx-grid-loading,.GridDragging+div.gx-grid-loading,.GridAcceptDrag+div.gx-grid-loading,.GridNoAcceptDrag+div.gx-grid-loading,.GridNoData+div.gx-grid-loading,.Grid[data-gx-grid-nodata]+div.gx-grid-loading,.GridDragging[data-gx-grid-nodata]+div.gx-grid-loading,.GridAcceptDrag[data-gx-grid-nodata]+div.gx-grid-loading,.GridNoAcceptDrag[data-gx-grid-nodata]+div.gx-grid-loading,.GridNoData[data-gx-grid-nodata]+div.gx-grid-loading,.WorkWith[data-gx-grid-nodata]+div.gx-grid-loading,.PromptGrid[data-gx-grid-nodata]+div.gx-grid-loading,.ViewGrid[data-gx-grid-nodata]+div.gx-grid-loading,.FreeStyleGrid[data-gx-grid-nodata]+div.gx-grid-loading,.VerticalTabGrid[data-gx-grid-nodata]+div.gx-grid-loading,.TrnSublevelGrid[data-gx-grid-nodata]+div.gx-grid-loading,.RecentLinksGrid[data-gx-grid-nodata]+div.gx-grid-loading,.WorkWith+div.gx-grid-loading,.PromptGrid+div.gx-grid-loading,.ViewGrid+div.gx-grid-loading,.FreeStyleGrid+div.gx-grid-loading,.VerticalTabGrid+div.gx-grid-loading,.TrnSublevelGrid+div.gx-grid-loading,.RecentLinksGrid+div.gx-grid-loading
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	background-color: transparent;
+	font-size: 1.5em;
+	color: #b80545;
+	min-height: 2em;
+	width: 30%;
+}
+.RecentLink,.RecentLinkItem>A
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #3d434f;
+	letter-spacing: 1.8px;
+}
+.TextBlockHeader,.TextBlockHeaderLinkClass,.TextBlockHeader>A,.TextBlockHeaderLinkClass>A
+{
+	margin-left: 30px;
+	display: block;
+	font-family: Arial;
+	font-size: 32px;
+	font-weight: 400;
+	color: white;
+}
+.TextBlockHeaderLinkClass,.TextBlockHeader>A,.TextBlockHeaderLinkClass>A
+{
+	margin-left: 0px;
+	text-decoration: none;
+}
+.PopupTitle
+{
+	float: left;
+	margin-left: 15px;
+	position: static;
+	display: block;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	line-height: 35px;
+}
+.RecentLinkItem
+{
+	margin-right: 3px;
+	white-space: nowrap;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 1.8px;
+}
+.RecentsTitle
+{
+	margin-left: 30px;
+	margin-top: 3px;
+	display: block;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	text-decoration: none;
+	color: #b80545;
+	letter-spacing: 1.8px;
+}
+.Title,.SubTitle,.BigTitle,.SeparateBigTitle,.UncollapsedBigTitle,.SectionTitle
+{
+	margin-top: 5px;
+	display: inline-block;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: 700;
+	color: #2a3143;
+	text-align: left;
+}
+.SubTitle
+{
+	display: block;
+	font-size: 19px;
+}
+.BigTitle,.SeparateBigTitle,.UncollapsedBigTitle
+{
+	font-size: 40px;
+	font-weight: 400;
+	letter-spacing: -4px;
+	text-align: center;
+}
+.SeparateBigTitle
+{
+	margin-bottom: 40px;
+}
+.UncollapsedBigTitle
+{
+	margin-bottom: 30px;
+	font-size: 34px;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+}
+.SectionTitle
+{
+	font-size: 19px;
+	font-weight: 500;
+}
+.Label,.RequiredLabel,.gx-label.RequiredAttributeLabel,.gx-label.BlobContentRequiredAttributeLabel,.gx-label.ReadonlyBlobContentRequiredAttributeLabel,.gx-label.BlobInputRequiredAttributeLabel,.gx-label.ReadonlyRequiredAttributeLabel,.gx-label.RatingLabel,.gx-label.AttributeLabel,.gx-label.BlobContentAttributeLabel,.gx-label.ReadonlyBlobContentAttributeLabel,.gx-label.AttributeDraggingLabel,.gx-label.VideoAttributeLabel,.gx-label.ReadonlyVideoAttributeLabel,.gx-label.AudioAttributeLabel,.gx-label.ReadonlyAudioAttributeLabel,.gx-label.IME_ActiveLabel,.gx-label.BlobContentIME_ActiveLabel,.gx-label.ReadonlyBlobContentIME_ActiveLabel,.gx-label.BlobInputIME_ActiveLabel,.gx-label.ReadonlyIME_ActiveLabel,.gx-label.IME_InactiveLabel,.gx-label.BlobContentIME_InactiveLabel,.gx-label.ReadonlyBlobContentIME_InactiveLabel,.gx-label.BlobInputIME_InactiveLabel,.gx-label.ReadonlyIME_InactiveLabel,.gx-label.IME_DisabledLabel,.gx-label.BlobContentIME_DisabledLabel,.gx-label.ReadonlyBlobContentIME_DisabledLabel,.gx-label.BlobInputIME_DisabledLabel,.gx-label.ReadonlyIME_DisabledLabel,.gx-label.MedidaLabel,.gx-label.BlobContentMedidaLabel,.gx-label.ReadonlyBlobContentMedidaLabel,.gx-label.BlobInputMedidaLabel,.gx-label.ReadonlyMedidaLabel,.gx-label.SubMedidaLabel,.gx-label.BlobContentSubMedidaLabel,.gx-label.ReadonlyBlobContentSubMedidaLabel,.gx-label.BlobInputSubMedidaLabel,.gx-label.ReadonlySubMedidaLabel,.gx-label.DescriptionAttributeLabel,.gx-label.BlobContentDescriptionAttributeLabel,.gx-label.ReadonlyBlobContentDescriptionAttributeLabel,.gx-label.BlobInputDescriptionAttributeLabel,.gx-label.ReadonlyDescriptionAttributeLabel,.gx-label.TextAttributeLabel,.gx-label.BlobContentTextAttributeLabel,.gx-label.ReadonlyBlobContentTextAttributeLabel,.gx-label.BlobInputTextAttributeLabel,.gx-label.ReadonlyTextAttributeLabel,.gx-label.TextActionAttributeLabel,.gx-label.BlobContentTextActionAttributeLabel,.gx-label.ReadonlyBlobContentTextActionAttributeLabel,.gx-label.BlobInputTextActionAttributeLabel,.gx-label.ReadonlyTextActionAttributeLabel,.gx-label.LowerTextActionAttributeLabel,.gx-label.BlobContentLowerTextActionAttributeLabel,.gx-label.ReadonlyBlobContentLowerTextActionAttributeLabel,.gx-label.BlobInputLowerTextActionAttributeLabel,.gx-label.ReadonlyLowerTextActionAttributeLabel,.gx-label.DownloadAttributeLabel,.gx-label.ReadonlyDownloadAttributeLabel,.gx-label.ReadonlyAttributeLabel,.gx-label.ReadonlyMedioLabel,.gx-label.BlobContentReadonlyMedioLabel,.gx-label.ReadonlyBlobContentReadonlyMedioLabel,.gx-label.BlobInputReadonlyMedioLabel,.gx-label.ReadonlyReadonlyMedioLabel,.gx-label.BlobInputAttributeLabel,.gx-label.AttributeAcceptDragLabel,.gx-label.AttributeNoAcceptDragLabel,.gx-label.ErrorAttributeLabel,.gx-label.WarningAttributeLabel,.gx-label.ImageAttributeLabel,.gx-label.ReadonlyImageAttributeLabel,.gx-label.ActionImageAttributeLabel,.gx-label.BlobContentActionImageAttributeLabel,.gx-label.ReadonlyBlobContentActionImageAttributeLabel,.gx-label.ReadonlyActionImageAttributeLabel,.gx-label.DeleteAttributeLabel,.gx-label.BlobContentDeleteAttributeLabel,.gx-label.ReadonlyBlobContentDeleteAttributeLabel,.gx-label.ReadonlyDeleteAttributeLabel,.gx-label.BlobInputDeleteAttributeLabel,.gx-label.DisplayAttributeLabel,.gx-label.BlobContentDisplayAttributeLabel,.gx-label.ReadonlyBlobContentDisplayAttributeLabel,.gx-label.ReadonlyDisplayAttributeLabel,.gx-label.BlobInputDisplayAttributeLabel,.gx-label.DisabledActionAttributeLabel,.gx-label.BlobContentDisabledActionAttributeLabel,.gx-label.ReadonlyBlobContentDisabledActionAttributeLabel,.gx-label.ReadonlyDisabledActionAttributeLabel,.gx-label.BlobInputDisabledActionAttributeLabel,.gx-label.BlobInputActionImageAttributeLabel,.gx-label.UpdateAttributeLabel,.gx-label.BlobContentUpdateAttributeLabel,.gx-label.ReadonlyBlobContentUpdateAttributeLabel,.gx-label.ReadonlyUpdateAttributeLabel,.gx-label.BlobInputUpdateAttributeLabel,.gx-label.SelectionAttributeLabel,.gx-label.BlobContentSelectionAttributeLabel,.gx-label.ReadonlyBlobContentSelectionAttributeLabel,.gx-label.ReadonlySelectionAttributeLabel,.gx-label.BlobInputSelectionAttributeLabel,.gx-label.ProfileImageAttributeLabel,.gx-label.BlobContentProfileImageAttributeLabel,.gx-label.ReadonlyBlobContentProfileImageAttributeLabel,.gx-label.BlobInputProfileImageAttributeLabel,.gx-label.ReadonlyProfileImageAttributeLabel,.gx-label.SmallProfileImageAttributeLabel,.gx-label.BlobContentSmallProfileImageAttributeLabel,.gx-label.ReadonlyBlobContentSmallProfileImageAttributeLabel,.gx-label.BlobInputSmallProfileImageAttributeLabel,.gx-label.ReadonlySmallProfileImageAttributeLabel,.gx-label.ResponsiveImageAttributeLabel,.gx-label.BlobContentResponsiveImageAttributeLabel,.gx-label.ReadonlyBlobContentResponsiveImageAttributeLabel,.gx-label.ReadonlyResponsiveImageAttributeLabel,.gx-label.BlobInputResponsiveImageAttributeLabel,.gx-label.AttSubTitleLabel,.gx-label.BlobInputAttSubTitleLabel,.gx-label.BlobContentAttSubTitleLabel,.gx-label.ReadonlyBlobContentAttSubTitleLabel,.gx-label.ReadonlyAttSubTitleLabel,.gx-label.CheckboxLabelLabel,.gx-label.BlobContentCheckboxLabelLabel,.gx-label.ReadonlyBlobContentCheckboxLabelLabel,.gx-label.BlobInputCheckboxLabelLabel,.gx-label.ReadonlyCheckboxLabelLabel,.gx-label.CheckBoxLabel,.gx-label.BlobContentCheckBoxLabel,.gx-label.ReadonlyBlobContentCheckBoxLabel,.gx-label.BlobInputCheckBoxLabel,.gx-label.ReadonlyCheckBoxLabel,.gx-label.LoginAttributeLabel,.gx-label.BlobContentLoginAttributeLabel,.gx-label.ReadonlyBlobContentLoginAttributeLabel,.gx-label.BlobInputLoginAttributeLabel,.gx-label.ReadonlyLoginAttributeLabel,.gx-label.LoginComboAttributeLabel,.gx-label.BlobContentLoginComboAttributeLabel,.gx-label.ReadonlyBlobContentLoginComboAttributeLabel,.gx-label.BlobInputLoginComboAttributeLabel,.gx-label.ReadonlyLoginComboAttributeLabel,.gx-label.RegistrationAttributeLabel,.gx-label.BlobContentRegistrationAttributeLabel,.gx-label.ReadonlyBlobContentRegistrationAttributeLabel,.gx-label.BlobInputRegistrationAttributeLabel,.gx-label.ReadonlyRegistrationAttributeLabel,.gx-label.InactiveAttributeLabel,.gx-label.BlobContentInactiveAttributeLabel,.gx-label.ReadonlyBlobContentInactiveAttributeLabel,.gx-label.BlobInputInactiveAttributeLabel,.gx-label.ReadonlyInactiveAttributeLabel,.gx-label.ComboAttributeLabel,.gx-label.BlobContentComboAttributeLabel,.gx-label.ReadonlyBlobContentComboAttributeLabel,.gx-label.BlobInputComboAttributeLabel,.gx-label.ReadonlyComboAttributeLabel,.gx-label.SubtitleAttributeLabel,.gx-label.BlobContentSubtitleAttributeLabel,.gx-label.ReadonlyBlobContentSubtitleAttributeLabel,.gx-label.BlobInputSubtitleAttributeLabel,.gx-label.ReadonlySubtitleAttributeLabel,.gx-label.URLAttributeLabel,.gx-label.BlobContentURLAttributeLabel,.gx-label.ReadonlyBlobContentURLAttributeLabel,.gx-label.BlobInputURLAttributeLabel,.gx-label.ReadonlyURLAttributeLabel,.gx-label.FilterAttributeLabel,.gx-label.ReadonlyFilterSearchAttributeLabel,.gx-label.BlobContentFilterAttributeLabel,.gx-label.ReadonlyBlobContentFilterAttributeLabel,.gx-label.BlobInputFilterAttributeLabel,.gx-label.ReadonlyFilterAttributeLabel,.gx-label.FilterComboAttributeLabel,.gx-label.BlobContentFilterComboAttributeLabel,.gx-label.ReadonlyBlobContentFilterComboAttributeLabel,.gx-label.BlobInputFilterComboAttributeLabel,.gx-label.ReadonlyFilterComboAttributeLabel,.gx-label.FilterSearchAttributeLabel,.gx-label.BlobContentFilterSearchAttributeLabel,.gx-label.ReadonlyBlobContentFilterSearchAttributeLabel,.gx-label.BlobInputFilterSearchAttributeLabel,.gx-label.FilterSearchAttributeFocusLabel,.gx-label.BlobContentFilterSearchAttributeFocusLabel,.gx-label.ReadonlyBlobContentFilterSearchAttributeFocusLabel,.gx-label.BlobInputFilterSearchAttributeFocusLabel,.gx-label.ReadonlyFilterSearchAttributeFocusLabel,.gx-label.DateFilterSearchAttributeLabel,.gx-label.BlobContentDateFilterSearchAttributeLabel,.gx-label.ReadonlyBlobContentDateFilterSearchAttributeLabel,.gx-label.BlobInputDateFilterSearchAttributeLabel,.gx-label.ReadonlyDateFilterSearchAttributeLabel,.gx-label.FilterPanelLabel,.gx-label.BlobContentFilterPanelLabel,.gx-label.ReadonlyBlobContentFilterPanelLabel,.gx-label.BlobInputFilterPanelLabel,.gx-label.ReadonlyFilterPanelLabel,.gx-label.Fixed30Label
+{
+	background-image: none;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: left;
+}
+.MenuOption,.SelectedMenuOption,.gx-label.FilterComboAttributeLabel,.gx-label.BlobContentFilterComboAttributeLabel,.gx-label.ReadonlyBlobContentFilterComboAttributeLabel,.gx-label.BlobInputFilterComboAttributeLabel,.gx-label.ReadonlyFilterComboAttributeLabel,.gx-navbar.ActionGroup .navbar-nav>li>a,.ActionGroup.gx-dropdown-menu.dropdown-menu>li>a,.gx-navbar.MainMenu .navbar-nav>li>a,.MainMenu.gx-dropdown-menu.dropdown-menu>li>a,.gx-navbar.Submenu .navbar-nav>li>a,.Submenu.gx-dropdown-menu.dropdown-menu>li>a,.gx-navbar.Confirm .navbar-nav>li>a,.Confirm.gx-dropdown-menu.dropdown-menu>li>a,.gx-navbar.WWViewActions .navbar-nav>li>a,.WWViewActions.gx-dropdown-menu.dropdown-menu>li>a
+{
+	display: block;
+	background-color: inherit;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	text-decoration: none;
+	color: inherit;
+	letter-spacing: 1.8px;
+	text-transform: uppercase;
+}
+.SelectedMenuOption
+{
+	color: white;
+}
+.SmallLink,.SmallLink>A
+{
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+	color: #2a3143;
+	text-align: left;
+}
+.WWFilterLabel,.WWDateFilterLabel
+{
+	overflow: hidden;
+	white-space: nowrap;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #2a3143;
+	letter-spacing: 1.8px;
+	text-align: left;
+	text-transform: uppercase;
+	text-overflow: ellipsis;
+}
+.WWFilterLabel:before,.WWDateFilterLabel:before
+{
+	overflow: hidden;
+	white-space: nowrap;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #2a3143;
+	letter-spacing: 1.8px;
+	text-align: left;
+	text-transform: uppercase;
+	text-overflow: ellipsis;
+	content: '';
+}
+
+.WWFilterLabel:after,.WWDateFilterLabel:after
+{
+	overflow: hidden;
+	white-space: nowrap;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #2a3143;
+	letter-spacing: 1.8px;
+	text-align: left;
+	text-transform: uppercase;
+	text-overflow: ellipsis;
+	content: '';
+}
+
+.WelcomeText,.WelcomeTextName,.WelcomeTextMarginLeft
+{
+	margin-right: 5px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+	color: white;
+	text-align: left;
+}
+.WelcomeTextName
+{
+	margin-left: 5px;
+	margin-top: 25px;
+	display: inherit;
+	text-decoration: none;
+	color: #2a3143;
+}
+.WelcomeTextMarginLeft
+{
+	margin-left: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	color: #2a3143;
+	text-overflow: ellipsis;
+}
+.PagingText,.SelectedPagingText,.PagingText>A,.SelectedPagingText>A
+{
+	margin-left: -7px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #b80545;
+	letter-spacing: 1.8px;
+	text-align: center;
+}
+.GlobalTitle,.BigGlobalTitle,.BigGlobalTitle>A,.GlobalTitle>A
+{
+	margin-left: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: white;
+	text-align: left;
+}
+.BigGlobalTitle,.BigGlobalTitle>A
+{
+	font-size: 20px;
+}
+.FilterLabel
+{
+	overflow: hidden;
+	white-space: nowrap;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #2a3143;
+	letter-spacing: 1.8px;
+	text-align: left;
+	text-transform: uppercase;
+	text-overflow: ellipsis;
+}
+.SubtitleLabel,.gx-label.SubtitleAttributeLabel,.gx-label.BlobContentSubtitleAttributeLabel,.gx-label.ReadonlyBlobContentSubtitleAttributeLabel,.gx-label.BlobInputSubtitleAttributeLabel,.gx-label.ReadonlySubtitleAttributeLabel
+{
+	margin-top: 3px;
+	font-size: 12px;
+	font-weight: 400;
+	color: #2a3143;
+	max-width: 200px;
+	letter-spacing: 1.8px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.LogoutMenuOption
+{
+	display: none;
+	text-decoration: underline;
+	color: white;
+}
+.SpecialText,.SpecialTextLabel,.gx-label.LoginAttributeLabel,.gx-label.BlobContentLoginAttributeLabel,.gx-label.ReadonlyBlobContentLoginAttributeLabel,.gx-label.BlobInputLoginAttributeLabel,.gx-label.ReadonlyLoginAttributeLabel,.gx-label.LoginComboAttributeLabel,.gx-label.BlobContentLoginComboAttributeLabel,.gx-label.ReadonlyBlobContentLoginComboAttributeLabel,.gx-label.BlobInputLoginComboAttributeLabel,.gx-label.ReadonlyLoginComboAttributeLabel,.gx-label.RegistrationAttributeLabel,.gx-label.BlobContentRegistrationAttributeLabel,.gx-label.ReadonlyBlobContentRegistrationAttributeLabel,.gx-label.BlobInputRegistrationAttributeLabel,.gx-label.ReadonlyRegistrationAttributeLabel
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #2a3143;
+	letter-spacing: 1.7px;
+	text-align: left;
+}
+.SpecialTextLabel,.gx-label.LoginAttributeLabel,.gx-label.BlobContentLoginAttributeLabel,.gx-label.ReadonlyBlobContentLoginAttributeLabel,.gx-label.BlobInputLoginAttributeLabel,.gx-label.ReadonlyLoginAttributeLabel,.gx-label.LoginComboAttributeLabel,.gx-label.BlobContentLoginComboAttributeLabel,.gx-label.ReadonlyBlobContentLoginComboAttributeLabel,.gx-label.BlobInputLoginComboAttributeLabel,.gx-label.ReadonlyLoginComboAttributeLabel,.gx-label.RegistrationAttributeLabel,.gx-label.BlobContentRegistrationAttributeLabel,.gx-label.ReadonlyBlobContentRegistrationAttributeLabel,.gx-label.BlobInputRegistrationAttributeLabel,.gx-label.ReadonlyRegistrationAttributeLabel
+{
+	margin-bottom: -16px;
+	padding-top: 22px;
+	color: #2A3143;
+	 font-weight: 400;
+	 font-family: Arial;
+	 font-size:12px;
+	 letter-spacing: 1.8px;
+}
+.RoundedImageText,.LinkRoundedImageText,.RoundedImageText>A,.LinkRoundedImageText>A
+{
+	padding-left: 9px;
+	padding-top: 2px;
+	font-family: Arial;
+	font-size: 22px;
+	font-weight: 400;
+	color: white;
+	text-transform: uppercase;
+}
+.LinkRoundedImageText,.RoundedImageText>A,.LinkRoundedImageText>A
+{
+	padding-left: 0px;
+	padding-top: 0px;
+}
+.GridNewRow,.GridNewRowWhite,.TrnSublevelGridFooter>.gx_newrow,.Grid>tfoot .gx_newrow,.GridDragging>tfoot .gx_newrow,.GridAcceptDrag>tfoot .gx_newrow,.GridNoAcceptDrag>tfoot .gx_newrow,.GridNoData>tfoot .gx_newrow,.Grid[data-gx-grid-nodata]>tfoot .gx_newrow,.GridDragging[data-gx-grid-nodata]>tfoot .gx_newrow,.GridAcceptDrag[data-gx-grid-nodata]>tfoot .gx_newrow,.GridNoAcceptDrag[data-gx-grid-nodata]>tfoot .gx_newrow,.GridNoData[data-gx-grid-nodata]>tfoot .gx_newrow,.WorkWith[data-gx-grid-nodata]>tfoot .gx_newrow,.PromptGrid[data-gx-grid-nodata]>tfoot .gx_newrow,.ViewGrid[data-gx-grid-nodata]>tfoot .gx_newrow,.FreeStyleGrid[data-gx-grid-nodata]>tfoot .gx_newrow,.VerticalTabGrid[data-gx-grid-nodata]>tfoot .gx_newrow,.TrnSublevelGrid[data-gx-grid-nodata]>tfoot .gx_newrow,.RecentLinksGrid[data-gx-grid-nodata]>tfoot .gx_newrow,.WorkWith>tfoot .gx_newrow,.PromptGrid>tfoot .gx_newrow,.ViewGrid>tfoot .gx_newrow,.FreeStyleGridFooter>.gx_newrow,.VerticalTabGridFooter>.gx_newrow,.RecentLinksGridFooter>.gx_newrow
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #b80545;
+	letter-spacing: 1.7px;
+	line-height: 49px;
+}
+.GridNewRow:before,.GridNewRowWhite:before,.TrnSublevelGridFooter>.gx_newrow:before,.Grid>tfoot .gx_newrow:before,.GridDragging>tfoot .gx_newrow:before,.GridAcceptDrag>tfoot .gx_newrow:before,.GridNoAcceptDrag>tfoot .gx_newrow:before,.GridNoData>tfoot .gx_newrow:before,.Grid[data-gx-grid-nodata]>tfoot .gx_newrow:before,.GridDragging[data-gx-grid-nodata]>tfoot .gx_newrow:before,.GridAcceptDrag[data-gx-grid-nodata]>tfoot .gx_newrow:before,.GridNoAcceptDrag[data-gx-grid-nodata]>tfoot .gx_newrow:before,.GridNoData[data-gx-grid-nodata]>tfoot .gx_newrow:before,.WorkWith[data-gx-grid-nodata]>tfoot .gx_newrow:before,.PromptGrid[data-gx-grid-nodata]>tfoot .gx_newrow:before,.ViewGrid[data-gx-grid-nodata]>tfoot .gx_newrow:before,.FreeStyleGrid[data-gx-grid-nodata]>tfoot .gx_newrow:before,.VerticalTabGrid[data-gx-grid-nodata]>tfoot .gx_newrow:before,.TrnSublevelGrid[data-gx-grid-nodata]>tfoot .gx_newrow:before,.RecentLinksGrid[data-gx-grid-nodata]>tfoot .gx_newrow:before,.WorkWith>tfoot .gx_newrow:before,.PromptGrid>tfoot .gx_newrow:before,.ViewGrid>tfoot .gx_newrow:before,.FreeStyleGridFooter>.gx_newrow:before,.VerticalTabGridFooter>.gx_newrow:before,.RecentLinksGridFooter>.gx_newrow:before
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #b80545;
+	letter-spacing: 1.7px;
+	content: '';
+	line-height: 49px;
+}
+
+.GridNewRow:after,.GridNewRowWhite:after,.TrnSublevelGridFooter>.gx_newrow:after,.Grid>tfoot .gx_newrow:after,.GridDragging>tfoot .gx_newrow:after,.GridAcceptDrag>tfoot .gx_newrow:after,.GridNoAcceptDrag>tfoot .gx_newrow:after,.GridNoData>tfoot .gx_newrow:after,.Grid[data-gx-grid-nodata]>tfoot .gx_newrow:after,.GridDragging[data-gx-grid-nodata]>tfoot .gx_newrow:after,.GridAcceptDrag[data-gx-grid-nodata]>tfoot .gx_newrow:after,.GridNoAcceptDrag[data-gx-grid-nodata]>tfoot .gx_newrow:after,.GridNoData[data-gx-grid-nodata]>tfoot .gx_newrow:after,.WorkWith[data-gx-grid-nodata]>tfoot .gx_newrow:after,.PromptGrid[data-gx-grid-nodata]>tfoot .gx_newrow:after,.ViewGrid[data-gx-grid-nodata]>tfoot .gx_newrow:after,.FreeStyleGrid[data-gx-grid-nodata]>tfoot .gx_newrow:after,.VerticalTabGrid[data-gx-grid-nodata]>tfoot .gx_newrow:after,.TrnSublevelGrid[data-gx-grid-nodata]>tfoot .gx_newrow:after,.RecentLinksGrid[data-gx-grid-nodata]>tfoot .gx_newrow:after,.WorkWith>tfoot .gx_newrow:after,.PromptGrid>tfoot .gx_newrow:after,.ViewGrid>tfoot .gx_newrow:after,.FreeStyleGridFooter>.gx_newrow:after,.VerticalTabGridFooter>.gx_newrow:after,.RecentLinksGridFooter>.gx_newrow:after
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #b80545;
+	letter-spacing: 1.7px;
+	content: '';
+	line-height: 49px;
+}
+
+.GridNewRowWhite,.TrnSublevelGridFooter>.gx_newrow
+{
+	background-color: white;
+}
+.ActionText
+{
+	margin-left: 10px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #b80545;
+	letter-spacing: 1.8px;
+	text-align: left;
+}
+.WWOrderItem,.WWLinkOrderItem,.WWOrderItem>A,.WWLinkOrderItem>A,.WWOrderItemHover>A,.WWOrderItem:hover>A,.WWLinkOrderItem:hover>A,.WWOrderItemHover:hover>A,.WWOrderItemHover,.WWOrderItem:hover,.WWLinkOrderItem:hover,.WWOrderItem>A:hover,.WWLinkOrderItem>A:hover,.WWOrderItemHover>A:hover,.WWOrderItemHover:hover
+{
+	border-bottom: 1px;
+	border-left: 1px;
+	border-right: 1px;
+	border-top: 1px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	display: inline-block;
+	border-bottom-color: #efefef;
+	border-left-color: #efefef;
+	border-right-color: #efefef;
+	border-top-color: #efefef;
+	border-style: solid;
+	border-width: 1px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	color: black;
+}
+.WWLinkOrderItem,.WWOrderItem>A,.WWLinkOrderItem>A,.WWOrderItemHover>A,.WWOrderItem:hover>A,.WWLinkOrderItem:hover>A,.WWOrderItemHover:hover>A
+{
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	border-style: none;
+	text-decoration: none;
+	color: inherit;
+}
+.WWOrderItemHover,.WWOrderItem:hover,.WWLinkOrderItem:hover,.WWOrderItem>A:hover,.WWLinkOrderItem>A:hover,.WWOrderItemHover>A:hover,.WWOrderItemHover:hover
+{
+	border-bottom-color: #b80545;
+	border-left-color: #b80545;
+	border-right-color: #b80545;
+	border-top-color: #b80545;
+	color: #b80545;
+}
+.WWOrderItemSelected,.WWLinkOrderItemSelected,.WWOrderItemSelected>A,.WWLinkOrderItemSelected>A,.WWOrderItemSelectedHover>A,.WWOrderItemSelected:hover>A,.WWLinkOrderItemSelected:hover>A,.WWOrderItemSelectedHover:hover>A,.WWOrderItemSelectedHover,.WWOrderItemSelected:hover,.WWLinkOrderItemSelected:hover,.WWOrderItemSelected>A:hover,.WWLinkOrderItemSelected>A:hover,.WWOrderItemSelectedHover>A:hover,.WWOrderItemSelectedHover:hover
+{
+	border-bottom: 1px;
+	border-left: 1px;
+	border-right: 1px;
+	border-top: 1px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	display: inline-block;
+	background-color: #b80545;
+	border-bottom-color: #efefef;
+	border-left-color: #efefef;
+	border-right-color: #efefef;
+	border-top-color: #efefef;
+	border-style: solid;
+	border-width: 1px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+}
+.WWLinkOrderItemSelected,.WWOrderItemSelected>A,.WWLinkOrderItemSelected>A,.WWOrderItemSelectedHover>A,.WWOrderItemSelected:hover>A,.WWLinkOrderItemSelected:hover>A,.WWOrderItemSelectedHover:hover>A
+{
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	text-decoration: none;
+	color: inherit;
+}
+.FloatingVersionText,.FloatingVersionTextColoured
+{
+	color: #2a3143;
+}
+.FloatingVersionTextColoured
+{
+	color: #ffa7c0;
+}
+.VersionText
+{
+	display: block;
+	font-size: 15px;
+	color: #2a3143;
+}
+.HomeBodyText
+{
+	font-size: 19px;
+}
+.HomeBodyTextLink,.HomeBodyText>A
+{
+	font-size: 19px;
+	color: #b80545;
+}
+.ActionGroupItem,.SelectedMainMenuItem,.SelectedMainMenuItem:hover,.gx-navbar.MainMenu .navbar-nav>li.active>a,.MainMenu.gx-dropdown-menu.dropdown-menu>li.active>a,.SelectedSubMenuItem,.SelectedSubMenuItem:hover,.SubMenuItem:hover,.gx-navbar.Submenu .navbar-nav>li:hover,.Submenu.gx-dropdown-menu.dropdown-menu>li>a:hover, .gx-navbar.Submenu .navbar-nav>li>a:hover, .gx-navbar.Submenu .navbar-nav>li.dropdown>a:hover,.gx-navbar.Submenu .navbar-nav>li.active>a,.Submenu.gx-dropdown-menu.dropdown-menu>li.active>a,.MainMenuItem,.MainMenuItemHovered,.MainMenuItem:hover,.MainMenuItemHovered:hover,.gx-navbar.MainMenu .navbar-nav>li,.MainMenu.gx-dropdown-menu.dropdown-menu>li>a, .gx-navbar.MainMenu .navbar-nav>li>a, .gx-navbar.MainMenu .navbar-nav>li.dropdown>a,.SubMenuItem,.gx-navbar.Submenu .navbar-nav>li,.Submenu.gx-dropdown-menu.dropdown-menu>li>a, .gx-navbar.Submenu .navbar-nav>li>a, .gx-navbar.Submenu .navbar-nav>li.dropdown>a,.gx-navbar.ActionGroup .navbar-nav>li,.ActionGroup.gx-dropdown-menu.dropdown-menu>li>a, .gx-navbar.ActionGroup .navbar-nav>li>a, .gx-navbar.ActionGroup .navbar-nav>li.dropdown>a,.gx-navbar.Confirm .navbar-nav>li,.Confirm.gx-dropdown-menu.dropdown-menu>li>a, .gx-navbar.Confirm .navbar-nav>li>a, .gx-navbar.Confirm .navbar-nav>li.dropdown>a,.gx-navbar.WWViewActions .navbar-nav>li,.WWViewActions.gx-dropdown-menu.dropdown-menu>li>a, .gx-navbar.WWViewActions .navbar-nav>li>a, .gx-navbar.WWViewActions .navbar-nav>li.dropdown>a
+{
+	background-color: inherit;
+	margin-top: 6px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #b80545;
+}
+.SelectedMainMenuItem,.SelectedMainMenuItem:hover,.gx-navbar.MainMenu .navbar-nav>li.active>a,.MainMenu.gx-dropdown-menu.dropdown-menu>li.active>a
+{
+	background-color: #b80545;
+	border-bottom: 4px;
+	border-bottom-color: #ffa7c0;
+	border-left: 0px;
+	border-right: 0px;
+	border-style: solid;
+	border-top: 0px;
+	padding-bottom: 22px;
+	font-size: 16px;
+	color: white;
+}
+.SelectedSubMenuItem,.SelectedSubMenuItem:hover,.SubMenuItem:hover,.gx-navbar.Submenu .navbar-nav>li:hover,.Submenu.gx-dropdown-menu.dropdown-menu>li>a:hover, .gx-navbar.Submenu .navbar-nav>li>a:hover, .gx-navbar.Submenu .navbar-nav>li.dropdown>a:hover,.gx-navbar.Submenu .navbar-nav>li.active>a,.Submenu.gx-dropdown-menu.dropdown-menu>li.active>a
+{
+	background-color: white;
+	font-size: 14px;
+	text-decoration: underline;
+}
+.MainMenuItem,.MainMenuItemHovered,.MainMenuItem:hover,.MainMenuItemHovered:hover,.gx-navbar.MainMenu .navbar-nav>li,.MainMenu.gx-dropdown-menu.dropdown-menu>li>a, .gx-navbar.MainMenu .navbar-nav>li>a, .gx-navbar.MainMenu .navbar-nav>li.dropdown>a
+{
+	background-color: #b80545;
+	white-space: nowrap;
+	font-size: 16px;
+	color: #ffa7c0;
+}
+.SubMenuItem,.gx-navbar.Submenu .navbar-nav>li,.Submenu.gx-dropdown-menu.dropdown-menu>li>a, .gx-navbar.Submenu .navbar-nav>li>a, .gx-navbar.Submenu .navbar-nav>li.dropdown>a
+{
+	font-size: 14px;
+}
+.CallTarget,.ResponsiveSlide .gx-call-target.top,.Form .gx-call-target.top,.ResponsiveSlide .gx-call-target.right,.Form .gx-call-target.right,.ResponsiveSlide .gx-call-target.bottom,.Form .gx-call-target.bottom,.ResponsiveSlide .gx-call-target.left,.Form .gx-call-target.left
+{
+	background-color: white;
+	border-style: none;
+	border-width: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.Form
+{
+	background-color: #efefef;
+	border-style: none;
+	border-width: 0px;
+	background-color: #efefef !important;
+}
+
+/* [gx-css-import ignore - start] */
+div.gx-content-placeholder > div.gx-ct-body.Form-fx, div.gxwebcomponent > div.gxwebcomponent-body.Form-fx, body.Form-fx
+{
+	transition-property: transform, opacity;
+	-moz-transition-property: transform, opacity;
+	-ms-transition-property: transform, opacity;
+	-o-transition-property: transform, opacity;
+	-webkit-transition-property: transform, opacity;
+	transition-timing-function: cubic-bezier(0, 1, 1, 0.69);
+	-moz-transition-timing-function: cubic-bezier(0, 1, 1, 0.69);
+	-ms-transition-timing-function: cubic-bezier(0, 1, 1, 0.69);
+	-o-transition-timing-function: cubic-bezier(0, 1, 1, 0.69);
+	-webkit-transition-timing-function: cubic-bezier(0, 1, 1, 0.69);
+	transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+}
+
+div.gx-content-placeholder > div.gx-ct-body.Form-fx.enter-fx-duration, div.gxwebcomponent > div.gxwebcomponent-body.Form-fx.enter-fx-duration, body.Form-fx.enter-fx-duration
+{
+	transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-ms-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+}
+
+div.gx-content-placeholder > div.gx-ct-body.Form-fx.leave-fx-duration, div.gxwebcomponent > div.gxwebcomponent-body.Form-fx.leave-fx-duration, body.Form-fx.leave-fx-duration
+{
+	transition-duration: 0.2s;
+	-moz-transition-duration: 0.2s;
+	-ms-transition-duration: 0.2s;
+	-o-transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+}
+
+div.gx-content-placeholder.transitioning, div.gxwebcomponent.transitioning
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.Form-fx.entering
+{
+	opacity: 0.1;
+	position: absolute;
+}
+
+.Form-fx.leaving
+{
+	opacity: 0.1;
+	position: absolute;
+}
+
+/* [gx-css-import ignore - end] */
+.Attribute,.BlobContentAttribute,.ReadonlyBlobContentAttribute,.AttributeDragging,.VideoAttribute,.ReadonlyVideoAttribute,.AudioAttribute,.ReadonlyAudioAttribute,.IME_Active,.BlobContentIME_Active,.ReadonlyBlobContentIME_Active,.BlobInputIME_Active,.ReadonlyIME_Active,.IME_Inactive,.BlobContentIME_Inactive,.ReadonlyBlobContentIME_Inactive,.BlobInputIME_Inactive,.ReadonlyIME_Inactive,.IME_Disabled,.BlobContentIME_Disabled,.ReadonlyBlobContentIME_Disabled,.BlobInputIME_Disabled,.ReadonlyIME_Disabled,.Medida,.BlobContentMedida,.ReadonlyBlobContentMedida,.BlobInputMedida,.ReadonlyMedida,.SubMedida,.BlobContentSubMedida,.ReadonlyBlobContentSubMedida,.BlobInputSubMedida,.ReadonlySubMedida,.DescriptionAttribute,.BlobContentDescriptionAttribute,.ReadonlyBlobContentDescriptionAttribute,.BlobInputDescriptionAttribute,.ReadonlyDescriptionAttribute,.TextAttribute,.BlobContentTextAttribute,.ReadonlyBlobContentTextAttribute,.BlobInputTextAttribute,.ReadonlyTextAttribute,.TextActionAttribute,.BlobContentTextActionAttribute,.ReadonlyBlobContentTextActionAttribute,.BlobInputTextActionAttribute,.ReadonlyTextActionAttribute,.LowerTextActionAttribute,.BlobContentLowerTextActionAttribute,.ReadonlyBlobContentLowerTextActionAttribute,.BlobInputLowerTextActionAttribute,.ReadonlyLowerTextActionAttribute,.LowerTextActionAttribute:hover,.ReadonlyLowerTextActionAttribute>A:hover,.BlobContentLowerTextActionAttribute:hover,.ReadonlyBlobContentLowerTextActionAttribute:hover,.BlobInputLowerTextActionAttribute:hover,.ReadonlyLowerTextActionAttribute:hover,.ReadonlyLowerTextActionAttribute>A,.LowerTextActionAttribute:hover>A,.BlobContentLowerTextActionAttribute:hover>A,.ReadonlyBlobContentLowerTextActionAttribute:hover>A,.BlobInputLowerTextActionAttribute:hover>A,.ReadonlyLowerTextActionAttribute:hover>A,.TextActionAttribute>A,.BlobContentTextActionAttribute>A,.ReadonlyBlobContentTextActionAttribute>A,.BlobInputTextActionAttribute>A,.ReadonlyTextActionAttribute>A,.LowerTextActionAttribute>A,.BlobContentLowerTextActionAttribute>A,.ReadonlyBlobContentLowerTextActionAttribute>A,.BlobInputLowerTextActionAttribute>A,.ReadonlyLowerTextActionAttribute>A:hover>A,.DownloadAttribute,.ReadonlyDownloadAttribute,.ReadonlyAttribute,.ReadonlyMedio,.BlobContentReadonlyMedio,.ReadonlyBlobContentReadonlyMedio,.BlobInputReadonlyMedio,.ReadonlyReadonlyMedio,.BlobInputAttribute,.AttributeAcceptDrag,.AttributeNoAcceptDrag,.ErrorAttribute,.WarningAttribute,.ImageAttribute,.ReadonlyImageAttribute,.ActionImageAttribute,.BlobContentActionImageAttribute,.ReadonlyBlobContentActionImageAttribute,.ReadonlyActionImageAttribute,.DeleteAttribute,.BlobContentDeleteAttribute,.ReadonlyBlobContentDeleteAttribute,.ReadonlyDeleteAttribute,.BlobInputDeleteAttribute,.DisplayAttribute,.BlobContentDisplayAttribute,.ReadonlyBlobContentDisplayAttribute,.ReadonlyDisplayAttribute,.BlobInputDisplayAttribute,.DisabledActionAttribute,.BlobContentDisabledActionAttribute,.ReadonlyBlobContentDisabledActionAttribute,.ReadonlyDisabledActionAttribute,.BlobInputDisabledActionAttribute,.BlobInputActionImageAttribute,.UpdateAttribute,.BlobContentUpdateAttribute,.ReadonlyBlobContentUpdateAttribute,.ReadonlyUpdateAttribute,.BlobInputUpdateAttribute,.SelectionAttribute,.BlobContentSelectionAttribute,.ReadonlyBlobContentSelectionAttribute,.ReadonlySelectionAttribute,.BlobInputSelectionAttribute,.ProfileImageAttribute,.BlobContentProfileImageAttribute,.ReadonlyBlobContentProfileImageAttribute,.BlobInputProfileImageAttribute,.ReadonlyProfileImageAttribute,.SmallProfileImageAttribute,.BlobContentSmallProfileImageAttribute,.ReadonlyBlobContentSmallProfileImageAttribute,.BlobInputSmallProfileImageAttribute,.ReadonlySmallProfileImageAttribute,.ResponsiveImageAttribute,.BlobContentResponsiveImageAttribute,.ReadonlyBlobContentResponsiveImageAttribute,.ReadonlyResponsiveImageAttribute,.BlobInputResponsiveImageAttribute,.AttSubTitle,.BlobInputAttSubTitle,.BlobContentAttSubTitle,.ReadonlyBlobContentAttSubTitle,.ReadonlyAttSubTitle,.CheckboxLabel,.BlobContentCheckboxLabel,.ReadonlyBlobContentCheckboxLabel,.BlobInputCheckboxLabel,.ReadonlyCheckboxLabel,.CheckBox,.BlobContentCheckBox,.ReadonlyBlobContentCheckBox,.BlobInputCheckBox,.ReadonlyCheckBox,.LoginAttribute,.BlobContentLoginAttribute,.ReadonlyBlobContentLoginAttribute,.BlobInputLoginAttribute,.ReadonlyLoginAttribute,.LoginComboAttribute,.BlobContentLoginComboAttribute,.ReadonlyBlobContentLoginComboAttribute,.BlobInputLoginComboAttribute,.ReadonlyLoginComboAttribute,.RegistrationAttribute,.BlobContentRegistrationAttribute,.ReadonlyBlobContentRegistrationAttribute,.BlobInputRegistrationAttribute,.ReadonlyRegistrationAttribute,.RequiredAttribute,.BlobContentRequiredAttribute,.ReadonlyBlobContentRequiredAttribute,.BlobInputRequiredAttribute,.ReadonlyRequiredAttribute,.InactiveAttribute,.BlobContentInactiveAttribute,.ReadonlyBlobContentInactiveAttribute,.BlobInputInactiveAttribute,.ReadonlyInactiveAttribute,.ComboAttribute,.BlobContentComboAttribute,.ReadonlyBlobContentComboAttribute,.BlobInputComboAttribute,.ReadonlyComboAttribute,.SubtitleAttribute,.BlobContentSubtitleAttribute,.ReadonlyBlobContentSubtitleAttribute,.BlobInputSubtitleAttribute,.ReadonlySubtitleAttribute,.URLAttribute,.BlobContentURLAttribute,.ReadonlyBlobContentURLAttribute,.BlobInputURLAttribute,.ReadonlyURLAttribute,.FilterAttribute,.ReadonlyFilterSearchAttribute,.BlobContentFilterAttribute,.ReadonlyBlobContentFilterAttribute,.BlobInputFilterAttribute,.ReadonlyFilterAttribute,.FilterComboAttribute,.BlobContentFilterComboAttribute,.ReadonlyBlobContentFilterComboAttribute,.BlobInputFilterComboAttribute,.ReadonlyFilterComboAttribute,.FilterSearchAttribute,.BlobContentFilterSearchAttribute,.ReadonlyBlobContentFilterSearchAttribute,.BlobInputFilterSearchAttribute,.FilterSearchAttributeFocus,.BlobContentFilterSearchAttributeFocus,.ReadonlyBlobContentFilterSearchAttributeFocus,.BlobInputFilterSearchAttributeFocus,.ReadonlyFilterSearchAttributeFocus,input.FilterSearchAttribute:focus, textarea.FilterSearchAttribute:focus, select.FilterSearchAttribute:focus, .FilterSearchAttribute>A:focus,input.BlobContentFilterSearchAttribute:focus, textarea.BlobContentFilterSearchAttribute:focus, select.BlobContentFilterSearchAttribute:focus, .BlobContentFilterSearchAttribute>A:focus,input.ReadonlyBlobContentFilterSearchAttribute:focus, textarea.ReadonlyBlobContentFilterSearchAttribute:focus, select.ReadonlyBlobContentFilterSearchAttribute:focus, .ReadonlyBlobContentFilterSearchAttribute>A:focus,input.BlobInputFilterSearchAttribute:focus, textarea.BlobInputFilterSearchAttribute:focus, select.BlobInputFilterSearchAttribute:focus, .BlobInputFilterSearchAttribute>A:focus,input.FilterSearchAttributeFocus:focus, textarea.FilterSearchAttributeFocus:focus, select.FilterSearchAttributeFocus:focus, .FilterSearchAttributeFocus>A:focus,input.BlobContentFilterSearchAttributeFocus:focus, textarea.BlobContentFilterSearchAttributeFocus:focus, select.BlobContentFilterSearchAttributeFocus:focus, .BlobContentFilterSearchAttributeFocus>A:focus,input.ReadonlyBlobContentFilterSearchAttributeFocus:focus, textarea.ReadonlyBlobContentFilterSearchAttributeFocus:focus, select.ReadonlyBlobContentFilterSearchAttributeFocus:focus, .ReadonlyBlobContentFilterSearchAttributeFocus>A:focus,input.BlobInputFilterSearchAttributeFocus:focus, textarea.BlobInputFilterSearchAttributeFocus:focus, select.BlobInputFilterSearchAttributeFocus:focus, .BlobInputFilterSearchAttributeFocus>A:focus,input.ReadonlyFilterSearchAttributeFocus:focus, textarea.ReadonlyFilterSearchAttributeFocus:focus, select.ReadonlyFilterSearchAttributeFocus:focus, .ReadonlyFilterSearchAttributeFocus>A:focus,input.DateFilterSearchAttribute:focus, textarea.DateFilterSearchAttribute:focus, select.DateFilterSearchAttribute:focus, .DateFilterSearchAttribute>A:focus,input.BlobContentDateFilterSearchAttribute:focus, textarea.BlobContentDateFilterSearchAttribute:focus, select.BlobContentDateFilterSearchAttribute:focus, .BlobContentDateFilterSearchAttribute>A:focus,input.ReadonlyBlobContentDateFilterSearchAttribute:focus, textarea.ReadonlyBlobContentDateFilterSearchAttribute:focus, select.ReadonlyBlobContentDateFilterSearchAttribute:focus, .ReadonlyBlobContentDateFilterSearchAttribute>A:focus,input.BlobInputDateFilterSearchAttribute:focus, textarea.BlobInputDateFilterSearchAttribute:focus, select.BlobInputDateFilterSearchAttribute:focus, .BlobInputDateFilterSearchAttribute>A:focus,input.ReadonlyDateFilterSearchAttribute:focus, textarea.ReadonlyDateFilterSearchAttribute:focus, select.ReadonlyDateFilterSearchAttribute:focus, .ReadonlyDateFilterSearchAttribute>A:focus,.DateFilterSearchAttribute,.BlobContentDateFilterSearchAttribute,.ReadonlyBlobContentDateFilterSearchAttribute,.BlobInputDateFilterSearchAttribute,.ReadonlyDateFilterSearchAttribute,.FilterPanel,.BlobContentFilterPanel,.ReadonlyBlobContentFilterPanel,.BlobInputFilterPanel,.ReadonlyFilterPanel
+{
+	border-bottom-color: #eaeaea;
+	border-left-color: #eaeaea;
+	border-right-color: #eaeaea;
+	border-top-color: #eaeaea;
+	border-style: solid;
+	border-width: 1px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	width: auto;
+	max-width: 100%;
+	text-align: left;
+	overflow-wrap: break-word;
+}
+.ReadonlyVideoAttribute
+{
+	display: inline-block;
+	background-image: none;
+	border-width: 0px;
+	height: 64px;
+	width: 64px;
+}
+.ReadonlyAudioAttribute
+{
+	display: inline-block;
+	background-image: none;
+	border-width: 0px;
+	height: 64px;
+	width: 64px;
+}
+.ReadonlyDescriptionAttribute
+{
+	border-style: none;
+}
+.ReadonlyBlobContentTextAttribute
+{
+	border-width: 0px;
+}
+.ReadonlyTextAttribute
+{
+	border-width: 0px;
+}
+.TextActionAttribute,.BlobContentTextActionAttribute,.ReadonlyBlobContentTextActionAttribute,.BlobInputTextActionAttribute,.ReadonlyTextActionAttribute,.LowerTextActionAttribute,.BlobContentLowerTextActionAttribute,.ReadonlyBlobContentLowerTextActionAttribute,.BlobInputLowerTextActionAttribute,.ReadonlyLowerTextActionAttribute,.LowerTextActionAttribute:hover,.ReadonlyLowerTextActionAttribute>A:hover,.BlobContentLowerTextActionAttribute:hover,.ReadonlyBlobContentLowerTextActionAttribute:hover,.BlobInputLowerTextActionAttribute:hover,.ReadonlyLowerTextActionAttribute:hover,.ReadonlyLowerTextActionAttribute>A,.LowerTextActionAttribute:hover>A,.BlobContentLowerTextActionAttribute:hover>A,.ReadonlyBlobContentLowerTextActionAttribute:hover>A,.BlobInputLowerTextActionAttribute:hover>A,.ReadonlyLowerTextActionAttribute:hover>A,.TextActionAttribute>A,.BlobContentTextActionAttribute>A,.ReadonlyBlobContentTextActionAttribute>A,.BlobInputTextActionAttribute>A,.ReadonlyTextActionAttribute>A,.LowerTextActionAttribute>A,.BlobContentLowerTextActionAttribute>A,.ReadonlyBlobContentLowerTextActionAttribute>A,.BlobInputLowerTextActionAttribute>A,.ReadonlyLowerTextActionAttribute>A:hover>A
+{
+	overflow: hidden;
+	white-space: nowrap;
+	border-width: 0px;
+	font-size: 12px;
+	color: #b80545;
+	width: 100%;
+	letter-spacing: 1.8px;
+	text-align: center;
+	text-transform: uppercase;
+	text-overflow: ellipsis;
+}
+.LowerTextActionAttribute,.BlobContentLowerTextActionAttribute,.ReadonlyBlobContentLowerTextActionAttribute,.BlobInputLowerTextActionAttribute,.ReadonlyLowerTextActionAttribute,.LowerTextActionAttribute:hover,.ReadonlyLowerTextActionAttribute>A:hover,.BlobContentLowerTextActionAttribute:hover,.ReadonlyBlobContentLowerTextActionAttribute:hover,.BlobInputLowerTextActionAttribute:hover,.ReadonlyLowerTextActionAttribute:hover,.ReadonlyLowerTextActionAttribute>A,.LowerTextActionAttribute:hover>A,.BlobContentLowerTextActionAttribute:hover>A,.ReadonlyBlobContentLowerTextActionAttribute:hover>A,.BlobInputLowerTextActionAttribute:hover>A,.ReadonlyLowerTextActionAttribute:hover>A
+{
+	text-transform: none;
+	overflow-wrap: break-word;
+	text-decoration:none;
+}
+.ReadonlyDownloadAttribute
+{
+	display: inline-block;
+	border-width: 0px;
+	height: 64px;
+	width: 64px;
+}
+.ReadonlyAttribute,.ReadonlyMedio,.BlobContentReadonlyMedio,.ReadonlyBlobContentReadonlyMedio,.BlobInputReadonlyMedio,.ReadonlyReadonlyMedio
+{
+	border-style: none;
+	overflow-wrap: break-word;
+	 word-wrap: break-word;
+}
+.ErrorAttribute
+{
+	border-bottom-color: red;
+	border-left-color: red;
+	border-right-color: red;
+	border-top-color: red;
+}
+.WarningAttribute
+{
+	border-bottom-color: #ff8000;
+	border-left-color: #ff8000;
+	border-right-color: #ff8000;
+	border-top-color: #ff8000;
+	border-style: dotted;
+}
+.ImageAttribute,.ReadonlyImageAttribute,.ActionImageAttribute,.BlobContentActionImageAttribute,.ReadonlyBlobContentActionImageAttribute,.ReadonlyActionImageAttribute,.DeleteAttribute,.BlobContentDeleteAttribute,.ReadonlyBlobContentDeleteAttribute,.ReadonlyDeleteAttribute,.BlobInputDeleteAttribute,.DisplayAttribute,.BlobContentDisplayAttribute,.ReadonlyBlobContentDisplayAttribute,.ReadonlyDisplayAttribute,.BlobInputDisplayAttribute,.DisabledActionAttribute,.BlobContentDisabledActionAttribute,.ReadonlyBlobContentDisabledActionAttribute,.ReadonlyDisabledActionAttribute,.BlobInputDisabledActionAttribute,.BlobInputActionImageAttribute,.UpdateAttribute,.BlobContentUpdateAttribute,.ReadonlyBlobContentUpdateAttribute,.ReadonlyUpdateAttribute,.BlobInputUpdateAttribute,.SelectionAttribute,.BlobContentSelectionAttribute,.ReadonlyBlobContentSelectionAttribute,.ReadonlySelectionAttribute,.BlobInputSelectionAttribute,.ProfileImageAttribute,.BlobContentProfileImageAttribute,.ReadonlyBlobContentProfileImageAttribute,.BlobInputProfileImageAttribute,.ReadonlyProfileImageAttribute,.SmallProfileImageAttribute,.BlobContentSmallProfileImageAttribute,.ReadonlyBlobContentSmallProfileImageAttribute,.BlobInputSmallProfileImageAttribute,.ReadonlySmallProfileImageAttribute,.ResponsiveImageAttribute,.BlobContentResponsiveImageAttribute,.ReadonlyBlobContentResponsiveImageAttribute,.ReadonlyResponsiveImageAttribute,.BlobInputResponsiveImageAttribute
+{
+	border-style: none;
+	max-height: 40px;
+	max-width: 40px;
+}
+.ReadonlyImageAttribute
+{
+	border-width: 0px;
+	width: 50px;
+	max-width:124px;
+	max-height:68px;
+}
+.ActionImageAttribute,.BlobContentActionImageAttribute,.ReadonlyBlobContentActionImageAttribute,.ReadonlyActionImageAttribute,.DeleteAttribute,.BlobContentDeleteAttribute,.ReadonlyBlobContentDeleteAttribute,.ReadonlyDeleteAttribute,.BlobInputDeleteAttribute,.DisplayAttribute,.BlobContentDisplayAttribute,.ReadonlyBlobContentDisplayAttribute,.ReadonlyDisplayAttribute,.BlobInputDisplayAttribute,.DisabledActionAttribute,.BlobContentDisabledActionAttribute,.ReadonlyBlobContentDisabledActionAttribute,.ReadonlyDisabledActionAttribute,.BlobInputDisabledActionAttribute,.BlobInputActionImageAttribute,.UpdateAttribute,.BlobContentUpdateAttribute,.ReadonlyBlobContentUpdateAttribute,.ReadonlyUpdateAttribute,.BlobInputUpdateAttribute,.SelectionAttribute,.BlobContentSelectionAttribute,.ReadonlyBlobContentSelectionAttribute,.ReadonlySelectionAttribute,.BlobInputSelectionAttribute
+{
+	width: 30px;
+}
+.SelectionAttribute,.BlobContentSelectionAttribute,.ReadonlyBlobContentSelectionAttribute,.ReadonlySelectionAttribute,.BlobInputSelectionAttribute
+{
+	width: inherit;
+}
+.ProfileImageAttribute,.BlobContentProfileImageAttribute,.ReadonlyBlobContentProfileImageAttribute,.BlobInputProfileImageAttribute,.ReadonlyProfileImageAttribute,.SmallProfileImageAttribute,.BlobContentSmallProfileImageAttribute,.ReadonlyBlobContentSmallProfileImageAttribute,.BlobInputSmallProfileImageAttribute,.ReadonlySmallProfileImageAttribute
+{
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
+	border-bottom-right-radius: 100%;
+	border-bottom-left-radius: 100%;
+	max-height: 120px;
+	max-width: 120px;
+}
+.ReadonlyBlobContentProfileImageAttribute
+{
+	border-width: 0px;
+}
+.ReadonlyProfileImageAttribute
+{
+	border-width: 0px;
+}
+.SmallProfileImageAttribute,.BlobContentSmallProfileImageAttribute,.ReadonlyBlobContentSmallProfileImageAttribute,.BlobInputSmallProfileImageAttribute,.ReadonlySmallProfileImageAttribute
+{
+	margin-top: -8px;
+	max-height: 60px;
+	max-width: 60px;
+}
+.ReadonlyBlobContentSmallProfileImageAttribute
+{
+	border-width: 0px;
+}
+.ReadonlySmallProfileImageAttribute
+{
+	border-width: 0px;
+}
+.ResponsiveImageAttribute,.BlobContentResponsiveImageAttribute,.ReadonlyBlobContentResponsiveImageAttribute,.ReadonlyResponsiveImageAttribute,.BlobInputResponsiveImageAttribute
+{
+	max-height: 100%;
+	max-width: 100%;
+}
+.AttSubTitle,.BlobInputAttSubTitle,.BlobContentAttSubTitle,.ReadonlyBlobContentAttSubTitle,.ReadonlyAttSubTitle
+{
+	font-size: 18px;
+}
+.CheckboxLabel,.BlobContentCheckboxLabel,.ReadonlyBlobContentCheckboxLabel,.BlobInputCheckboxLabel,.ReadonlyCheckboxLabel
+{
+	border-style: none;
+}
+.CheckBox,.BlobContentCheckBox,.ReadonlyBlobContentCheckBox,.BlobInputCheckBox,.ReadonlyCheckBox
+{
+	padding-left: 12px;
+	display: inline;
+	list-style-image: none;
+	border-style: none;
+	border-width: 2px;
+}
+.LoginAttribute,.BlobContentLoginAttribute,.ReadonlyBlobContentLoginAttribute,.BlobInputLoginAttribute,.ReadonlyLoginAttribute,.LoginComboAttribute,.BlobContentLoginComboAttribute,.ReadonlyBlobContentLoginComboAttribute,.BlobInputLoginComboAttribute,.ReadonlyLoginComboAttribute,.RegistrationAttribute,.BlobContentRegistrationAttribute,.ReadonlyBlobContentRegistrationAttribute,.BlobInputRegistrationAttribute,.ReadonlyRegistrationAttribute
+{
+	margin-top: 16px;
+	background-color: white;
+	font-size: 12px;
+	color: #2a3143;
+	height: 50px;
+	width: 240px;
+}
+.ReadonlyBlobContentLoginAttribute
+{
+	border-width: 0px;
+}
+.ReadonlyLoginAttribute
+{
+	border-width: 0px;
+}
+.LoginComboAttribute,.BlobContentLoginComboAttribute,.ReadonlyBlobContentLoginComboAttribute,.BlobInputLoginComboAttribute,.ReadonlyLoginComboAttribute
+{
+	background-position: 95% center;
+	background-repeat: no-repeat;
+	margin-left: -30px;
+	padding-right: 20px;
+	background-image: none;
+	height: 30px;
+}
+.ReadonlyBlobContentLoginComboAttribute
+{
+	border-width: 0px;
+}
+.ReadonlyLoginComboAttribute
+{
+	border-width: 0px;
+}
+.RegistrationAttribute,.BlobContentRegistrationAttribute,.ReadonlyBlobContentRegistrationAttribute,.BlobInputRegistrationAttribute,.ReadonlyRegistrationAttribute
+{
+	width: 270px;
+}
+.ReadonlyBlobContentRegistrationAttribute
+{
+	border-width: 0px;
+}
+.ReadonlyRegistrationAttribute
+{
+	border-width: 0px;
+}
+.RequiredAttribute,.BlobContentRequiredAttribute,.ReadonlyBlobContentRequiredAttribute,.BlobInputRequiredAttribute,.ReadonlyRequiredAttribute
+{
+	text-align: left !important;
+}
+.ReadonlyBlobContentRequiredAttribute
+{
+	border-width: 0px;
+}
+.ReadonlyRequiredAttribute
+{
+	border-width: 0px;
+}
+.InactiveAttribute,.BlobContentInactiveAttribute,.ReadonlyBlobContentInactiveAttribute,.BlobInputInactiveAttribute,.ReadonlyInactiveAttribute
+{
+	border-style: none;
+	color: #eaeaea;
+}
+.ReadonlyBlobContentInactiveAttribute
+{
+	border-width: 0px;
+}
+.ReadonlyInactiveAttribute
+{
+	border-width: 0px;
+}
+.ComboAttribute,.BlobContentComboAttribute,.ReadonlyBlobContentComboAttribute,.BlobInputComboAttribute,.ReadonlyComboAttribute
+{
+	width: 150px;
+}
+.ReadonlyBlobContentComboAttribute
+{
+	border-width: 0px;
+}
+.ReadonlyComboAttribute
+{
+	border-width: 0px;
+}
+.SubtitleAttribute,.BlobContentSubtitleAttribute,.ReadonlyBlobContentSubtitleAttribute,.BlobInputSubtitleAttribute,.ReadonlySubtitleAttribute
+{
+	margin-right: -35px;
+	margin-top: 2px;
+	width: 200px;
+}
+.ReadonlyBlobContentSubtitleAttribute
+{
+	border-width: 0px;
+}
+.ReadonlySubtitleAttribute
+{
+	border-style: none;
+}
+.ReadonlyBlobContentURLAttribute
+{
+	border-width: 0px;
+}
+.ReadonlyURLAttribute
+{
+	border-width: 0px;
+}
+.FilterAttribute,.ReadonlyFilterSearchAttribute,.BlobContentFilterAttribute,.ReadonlyBlobContentFilterAttribute,.BlobInputFilterAttribute,.ReadonlyFilterAttribute,.FilterComboAttribute,.BlobContentFilterComboAttribute,.ReadonlyBlobContentFilterComboAttribute,.BlobInputFilterComboAttribute,.ReadonlyFilterComboAttribute,.FilterSearchAttribute,.BlobContentFilterSearchAttribute,.ReadonlyBlobContentFilterSearchAttribute,.BlobInputFilterSearchAttribute,.FilterSearchAttributeFocus,.BlobContentFilterSearchAttributeFocus,.ReadonlyBlobContentFilterSearchAttributeFocus,.BlobInputFilterSearchAttributeFocus,.ReadonlyFilterSearchAttributeFocus,input.FilterSearchAttribute:focus, textarea.FilterSearchAttribute:focus, select.FilterSearchAttribute:focus, .FilterSearchAttribute>A:focus,input.BlobContentFilterSearchAttribute:focus, textarea.BlobContentFilterSearchAttribute:focus, select.BlobContentFilterSearchAttribute:focus, .BlobContentFilterSearchAttribute>A:focus,input.ReadonlyBlobContentFilterSearchAttribute:focus, textarea.ReadonlyBlobContentFilterSearchAttribute:focus, select.ReadonlyBlobContentFilterSearchAttribute:focus, .ReadonlyBlobContentFilterSearchAttribute>A:focus,input.BlobInputFilterSearchAttribute:focus, textarea.BlobInputFilterSearchAttribute:focus, select.BlobInputFilterSearchAttribute:focus, .BlobInputFilterSearchAttribute>A:focus,input.FilterSearchAttributeFocus:focus, textarea.FilterSearchAttributeFocus:focus, select.FilterSearchAttributeFocus:focus, .FilterSearchAttributeFocus>A:focus,input.BlobContentFilterSearchAttributeFocus:focus, textarea.BlobContentFilterSearchAttributeFocus:focus, select.BlobContentFilterSearchAttributeFocus:focus, .BlobContentFilterSearchAttributeFocus>A:focus,input.ReadonlyBlobContentFilterSearchAttributeFocus:focus, textarea.ReadonlyBlobContentFilterSearchAttributeFocus:focus, select.ReadonlyBlobContentFilterSearchAttributeFocus:focus, .ReadonlyBlobContentFilterSearchAttributeFocus>A:focus,input.BlobInputFilterSearchAttributeFocus:focus, textarea.BlobInputFilterSearchAttributeFocus:focus, select.BlobInputFilterSearchAttributeFocus:focus, .BlobInputFilterSearchAttributeFocus>A:focus,input.ReadonlyFilterSearchAttributeFocus:focus, textarea.ReadonlyFilterSearchAttributeFocus:focus, select.ReadonlyFilterSearchAttributeFocus:focus, .ReadonlyFilterSearchAttributeFocus>A:focus,input.DateFilterSearchAttribute:focus, textarea.DateFilterSearchAttribute:focus, select.DateFilterSearchAttribute:focus, .DateFilterSearchAttribute>A:focus,input.BlobContentDateFilterSearchAttribute:focus, textarea.BlobContentDateFilterSearchAttribute:focus, select.BlobContentDateFilterSearchAttribute:focus, .BlobContentDateFilterSearchAttribute>A:focus,input.ReadonlyBlobContentDateFilterSearchAttribute:focus, textarea.ReadonlyBlobContentDateFilterSearchAttribute:focus, select.ReadonlyBlobContentDateFilterSearchAttribute:focus, .ReadonlyBlobContentDateFilterSearchAttribute>A:focus,input.BlobInputDateFilterSearchAttribute:focus, textarea.BlobInputDateFilterSearchAttribute:focus, select.BlobInputDateFilterSearchAttribute:focus, .BlobInputDateFilterSearchAttribute>A:focus,input.ReadonlyDateFilterSearchAttribute:focus, textarea.ReadonlyDateFilterSearchAttribute:focus, select.ReadonlyDateFilterSearchAttribute:focus, .ReadonlyDateFilterSearchAttribute>A:focus,.DateFilterSearchAttribute,.BlobContentDateFilterSearchAttribute,.ReadonlyBlobContentDateFilterSearchAttribute,.BlobInputDateFilterSearchAttribute,.ReadonlyDateFilterSearchAttribute,.FilterPanel,.BlobContentFilterPanel,.ReadonlyBlobContentFilterPanel,.BlobInputFilterPanel,.ReadonlyFilterPanel
+{
+	margin-top: 30px;
+	padding-right: 20px;
+	background-color: white;
+	background-image: none;
+	color: #2a3143;
+	width: 97%;
+}
+.ReadonlyBlobContentFilterAttribute
+{
+	border-width: 0px;
+}
+.ReadonlyFilterAttribute
+{
+	border-width: 0px;
+}
+.FilterComboAttribute,.BlobContentFilterComboAttribute,.ReadonlyBlobContentFilterComboAttribute,.BlobInputFilterComboAttribute,.ReadonlyFilterComboAttribute
+{
+	max-width: 324px;
+}
+.ReadonlyBlobContentFilterComboAttribute
+{
+	border-width: 0px;
+}
+.ReadonlyFilterComboAttribute
+{
+	border-width: 0px;
+}
+.FilterSearchAttribute,.BlobContentFilterSearchAttribute,.ReadonlyBlobContentFilterSearchAttribute,.BlobInputFilterSearchAttribute,.FilterSearchAttributeFocus,.BlobContentFilterSearchAttributeFocus,.ReadonlyBlobContentFilterSearchAttributeFocus,.BlobInputFilterSearchAttributeFocus,.ReadonlyFilterSearchAttributeFocus,input.FilterSearchAttribute:focus, textarea.FilterSearchAttribute:focus, select.FilterSearchAttribute:focus, .FilterSearchAttribute>A:focus,input.BlobContentFilterSearchAttribute:focus, textarea.BlobContentFilterSearchAttribute:focus, select.BlobContentFilterSearchAttribute:focus, .BlobContentFilterSearchAttribute>A:focus,input.ReadonlyBlobContentFilterSearchAttribute:focus, textarea.ReadonlyBlobContentFilterSearchAttribute:focus, select.ReadonlyBlobContentFilterSearchAttribute:focus, .ReadonlyBlobContentFilterSearchAttribute>A:focus,input.BlobInputFilterSearchAttribute:focus, textarea.BlobInputFilterSearchAttribute:focus, select.BlobInputFilterSearchAttribute:focus, .BlobInputFilterSearchAttribute>A:focus,input.FilterSearchAttributeFocus:focus, textarea.FilterSearchAttributeFocus:focus, select.FilterSearchAttributeFocus:focus, .FilterSearchAttributeFocus>A:focus,input.BlobContentFilterSearchAttributeFocus:focus, textarea.BlobContentFilterSearchAttributeFocus:focus, select.BlobContentFilterSearchAttributeFocus:focus, .BlobContentFilterSearchAttributeFocus>A:focus,input.ReadonlyBlobContentFilterSearchAttributeFocus:focus, textarea.ReadonlyBlobContentFilterSearchAttributeFocus:focus, select.ReadonlyBlobContentFilterSearchAttributeFocus:focus, .ReadonlyBlobContentFilterSearchAttributeFocus>A:focus,input.BlobInputFilterSearchAttributeFocus:focus, textarea.BlobInputFilterSearchAttributeFocus:focus, select.BlobInputFilterSearchAttributeFocus:focus, .BlobInputFilterSearchAttributeFocus>A:focus,input.ReadonlyFilterSearchAttributeFocus:focus, textarea.ReadonlyFilterSearchAttributeFocus:focus, select.ReadonlyFilterSearchAttributeFocus:focus, .ReadonlyFilterSearchAttributeFocus>A:focus,input.DateFilterSearchAttribute:focus, textarea.DateFilterSearchAttribute:focus, select.DateFilterSearchAttribute:focus, .DateFilterSearchAttribute>A:focus,input.BlobContentDateFilterSearchAttribute:focus, textarea.BlobContentDateFilterSearchAttribute:focus, select.BlobContentDateFilterSearchAttribute:focus, .BlobContentDateFilterSearchAttribute>A:focus,input.ReadonlyBlobContentDateFilterSearchAttribute:focus, textarea.ReadonlyBlobContentDateFilterSearchAttribute:focus, select.ReadonlyBlobContentDateFilterSearchAttribute:focus, .ReadonlyBlobContentDateFilterSearchAttribute>A:focus,input.BlobInputDateFilterSearchAttribute:focus, textarea.BlobInputDateFilterSearchAttribute:focus, select.BlobInputDateFilterSearchAttribute:focus, .BlobInputDateFilterSearchAttribute>A:focus,input.ReadonlyDateFilterSearchAttribute:focus, textarea.ReadonlyDateFilterSearchAttribute:focus, select.ReadonlyDateFilterSearchAttribute:focus, .ReadonlyDateFilterSearchAttribute>A:focus,.DateFilterSearchAttribute,.BlobContentDateFilterSearchAttribute,.ReadonlyBlobContentDateFilterSearchAttribute,.BlobInputDateFilterSearchAttribute,.ReadonlyDateFilterSearchAttribute
+{
+	background-position: 14px center;
+	background-repeat: no-repeat;
+	border-bottom: 2px solid #eaeaea;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	margin-top: 0px;
+	padding-left: 40px;
+	padding-right: 0px;
+	list-style-image: none;
+	background-image: url(../CarmineGAM/ActionDisplay.png);
+	max-height: 34px;
+	width: 100%;
+	max-width: 324px;
+	box-shadow:none;
+	  -webkit-box-shadow: none;
+}
+.FilterSearchAttributeFocus,.BlobContentFilterSearchAttributeFocus,.ReadonlyBlobContentFilterSearchAttributeFocus,.BlobInputFilterSearchAttributeFocus,.ReadonlyFilterSearchAttributeFocus,input.FilterSearchAttribute:focus, textarea.FilterSearchAttribute:focus, select.FilterSearchAttribute:focus, .FilterSearchAttribute>A:focus,input.BlobContentFilterSearchAttribute:focus, textarea.BlobContentFilterSearchAttribute:focus, select.BlobContentFilterSearchAttribute:focus, .BlobContentFilterSearchAttribute>A:focus,input.ReadonlyBlobContentFilterSearchAttribute:focus, textarea.ReadonlyBlobContentFilterSearchAttribute:focus, select.ReadonlyBlobContentFilterSearchAttribute:focus, .ReadonlyBlobContentFilterSearchAttribute>A:focus,input.BlobInputFilterSearchAttribute:focus, textarea.BlobInputFilterSearchAttribute:focus, select.BlobInputFilterSearchAttribute:focus, .BlobInputFilterSearchAttribute>A:focus,input.FilterSearchAttributeFocus:focus, textarea.FilterSearchAttributeFocus:focus, select.FilterSearchAttributeFocus:focus, .FilterSearchAttributeFocus>A:focus,input.BlobContentFilterSearchAttributeFocus:focus, textarea.BlobContentFilterSearchAttributeFocus:focus, select.BlobContentFilterSearchAttributeFocus:focus, .BlobContentFilterSearchAttributeFocus>A:focus,input.ReadonlyBlobContentFilterSearchAttributeFocus:focus, textarea.ReadonlyBlobContentFilterSearchAttributeFocus:focus, select.ReadonlyBlobContentFilterSearchAttributeFocus:focus, .ReadonlyBlobContentFilterSearchAttributeFocus>A:focus,input.BlobInputFilterSearchAttributeFocus:focus, textarea.BlobInputFilterSearchAttributeFocus:focus, select.BlobInputFilterSearchAttributeFocus:focus, .BlobInputFilterSearchAttributeFocus>A:focus,input.ReadonlyFilterSearchAttributeFocus:focus, textarea.ReadonlyFilterSearchAttributeFocus:focus, select.ReadonlyFilterSearchAttributeFocus:focus, .ReadonlyFilterSearchAttributeFocus>A:focus,input.DateFilterSearchAttribute:focus, textarea.DateFilterSearchAttribute:focus, select.DateFilterSearchAttribute:focus, .DateFilterSearchAttribute>A:focus,input.BlobContentDateFilterSearchAttribute:focus, textarea.BlobContentDateFilterSearchAttribute:focus, select.BlobContentDateFilterSearchAttribute:focus, .BlobContentDateFilterSearchAttribute>A:focus,input.ReadonlyBlobContentDateFilterSearchAttribute:focus, textarea.ReadonlyBlobContentDateFilterSearchAttribute:focus, select.ReadonlyBlobContentDateFilterSearchAttribute:focus, .ReadonlyBlobContentDateFilterSearchAttribute>A:focus,input.BlobInputDateFilterSearchAttribute:focus, textarea.BlobInputDateFilterSearchAttribute:focus, select.BlobInputDateFilterSearchAttribute:focus, .BlobInputDateFilterSearchAttribute>A:focus,input.ReadonlyDateFilterSearchAttribute:focus, textarea.ReadonlyDateFilterSearchAttribute:focus, select.ReadonlyDateFilterSearchAttribute:focus, .ReadonlyDateFilterSearchAttribute>A:focus
+{
+	box-shadow: 0px 0px 0px 0px none;
+}
+.BlobContentFilterSearchAttributeFocus,.ReadonlyBlobContentFilterSearchAttributeFocus
+{
+	box-shadow: 0px 0px 0px 0px none;
+}
+.ReadonlyBlobContentFilterSearchAttributeFocus
+{
+	box-shadow: 0px 0px 0px 0px none;
+	border-width: 0px;
+}
+.BlobInputFilterSearchAttributeFocus
+{
+	box-shadow: 0px 0px 0px 0px none;
+}
+.ReadonlyFilterSearchAttributeFocus
+{
+	box-shadow: 0px 0px 0px 0px none;
+	border-width: 0px;
+}
+.DateFilterSearchAttribute,.BlobContentDateFilterSearchAttribute,.ReadonlyBlobContentDateFilterSearchAttribute,.BlobInputDateFilterSearchAttribute,.ReadonlyDateFilterSearchAttribute,input.DateFilterSearchAttribute:focus, textarea.DateFilterSearchAttribute:focus, select.DateFilterSearchAttribute:focus, .DateFilterSearchAttribute>A:focus,input.BlobContentDateFilterSearchAttribute:focus, textarea.BlobContentDateFilterSearchAttribute:focus, select.BlobContentDateFilterSearchAttribute:focus, .BlobContentDateFilterSearchAttribute>A:focus,input.ReadonlyBlobContentDateFilterSearchAttribute:focus, textarea.ReadonlyBlobContentDateFilterSearchAttribute:focus, select.ReadonlyBlobContentDateFilterSearchAttribute:focus, .ReadonlyBlobContentDateFilterSearchAttribute>A:focus,input.BlobInputDateFilterSearchAttribute:focus, textarea.BlobInputDateFilterSearchAttribute:focus, select.BlobInputDateFilterSearchAttribute:focus, .BlobInputDateFilterSearchAttribute>A:focus,input.ReadonlyDateFilterSearchAttribute:focus, textarea.ReadonlyDateFilterSearchAttribute:focus, select.ReadonlyDateFilterSearchAttribute:focus, .ReadonlyDateFilterSearchAttribute>A:focus
+{
+	padding-right: 55px;
+}
+.ReadonlyBlobContentDateFilterSearchAttribute
+{
+	border-width: 0px;
+}
+.ReadonlyDateFilterSearchAttribute
+{
+	border-width: 0px;
+}
+.FilterPanel,.BlobContentFilterPanel,.ReadonlyBlobContentFilterPanel,.BlobInputFilterPanel,.ReadonlyFilterPanel
+{
+	border-style: none;
+	border-width: 0px;
+	height: 37px;
+	max-width: 100%;
+	-webkit-appearance:none;
+	 z-index: 10;
+	 width: calc(100% - 15px);
+}
+.Button,.ButtonDragging,.ButtonAcceptDrag,.ButtonNoAcceptDrag,.ButtonGAM,.ButtonDisabled,.SpecialButtons,.BtnHelp,.BtnRefresh,.BtnFirst,.BtnGet,.BtnCancel,.BtnCancel:focus,.BtnDelete:focus,.BtnCheck,.BtnDelete,.BtnEnter,.BottomEnter,.BtnEnter:focus,.BottomEnter:focus,.SpecialButtonsDisabled,.BtnToggle,.BtnToggleActive,.BtnLogin,.BtnAdd,.BtnAddHovered,.BtnAdd:hover,.BtnAdd:focus:hover,.BtnAddHovered:focus:hover,.BtnAddHovered:hover,.BtnAdd:focus,.BtnAddHovered:focus,.BtnAdd:hover:focus,.BtnAddHovered:hover:focus,.BtnBack,.HideFiltersButton,.ShowFiltersButton,.BtnEnterHovered,.BtnEnter:hover,.BtnEnter:focus:hover,.BottomEnter:focus:hover,.BottomEnter:hover,.BtnCancelHovered,.BtnCancel:hover,.BtnCancel:focus:hover,.BtnDelete:focus:hover,.BtnDelete:hover,.BtnLast,.BtnNext,.BtnPrevious,.BtnSelect,.BtnDeleteDisabled,.BtnDelete[disabled],.ActionButtons,.ActionButtonsHovered,.ActionButtons:hover,.ActionButtons:focus:hover,.ActionButtonsHovered:focus:hover,.ActionButtonsHovered:hover,.ActionButtons:focus,.ActionButtonsHovered:focus,.ActionButtons:hover:focus,.ActionButtonsHovered:hover:focus,.MainMenuButton,.MainMenuButton:focus,.MainMenuButton:active,.gx-navbar.ActionGroup .navbar-header>button,.gx-navbar.MainMenu .navbar-header>button,.gx-navbar.Submenu .navbar-header>button,.gx-navbar.Confirm .navbar-header>button,.gx-navbar.WWViewActions .navbar-header>button
+{
+	border-style: outset;
+	border-width: 2px;
+}
+
+.SpecialButtons,.BtnHelp,.BtnRefresh,.BtnFirst,.BtnGet,.BtnCancel,.BtnCancel:focus,.BtnDelete:focus,.BtnCheck,.BtnDelete,.BtnEnter,.BottomEnter,.BtnEnter:focus,.BottomEnter:focus,.SpecialButtonsDisabled,.BtnToggle,.BtnToggleActive,.BtnLogin,.BtnAdd,.BtnAddHovered,.BtnAdd:hover,.BtnAdd:focus:hover,.BtnAddHovered:focus:hover,.BtnAddHovered:hover,.BtnAdd:focus,.BtnAddHovered:focus,.BtnAdd:hover:focus,.BtnAddHovered:hover:focus,.BtnBack,.HideFiltersButton,.ShowFiltersButton,.BtnEnterHovered,.BtnEnter:hover,.BtnEnter:focus:hover,.BottomEnter:focus:hover,.BottomEnter:hover,.BtnCancelHovered,.BtnCancel:hover,.BtnCancel:focus:hover,.BtnDelete:focus:hover,.BtnDelete:hover,.BtnLast,.BtnNext,.BtnPrevious,.BtnSelect,.BtnDeleteDisabled,.BtnDelete[disabled]
+{
+	background-color: inherit;
+}
+
+.BtnFirst
+{
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-right: 3px;
+	margin-top: 5px;
+	background-image: url(../CarmineGAM/PageFirst.png);
+	border-width: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #b80545;
+	height: 28px;
+	width: 28px;
+	letter-spacing: 1.8px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.BtnCancel,.BtnCancel:focus,.BtnDelete:focus
+{
+	background-color: #efefef;
+	border-style: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #b80545;
+	height: 40px;
+	width: 140px;
+	letter-spacing: 1.8px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.BtnDelete
+{
+	background-color: #efefef;
+	border-style: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #b80545;
+	height: 40px;
+	width: 140px;
+	letter-spacing: 1.8px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.BtnEnter,.BottomEnter,.BtnEnter:focus,.BottomEnter:focus
+{
+	background-color: #b80545;
+	border-style: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: white;
+	height: 40px;
+	width: 140px;
+	letter-spacing: 1.8px;
+	text-transform: uppercase;
+	text-align: center !important;
+}
+
+.BottomEnter
+{
+	margin-top: 20px;
+}
+
+.BtnLogin
+{
+	margin-bottom: 20px;
+	margin-top: 15px;
+	background-color: #b80545;
+	border-style: none;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+	height: 55px;
+	width: 240px;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+
+.BtnAdd,.BtnAddHovered,.BtnAdd:hover,.BtnAdd:focus:hover,.BtnAddHovered:focus:hover,.BtnAddHovered:hover,.BtnAdd:focus,.BtnAddHovered:focus,.BtnAdd:hover:focus,.BtnAddHovered:hover:focus
+{
+	background-position: 6px;
+	background-repeat: no-repeat;
+	margin-left: 0px;
+	margin-top: 1px;
+	padding-bottom: 6px;
+	padding-left: 27px;
+	padding-top: 7px;
+	background-image: url(../CarmineGAM/ActionInsert.png);
+	border-style: none;
+	border-width: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #b80545;
+	letter-spacing: 1.8px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.BtnAddHovered,.BtnAdd:hover,.BtnAdd:focus:hover,.BtnAddHovered:focus:hover,.BtnAddHovered:hover
+{
+	text-decoration: underline;
+}
+
+.BtnBack
+{
+	margin-top: 5px;
+	background-image: none;
+	border-style: none;
+	border-width: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #b80545;
+	letter-spacing: 1.8px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.HideFiltersButton,.ShowFiltersButton
+{
+	background-position: 6px;
+	background-repeat: no-repeat;
+	margin-top: 5px;
+	padding-left: 27px;
+	background-image: url(../CarmineGAM/ActionCancel.png);
+	border-style: none;
+	border-width: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #b80545;
+	letter-spacing: 1.8px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.ShowFiltersButton
+{
+	background-image: url(../CarmineGAM/selectRow.png);
+}
+
+.BtnEnterHovered,.BtnEnter:hover,.BtnEnter:focus:hover,.BottomEnter:focus:hover,.BottomEnter:hover
+{
+	background-color: #930437;
+	border-style: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: white;
+	height: 40px;
+	width: 140px;
+	letter-spacing: 1.8px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.BtnCancelHovered,.BtnCancel:hover,.BtnCancel:focus:hover,.BtnDelete:focus:hover,.BtnDelete:hover
+{
+	background-color: #eaeaea;
+	border-style: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #b80545;
+	height: 40px;
+	width: 140px;
+	letter-spacing: 1.8px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.BtnLast
+{
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-right: 3px;
+	margin-top: 5px;
+	background-image: url(../CarmineGAM/PageLast.png);
+	border-style: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #b80545;
+	height: 28px;
+	width: 28px;
+	letter-spacing: 1.8px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.BtnNext
+{
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-right: 3px;
+	margin-top: 5px;
+	background-image: url(../CarmineGAM/PageNext.png);
+	border-style: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #b80545;
+	height: 28px;
+	width: 28px;
+	letter-spacing: 1.8px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.BtnPrevious
+{
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-right: 3px;
+	margin-top: 5px;
+	background-image: url(../CarmineGAM/PagePrevious.png);
+	border-style: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #b80545;
+	height: 28px;
+	width: 28px;
+	letter-spacing: 1.8px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.BtnSelect
+{
+	margin-top: 5px;
+	border-style: none;
+	border-width: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #b80545;
+	letter-spacing: 1.8px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.BtnDeleteDisabled,.BtnDelete[disabled]
+{
+	visibility: hidden;
+}
+
+.ActionButtons,.ActionButtonsHovered,.ActionButtons:hover,.ActionButtons:focus:hover,.ActionButtonsHovered:focus:hover,.ActionButtonsHovered:hover,.ActionButtons:focus,.ActionButtonsHovered:focus,.ActionButtons:hover:focus,.ActionButtonsHovered:hover:focus
+{
+	margin-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	background-color: inherit;
+	background-image: none;
+	border-style: none;
+	border-width: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #b80545;
+	letter-spacing: 1.8px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.ActionButtonsHovered,.ActionButtons:hover,.ActionButtons:focus:hover,.ActionButtonsHovered:focus:hover,.ActionButtonsHovered:hover
+{
+	text-decoration: underline;
+}
+
+.MainMenuButton,.MainMenuButton:focus,.MainMenuButton:active,.gx-navbar.ActionGroup .navbar-header>button,.gx-navbar.MainMenu .navbar-header>button,.gx-navbar.Submenu .navbar-header>button,.gx-navbar.Confirm .navbar-header>button,.gx-navbar.WWViewActions .navbar-header>button
+{
+	float: left;
+	border-style: none;
+}
+
+.GridRow
+{
+	list-style-image: none;
+}
+.Image,.ImageDragging,.ImageAcceptDrag,.ImageNoAcceptDrag,.ImageHeaderBackground,.ImageTop,.HeaderImage1,.ImageTopHeader,.ImageHandCenter,.ImageHandCenter:hover,.TabPaging,.TabPagingNext,.TabPagingPrevious,.ResponsiveImage,.PopupButtons,.PopupButtonsClose,.PopupButtonsCloseHovered,.PopupButtonsClose:hover,.Popup span.gx-popup-close:hover,.Form .gx-popup.gx-popup-default span.gx-popup-close:hover,.PopupButtonsCloseHovered:hover,.Popup span.gx-popup-close,.Form .gx-popup.gx-popup-default span.gx-popup-close,.PopupButtonsResize,.Popup div.gx-popup-resize,.Form .gx-popup.gx-popup-default div.gx-popup-resize,.PoweredBy,.PagingButtons,.PagingButtonsFirst,.PagingButtonsLast,.PagingButtonsNext,.PagingButtonsPrevious,.ImageAdd,.ImageBack,.UnauthorizedImage,.RoundedImage,.RoundedImageTitle
+{
+	border-style: none;
+	border-width: 0px;
+	text-align: left;
+}
+.PopupButtonsClose,.PopupButtonsCloseHovered,.PopupButtonsClose:hover,.Popup span.gx-popup-close:hover,.Form .gx-popup.gx-popup-default span.gx-popup-close:hover,.PopupButtonsCloseHovered:hover,.Popup span.gx-popup-close,.Form .gx-popup.gx-popup-default span.gx-popup-close
+{
+	background-repeat: no-repeat;
+	float: right;
+	margin-right: 10px;
+	margin-top: -6px;
+	background-image: none;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 33px;
+	color: white;
+	cursor: pointer;
+	vertical-align: top;
+	opacity: .6;
+}
+.PopupButtonsClose:before,.PopupButtonsCloseHovered:before,.PopupButtonsClose:hover:before,.Popup span.gx-popup-close:hover:before,.Form .gx-popup.gx-popup-default span.gx-popup-close:hover:before,.PopupButtonsCloseHovered:hover:before,.Popup span.gx-popup-close:before,.Form .gx-popup.gx-popup-default span.gx-popup-close:before
+{
+	background-repeat: no-repeat;
+	float: right;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 33px;
+	color: white;
+	cursor: pointer;
+	vertical-align: top;
+	content: '';
+	opacity: .6;
+}
+
+.PopupButtonsClose:after,.PopupButtonsCloseHovered:after,.PopupButtonsClose:hover:after,.Popup span.gx-popup-close:hover:after,.Form .gx-popup.gx-popup-default span.gx-popup-close:hover:after,.PopupButtonsCloseHovered:hover:after,.Popup span.gx-popup-close:after,.Form .gx-popup.gx-popup-default span.gx-popup-close:after
+{
+	background-repeat: no-repeat;
+	float: right;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 33px;
+	color: white;
+	cursor: pointer;
+	vertical-align: top;
+	content: 'x';
+	opacity: .6;
+}
+
+.PopupButtonsCloseHovered,.PopupButtonsClose:hover,.Popup span.gx-popup-close:hover,.Form .gx-popup.gx-popup-default span.gx-popup-close:hover,.PopupButtonsCloseHovered:hover
+{
+	opacity: 1;
+}
+.PopupButtonsCloseHovered:before,.PopupButtonsClose:hover:before,.Popup span.gx-popup-close:hover:before,.Form .gx-popup.gx-popup-default span.gx-popup-close:hover:before,.PopupButtonsCloseHovered:hover:before
+{
+	opacity: 1;
+}
+
+.PopupButtonsCloseHovered:after,.PopupButtonsClose:hover:after,.Popup span.gx-popup-close:hover:after,.Form .gx-popup.gx-popup-default span.gx-popup-close:hover:after,.PopupButtonsCloseHovered:hover:after
+{
+	opacity: 1;
+}
+
+.PopupButtonsResize,.Popup div.gx-popup-resize,.Form .gx-popup.gx-popup-default div.gx-popup-resize
+{
+	float: right;
+	margin-right: 0px;
+	margin-top: 0px;
+	width: 7px;
+	cursor: se-resize;
+}
+.PoweredBy
+{
+	float: right;
+	margin-top: 20px;
+}
+.PagingButtons,.PagingButtonsFirst,.PagingButtonsLast,.PagingButtonsNext,.PagingButtonsPrevious
+{
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+}
+.PagingButtonsFirst
+{
+	background-image: url(../CarmineGAM/PageFirst.png);
+}
+.PagingButtonsLast
+{
+	background-image: url(../CarmineGAM/PageLast.png);
+}
+.PagingButtonsNext
+{
+	background-image: url(../CarmineGAM/PageNext.png);
+}
+.PagingButtonsPrevious
+{
+	background-image: url(../CarmineGAM/PagePrevious.png);
+}
+.ImageAdd
+{
+	margin-right: -15px;
+	margin-top: 4px;
+	padding-right: -15px;
+}
+.ImageBack
+{
+	margin-left: 55px;
+	margin-top: 22px;
+}
+.UnauthorizedImage
+{
+	margin-bottom: 60px;
+	margin-top: 170px;
+}
+.RoundedImage,.RoundedImageTitle
+{
+	margin-bottom: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	display: inline-block;
+	background-color: #930437;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	height: 35px;
+	width: 35px;
+	text-transform: uppercase;
+}
+.RoundedImageTitle
+{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: -7px;
+}
+.Tab,.WWTab
+{
+	border-style: none;
+	border-width: 0px;
+}
+.WWTab
+{
+	margin-left: 0px;
+	width: 100%;
+}
+.Table,.TableDragging,.TableAcceptDrag,.TableNoAcceptDrag,.TableContent,.TableLeftMenu,.TableHorizontalLine,.header_pink_line,.HorizontalSpace,.RecentLinksTable,.Table80,.Table95,.Table960,.TableGreyFooter,.TableBlackFooter,.TableBlackHeader,.Container,.ContainerFluid,.PromptContainer,.PromptMainTable,.GridTabMainTable,.ViewTable,.LevelTable,.MainContainer,.OrdersTable,.RecentLinksMainTable,.RecentLinksMainTableExpanded,.Table100x100,.TableBorder,.TableGrid,.TableTop,.TableTopSearch,.TableTopMenu,.TableBottom,.TableButtons,.Table435x370,.SmallTableLogin,.LargeTableLogin,.WelcomeTable,.BodyContainer,.LoginContainer,.HeaderContainer,.RecentLinksContainer,.ThinHeaderContainer,.FormContainer,.TabsFormContainer,.NegativeMarginTop10,.AdvancedContainer,.AdvancedContainerVisible,.WWAdvancedContainer,.TableHeaderRight,.TableLogo,.FiltersContainer,.FiltersContainerItem,.FilterContainerItemSearch,.Table193x216,.Table193x216Collapsed,.ActionsContainer,.ActionsContainerItem,.ActionsContainerVisible,.AdvancedContainerItem,.AdvancedContainerItemExpanded,.ViewAdvancedContainer,.ViewAdvancedContainerVisible,.Padding5Tbl,.TopBottom30,.TopBottom5
+{
+	margin-bottom: 0px;
+	background-color: inherit;
+	border-style: none;
+	text-align: left;
+}
+.ViewTable
+{
+	padding-left: 0px;
+}
+.LevelTable
+{
+	background-color: #f9f9f9;
+}
+.MainContainer
+{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.OrdersTable
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+}
+.TableTop,.TableTopSearch
+{
+	margin-bottom: 2px;
+	margin-right: -15px;
+	padding-right: 30px;
+	padding-top: 19px;
+}
+.TableTopSearch
+{
+	margin-left: -15px;
+	margin-top: 1px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-top: 9px;
+	background-color: white;
+}
+.TableTopMenu
+{
+	background-color: white;
+}
+.TableButtons
+{
+	margin-top: 8px;
+	padding-top: 18px;
+	background-color: #f7f7f7;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #2a3143;
+	width: 370px;
+	letter-spacing: 1.8px;
+}
+.Table435x370,.SmallTableLogin,.LargeTableLogin,.WelcomeTable
+{
+	box-shadow: 0px 40px 120px 0px #b7b7b7;
+	margin-bottom: 1px;
+	margin-top: 10px;
+	background-color: white;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	width: 370px;
+}
+.SmallTableLogin
+{
+	box-shadow: 0px 40px 120px 0px #b7b7b7;
+	height: 250px;
+}
+.LargeTableLogin
+{
+	box-shadow: 0px 40px 120px 0px #b7b7b7;
+	padding-top: 19px;
+	height: 700px;
+	width: 655px;
+}
+.WelcomeTable
+{
+	box-shadow: 0px 40px 120px 0px #b7b7b7;
+	margin-top: 100px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	width: auto;
+	max-width: 59vw;
+}
+.BodyContainer,.LoginContainer
+{
+	border-bottom: 1px;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	bottom: 1px;
+	border-width: 1px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-collapse: collapse;
+}
+.HeaderContainer,.RecentLinksContainer,.ThinHeaderContainer
+{
+	margin-left: -15px;
+	margin-right: -15px;
+	padding-bottom: 12px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 12px;
+	background-color: #b80545;
+}
+.RecentLinksContainer
+{
+	background-color: white;
+}
+.ThinHeaderContainer
+{
+	padding-bottom: 0px;
+}
+.FormContainer,.TabsFormContainer
+{
+	margin-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: white;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	table-layout: fixed;
+}
+.TabsFormContainer
+{
+	margin-top: -1px;
+	border-bottom-color: #eaeaea;
+	border-left-color: #eaeaea;
+	border-right-color: #eaeaea;
+	border-top-color: #eaeaea;
+	border-style: solid;
+	border-width: 1px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+.NegativeMarginTop10
+{
+	margin-top: -10px;
+}
+.AdvancedContainer,.AdvancedContainerVisible
+{
+	left: -100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: absolute;
+	background-color: white;
+	width: 100%;
+	min-height: calc(100vh - 206px);
+	 -webkit-transition: left .3s ease;
+	 -moz-transition: left .3s ease;
+	 -ms-transition: left .3s ease;
+	 -o-transition: left .3s ease;
+	 transition: left .3s ease;
+}
+.AdvancedContainerVisible
+{
+	left: 0px;
+	display: inherit;
+}
+.WWAdvancedContainer
+{
+	border-bottom: 1px;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	bottom: 1px;
+	border-width: 1px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-collapse: collapse;
+}
+.TableHeaderRight
+{
+	margin-top: 14px;
+	text-align: right;
+}
+.TableLogo
+{
+	margin-top: 10px;
+}
+.FiltersContainer,.FiltersContainerItem,.FilterContainerItemSearch
+{
+	background-color: white;
+	Height: calc(100vh - 160px);
+}
+.FiltersContainerItem,.FilterContainerItemSearch
+{
+	margin-top: 30px;
+	height: 84px;
+	-moz-transition: max-height 0.5s ease-in-out;
+	 -webkit-transition: max-height 0.5s ease-in-out;
+	 -ms-transition: max-height 0.5s ease-in-out;
+	 transition: max-height 0.5s ease-in-out;
+}
+.FilterContainerItemSearch
+{
+	margin-top: 25px;
+	height: 0px;
+}
+.Table193x216,.Table193x216Collapsed
+{
+	box-shadow: 0px 8px 10px 0px black;
+	margin-top: 2px;
+	overflow: hidden;
+	position: absolute;
+	right: 0px;
+	background-color: white;
+	border-bottom-color: #b7b7b7;
+	border-left-color: #b7b7b7;
+	border-right-color: #b7b7b7;
+	border-top-color: #b7b7b7;
+	border-style: solid;
+	border-width: 1px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	height: 193px;
+	width: 216px;
+	transition: height 0.5s ease;
+	 z-index: 9;
+}
+.Table193x216Collapsed
+{
+	box-shadow: 0px 8px 10px 0px black;
+	border-style: none;
+	border-width: 0px;
+	height: 0px;
+}
+.ActionsContainer,.ActionsContainerItem,.ActionsContainerVisible
+{
+	margin-right: 20px;
+	margin-top: 20px;
+	background-color: white;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	width: 210px;
+	transition: height 0.5s ease;
+	 z-index: 8;
+}
+.ActionsContainerItem
+{
+	margin-top: -5px;
+	padding-left: 23px;
+	padding-top: 13px;
+	position: relative;
+	height: 50px;
+}
+.AdvancedContainerItem,.AdvancedContainerItemExpanded
+{
+	margin-top: 30px;
+	overflow: hidden;
+	display: inline-block;
+	max-height: 20px;
+	width: 100%;
+	-moz-transition: max-height 0.5s ease-in-out;
+	 -webkit-transition: max-height 0.5s ease-in-out;
+	 -ms-transition: max-height 0.5s ease-in-out;
+	 transition: max-height 0.5s ease-in-out;
+}
+.AdvancedContainerItemExpanded
+{
+	max-height: 500px;
+}
+.ViewAdvancedContainer,.ViewAdvancedContainerVisible
+{
+	margin-left: -15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: absolute;
+	background-color: white;
+	width: 0px;
+	-webkit-transition: width .3s ease;
+	 -moz-transition: width .3s ease;
+	 -ms-transition: width .3s ease;
+	 -o-transition: width .3s ease;
+	 transition: width .3s ease;
+}
+.ViewAdvancedContainerVisible
+{
+	display: inherit;
+	width: 100%;
+}
+.Padding5Tbl
+{
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+.TopBottom30
+{
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.TopBottom5
+{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.EmbeddedPage
+{
+	border-style: none;
+	border-width: 0px;
+}
+.ErrorViewer
+{
+	box-shadow: 0px 20px 30px 0px #b7b7b7;
+	margin-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: inline-block;
+	background-color: #fffebc;
+	border-style: none;
+	border-width: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: red;
+	max-width: 266px;
+	text-align: left;
+	z-index: 10;
+}
+.ErrorViewerLine,.ErrorViewer > .gx-error-message,.ErrorViewer > .gx-warning-message
+{
+	margin-left: 5px;
+	display: list-item;
+	list-style-position: inside;
+	border-style: none;
+	border-width: 0px;
+}
+.FreeStyleGrid,.VerticalTabGrid,.TrnSublevelGrid,.RecentLinksGrid
+{
+	border-style: none;
+	border-width: 0px;
+}
+
+.RecentLinksGrid
+{
+	margin-left: 15px;
+}
+
+.Hyperlink
+{
+	border-style: none;
+	border-width: 0px;
+}
+.GridColumn,.OptionalColumn,.ActionColumn,.WWColumn,.WWActionColumn,.WWOptionalColumn,.WWSecondaryColumn,.WWTextActionColumn
+{
+	border-style: none;
+	border-width: 0px;
+}
+.ActionColumn
+{
+	border-width: 2px;
+	width: 50px;
+	border-collapse: collapse;
+	 border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.WWColumn,.WWActionColumn,.WWOptionalColumn,.WWSecondaryColumn,.WWTextActionColumn
+{
+	overflow: hidden;
+	padding-bottom: 7px;
+	padding-left: 15px;
+	padding-top: 7px;
+	white-space: normal;
+	min-height: 50px;
+	width: 100%;
+	text-align: left;
+	text-overflow: ellipsis;
+	border-collapse: collapse;
+	 border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.WWActionColumn
+{
+	padding-left: 7.5px;
+	padding-right: 7.5px;
+	width: 50px;
+}
+.WWTextActionColumn
+{
+	padding-left: 7.5px;
+	padding-right: 7.5px;
+	width: 95px;
+	text-align: center;
+}
+.Messages,.ErrorMessages,.WarningMessages
+{
+	background-color: #ffffe1;
+	border-bottom-color: #fffebc;
+	border-left-color: #fffebc;
+	border-right-color: #fffebc;
+	border-top-color: #fffebc;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	font-family: Baskerville, serif;
+	font-size: 0.9em;
+	color: black;
+}
+.ErrorMessages
+{
+	background-color: #fffebc;
+	border-style: none;
+	box-shadow: 0px 5px 30px 0px black;
+	padding-left: 5px;
+	padding-right: 5px;
+	max-width: 266px;
+	display: inline-block;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #2a3143;
+	text-align: left;
+	z-index: 10;
+}
+.WarningMessages
+{
+	background-color: #fffebc;
+	border-style: none;
+	box-shadow: 0px 5px 30px 0px black;
+	padding-left: 5px;
+	padding-right: 5px;
+	max-width: 266px;
+	display: inline-block;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	color: #2a3143;
+	text-align: left;
+	z-index: 10;
+}
+.Section,.ToggleCell,.VerticalCenteredCell,.container-fluid,.gx-navbar-inner,.PopupSections,.PopupContent,.Popup > div.gx-popup-content,.Form .gx-popup.gx-popup-default > div.gx-popup-content,.PopupHeader,.Popup > div.gx-popup-header,.Form .gx-popup.gx-popup-default > div.gx-popup-header,.ToolbarCellClass,.TabContainer,.WWActionsCell,.ViewActionsCell,.ViewGridActionsCell,.ViewActionsBackCell,.WWFiltersCell,.WWFiltersCellCollapsed,.WWAdvancedBarCell,.ViewAdvancedBarCell,.PromptAdvancedBarCell,.WWGridCell,.ViewGridCell,.ViewGridCellAdvanced,.WWGridCellExpanded,.HeaderLine,.ContentPlace,.ReservedSpaceCell,.FormCell,.FormCellSimple,.FormCellAdvanced,.SubtitleContainer,.TopLeftSeparateCell,.OrdersCell,.WWTabStrip,div.WWTab UL.nav-tabs,.WWActionGroupList,.FilterSearchAttributeSelectorClass,.DateFilterSearchAttributeSelectorClass,.input-group .form-control.DateFilterSearchAttribute+span.input-group-btn>.btn,.input-group .form-controlinput.DateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control textarea.DateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control select.DateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control .DateFilterSearchAttribute>A:focus+span.input-group-btn>.btn,.input-group .form-controlinput.BlobContentDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control textarea.BlobContentDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control select.BlobContentDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control .BlobContentDateFilterSearchAttribute>A:focus+span.input-group-btn>.btn,.input-group .form-controlinput.ReadonlyBlobContentDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control textarea.ReadonlyBlobContentDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control select.ReadonlyBlobContentDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control .ReadonlyBlobContentDateFilterSearchAttribute>A:focus+span.input-group-btn>.btn,.input-group .form-controlinput.BlobInputDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control textarea.BlobInputDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control select.BlobInputDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control .BlobInputDateFilterSearchAttribute>A:focus+span.input-group-btn>.btn,.input-group .form-controlinput.ReadonlyDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control textarea.ReadonlyDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control select.ReadonlyDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control .ReadonlyDateFilterSearchAttribute>A:focus+span.input-group-btn>.btn,.input-group .form-control.BlobContentDateFilterSearchAttribute+span.input-group-btn>.btn,.input-group .form-control.ReadonlyBlobContentDateFilterSearchAttribute+span.input-group-btn>.btn,.input-group .form-control.BlobInputDateFilterSearchAttribute+span.input-group-btn>.btn,.input-group .form-control.ReadonlyDateFilterSearchAttribute+span.input-group-btn>.btn,.input-group .form-control.FilterSearchAttribute+span.input-group-btn>.btn,.input-group .form-control.BlobContentFilterSearchAttribute+span.input-group-btn>.btn,.input-group .form-control.ReadonlyBlobContentFilterSearchAttribute+span.input-group-btn>.btn,.input-group .form-control.BlobInputFilterSearchAttribute+span.input-group-btn>.btn,.input-group .form-control.FilterSearchAttributeFocus+span.input-group-btn>.btn,.input-group .form-controlinput.FilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control textarea.FilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control select.FilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control .FilterSearchAttribute>A:focus+span.input-group-btn>.btn,.input-group .form-controlinput.BlobContentFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control textarea.BlobContentFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control select.BlobContentFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control .BlobContentFilterSearchAttribute>A:focus+span.input-group-btn>.btn,.input-group .form-controlinput.ReadonlyBlobContentFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control textarea.ReadonlyBlobContentFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control select.ReadonlyBlobContentFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control .ReadonlyBlobContentFilterSearchAttribute>A:focus+span.input-group-btn>.btn,.input-group .form-controlinput.BlobInputFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control textarea.BlobInputFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control select.BlobInputFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control .BlobInputFilterSearchAttribute>A:focus+span.input-group-btn>.btn,.input-group .form-controlinput.FilterSearchAttributeFocus:focus+span.input-group-btn>.btn,.input-group .form-control textarea.FilterSearchAttributeFocus:focus+span.input-group-btn>.btn,.input-group .form-control select.FilterSearchAttributeFocus:focus+span.input-group-btn>.btn,.input-group .form-control .FilterSearchAttributeFocus>A:focus+span.input-group-btn>.btn,.input-group .form-controlinput.BlobContentFilterSearchAttributeFocus:focus+span.input-group-btn>.btn,.input-group .form-control textarea.BlobContentFilterSearchAttributeFocus:focus+span.input-group-btn>.btn,.input-group .form-control select.BlobContentFilterSearchAttributeFocus:focus+span.input-group-btn>.btn,.input-group .form-control .BlobContentFilterSearchAttributeFocus>A:focus+span.input-group-btn>.btn,.input-group .form-controlinput.ReadonlyBlobContentFilterSearchAttributeFocus:focus+span.input-group-btn>.btn,.input-group .form-control textarea.ReadonlyBlobContentFilterSearchAttributeFocus:focus+span.input-group-btn>.btn,.input-group .form-control select.ReadonlyBlobContentFilterSearchAttributeFocus:focus+span.input-group-btn>.btn,.input-group .form-control .ReadonlyBlobContentFilterSearchAttributeFocus>A:focus+span.input-group-btn>.btn,.input-group .form-controlinput.BlobInputFilterSearchAttributeFocus:focus+span.input-group-btn>.btn,.input-group .form-control textarea.BlobInputFilterSearchAttributeFocus:focus+span.input-group-btn>.btn,.input-group .form-control select.BlobInputFilterSearchAttributeFocus:focus+span.input-group-btn>.btn,.input-group .form-control .BlobInputFilterSearchAttributeFocus>A:focus+span.input-group-btn>.btn,.input-group .form-controlinput.ReadonlyFilterSearchAttributeFocus:focus+span.input-group-btn>.btn,.input-group .form-control textarea.ReadonlyFilterSearchAttributeFocus:focus+span.input-group-btn>.btn,.input-group .form-control select.ReadonlyFilterSearchAttributeFocus:focus+span.input-group-btn>.btn,.input-group .form-control .ReadonlyFilterSearchAttributeFocus>A:focus+span.input-group-btn>.btn,.input-group .form-control.BlobContentFilterSearchAttributeFocus+span.input-group-btn>.btn,.input-group .form-control.ReadonlyBlobContentFilterSearchAttributeFocus+span.input-group-btn>.btn,.input-group .form-control.BlobInputFilterSearchAttributeFocus+span.input-group-btn>.btn,.input-group .form-control.ReadonlyFilterSearchAttributeFocus+span.input-group-btn>.btn
+{
+	border-style: none;
+	border-width: 0px;
+}
+.PopupContent,.Popup > div.gx-popup-content,.Form .gx-popup.gx-popup-default > div.gx-popup-content
+{
+	background-color: white;
+}
+.PopupHeader,.Popup > div.gx-popup-header,.Form .gx-popup.gx-popup-default > div.gx-popup-header
+{
+	background-color: #930437;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	min-height: 35px;
+	cursor: move;
+	line-height:35px;
+}
+.ToolbarCellClass
+{
+	line-height:0;
+}
+.ViewActionsCell,.ViewGridActionsCell,.ViewActionsBackCell
+{
+	padding-top: 15px;
+	min-height: 0px;
+}
+.ViewGridActionsCell
+{
+	text-align: right;
+}
+.ViewActionsBackCell
+{
+	margin-top: 9px;
+	padding-right: 17px;
+	padding-top: 0px;
+}
+.WWFiltersCell,.WWFiltersCellCollapsed
+{
+	left: 0px;
+	margin-top: 10px;
+	z-index: 10;
+	display: inherit;
+	-webkit-transition: left .3s ease;
+	 -moz-transition: left .3s ease;
+	 -ms-transition: left .3s ease;
+	 -o-transition: left .3s ease;
+	 transition: left .3s ease;
+}
+.WWFiltersCellCollapsed
+{
+	left: -25%;
+}
+.WWAdvancedBarCell,.ViewAdvancedBarCell,.PromptAdvancedBarCell
+{
+	left: 0px;
+	position: absolute;
+	z-index: 10;
+	display: inherit;
+	-webkit-transition: left .3s ease;
+	 -moz-transition: left .3s ease;
+	 -ms-transition: left .3s ease;
+	 -o-transition: left .3s ease;
+	 transition: left .3s ease;
+}
+.ViewAdvancedBarCell
+{
+	position: inherit;
+}
+.PromptAdvancedBarCell
+{
+	background-color: inherit;
+	z-index: auto;
+	width: 18%;
+	-webkit-transition: left .3s ease;
+	 -moz-transition: left .3s ease;
+	 -ms-transition: left .3s ease;
+	 -o-transition: left .3s ease;
+	 transition: left .3s ease;
+	 height: 100vh;
+}
+.WWGridCell,.ViewGridCell,.ViewGridCellAdvanced,.WWGridCellExpanded
+{
+	float: left;
+	margin-left: 18%;
+	width: 81%;
+	transition: margin-left .3s, width .2s ease-out;
+}
+.ViewGridCell,.ViewGridCellAdvanced
+{
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 100%;
+}
+.ViewGridCellAdvanced
+{
+	margin-left: 8%;
+	width: 85%;
+}
+.WWGridCellExpanded
+{
+	margin-left: 8%;
+	width: 85%;
+	display: inline-block;
+}
+.HeaderLine
+{
+	background-color: #b80545;
+	max-height: 70px;
+	font-family: SourceSansPro-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	text-align: left;
+	vertical-align: middle;
+}
+.ReservedSpaceCell
+{
+	height: 10px;
+}
+.FormCell,.FormCellSimple,.FormCellAdvanced
+{
+	padding-bottom: 7px;
+	padding-left: 15px;
+	padding-top: 7px;
+	border-collapse: collapse;
+	 border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.FormCellSimple
+{
+	border-bottom-style: none;
+}
+.FormCellAdvanced
+{
+	border-collapse: collapse;
+	 border-color: #eaeaea;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+.SubtitleContainer
+{
+	margin-bottom: -24.5px;
+	margin-top: 15px;
+}
+.TopLeftSeparateCell
+{
+	margin-top: 8px;
+	padding-left: 23px;
+}
+.OrdersCell
+{
+	text-align: center;
+}
+.WWTabStrip,div.WWTab UL.nav-tabs
+{
+	background-color: #f9f9f9;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	height: auto;
+}
+.WWActionGroupList
+{
+	background-color: red;
+	float: right;
+}
+.DateFilterSearchAttributeSelectorClass,.input-group .form-control.DateFilterSearchAttribute+span.input-group-btn>.btn,.input-group .form-controlinput.DateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control textarea.DateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control select.DateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control .DateFilterSearchAttribute>A:focus+span.input-group-btn>.btn,.input-group .form-controlinput.BlobContentDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control textarea.BlobContentDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control select.BlobContentDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control .BlobContentDateFilterSearchAttribute>A:focus+span.input-group-btn>.btn,.input-group .form-controlinput.ReadonlyBlobContentDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control textarea.ReadonlyBlobContentDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control select.ReadonlyBlobContentDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control .ReadonlyBlobContentDateFilterSearchAttribute>A:focus+span.input-group-btn>.btn,.input-group .form-controlinput.BlobInputDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control textarea.BlobInputDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control select.BlobInputDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control .BlobInputDateFilterSearchAttribute>A:focus+span.input-group-btn>.btn,.input-group .form-controlinput.ReadonlyDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control textarea.ReadonlyDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control select.ReadonlyDateFilterSearchAttribute:focus+span.input-group-btn>.btn,.input-group .form-control .ReadonlyDateFilterSearchAttribute>A:focus+span.input-group-btn>.btn,.input-group .form-control.BlobContentDateFilterSearchAttribute+span.input-group-btn>.btn,.input-group .form-control.ReadonlyBlobContentDateFilterSearchAttribute+span.input-group-btn>.btn,.input-group .form-control.BlobInputDateFilterSearchAttribute+span.input-group-btn>.btn,.input-group .form-control.ReadonlyDateFilterSearchAttribute+span.input-group-btn>.btn
+{
+	background-color: transparent;
+	margin-left: -35px;
+	z-index: 2;
+}
+.ActionGroup,.MainMenu,.Submenu,.Confirm,.WWViewActions
+{
+	background-color: inherit;
+	border-style: none;
+	border-width: 0px;
+	margin-bottom: 0px;
+	min-height: 0px;
+	text-align: left;
+}
+.MainMenu
+{
+	margin-left: 0px;
+	margin-top: -2px;
+}
+.Submenu
+{
+	background-color: white;
+	left: auto;
+	top: 0px;
+}
+.Confirm
+{
+	margin-bottom: 15px;
+	margin-top: 40px;
+	max-height: 35px;
+	width: 420px;
+	text-align: center;
+}
+.WWViewActions
+{
+	float: right;
+}
+.Popup,.Form .gx-popup.gx-popup-default
+{
+	border-style: none;
+	border-width: 0px;
+}
+.CalendarCombo 
+{
+	background-color: Menu;
+	border-bottom-color: ButtonHighlight;
+	border-left-color: ButtonHighlight;
+	border-right-color: ButtonHighlight;
+	border-top-color: ButtonHighlight;
+	border-style: solid;
+	border-width: 1px;
+	left: 0px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	position: absolute;
+	top: 0px;
+	width: 4em;
+	display: none;
+	cursor: default;
+	font-size: 10px;
+	color: MenuText;
+}
+.CalendarCombo  .label 
+{
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	text-align: center;
+}
+.CalendarCombo  .label-IEfix 
+{
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	width: 4em;
+	text-align: center;
+}
+.CalendarCombo  .active 
+{
+	border-bottom-color: black;
+	border-left-color: black;
+	border-right-color: black;
+	border-top-color: black;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+.CalendarCombo  .hilite 
+{
+	background-color: Highlight;
+	color: HighlightText;
+}
+.ComponentTrigger 
+{
+	margin-left: 4px;
+	cursor: pointer;
+}
+.dojoDialog 
+{
+	background-color: #eaeaea;
+	border-bottom-color: grey;
+	border-left-color: grey;
+	border-right-color: grey;
+	border-top-color: grey;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+}
+.PopupContent  .AdvancedContainer 
+{
+	margin-left: -14px;
+	Height: 100vh;
+}
+.RowDeleted 
+{
+	text-decoration: line-through;
+}
+.dp_container 
+{
+	position: relative;
+}
+.gx-masked-relative 
+{
+	position: relative;
+}
+.GXProgressBar  .progress-bar-title 
+{
+	margin-bottom: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-top: 3px;
+}
+.PromptAdvancedBarCell  .AdvancedContainer 
+{
+	padding-left: 30px;
+	Height: 100vh;
+}
+.Calendar 
+{
+	background-color: Window;
+	border-style: none;
+	position: relative;
+	display: none;
+	cursor: default;
+	font-family: tahoma, verdana, sans-serif;
+	font-size: 11px;
+	color: WindowText;
+}
+.Calendar  .CalendarButton 
+{
+	background-color: ButtonFace;
+	border-bottom-color: ButtonHighlight;
+	border-left-color: ButtonHighlight;
+	border-right-color: ButtonHighlight;
+	border-top-color: ButtonHighlight;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	text-align: center;
+}
+.Calendar  .nav 
+{
+	background-color: ButtonFace;
+	background-image: url(../menuarrow.gif);
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+}
+.Calendar  TABLE
+{
+	background-color: Window;
+	border-style: solid;
+	border-width: 1px;
+	cursor: default;
+	font-family: tahoma, verdana, sans-serif;
+	font-size: 11px;
+	color: WindowText;
+}
+.Calendar  TABLE .wn 
+{
+	background-color: ButtonFace;
+	border-right: 1px solid ButtonShadow;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 3px;
+	padding-top: 2px;
+	color: ButtonText;
+}
+.Calendar  THEAD .name 
+{
+	background-color: ButtonFace;
+	border-bottom: 1px solid ButtonShadow;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	color: ButtonText;
+	text-align: center;
+}
+.Calendar  THEAD .weekend 
+{
+	color: red;
+}
+.Calendar  THEAD .hilite 
+{
+	border-bottom-color: ButtonHighlight;
+	border-left-color: ButtonHighlight;
+	border-right-color: ButtonHighlight;
+	border-top-color: ButtonHighlight;
+	border-style: solid;
+	border-width: 2px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+.Calendar  THEAD .active 
+{
+	border-bottom-color: ButtonHighlight;
+	border-left-color: ButtonHighlight;
+	border-right-color: ButtonHighlight;
+	border-top-color: ButtonHighlight;
+	border-width: 1px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 0px;
+	padding-top: 2px;
+}
+.Calendar  THEAD .CalendarTitle 
+{
+	background-color: ActiveCaption;
+	border-bottom-color: black;
+	border-left-color: black;
+	border-right-color: black;
+	border-top-color: black;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	font-weight: bold;
+	color: CaptionText;
+	text-align: center;
+}
+.Calendar  TBODY .day 
+{
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 4px;
+	padding-top: 2px;
+	width: 2em;
+	text-align: right;
+}
+.Calendar  TBODY .rowhilite  TD
+{
+	background-color: Highlight;
+	color: #2a3143;
+}
+.Calendar  TBODY .emptyrow 
+{
+	display: none;
+}
+.Calendar  TBODY .emptycell 
+{
+	visibility: hidden;
+}
+.Calendar  TBODY TD .hilite 
+{
+	border-bottom-color: white;
+	border-left-color: black;
+	border-right-color: black;
+	border-top-color: white;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 3px;
+	padding-top: 1px;
+}
+.Calendar  TBODY TD .active 
+{
+	border-bottom-color: ButtonHighlight;
+	border-left-color: ButtonHighlight;
+	border-right-color: ButtonHighlight;
+	border-top-color: ButtonHighlight;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+}
+.Calendar  TBODY TD .selected 
+{
+	background-color: ButtonFace;
+	border-bottom-color: ButtonHighlight;
+	border-left-color: ButtonHighlight;
+	border-right-color: ButtonHighlight;
+	border-top-color: ButtonHighlight;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	font-weight: bold;
+	color: ButtonText;
+}
+.Calendar  TBODY TD .weekend 
+{
+	color: red;
+}
+.Calendar  TBODY TD .today 
+{
+	font-weight: bold;
+	color: #3c80f5;
+}
+.Calendar  TBODY TD .disabled 
+{
+	color: GrayText;
+}
+.Calendar  TBODY TD .time 
+{
+	background-color: ButtonFace;
+	border-top: 1px solid ButtonShadow;
+	padding-bottom: 1px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 1px;
+	text-align: center;
+}
+.Calendar  TBODY TD .time  .hour 
+{
+	background-color: Menu;
+	border-bottom-color: #3d434f;
+	border-left-color: #3d434f;
+	border-right-color: #3d434f;
+	border-top-color: #3d434f;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	font-weight: bold;
+}
+.Calendar  TBODY TD .time  .minute 
+{
+	background-color: Menu;
+	border-bottom-color: #3d434f;
+	border-left-color: #3d434f;
+	border-right-color: #3d434f;
+	border-top-color: #3d434f;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	font-weight: bold;
+}
+.Calendar  TBODY TD .time  .ampm 
+{
+	background-color: Menu;
+	border-bottom-color: #3d434f;
+	border-left-color: #3d434f;
+	border-right-color: #3d434f;
+	border-top-color: #3d434f;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+.Calendar  TBODY TD .time  .colon 
+{
+	padding-bottom: 0px;
+	padding-left: 3px;
+	padding-right: 2px;
+	padding-top: 0px;
+	font-weight: bold;
+}
+.Calendar  TBODY TD .time  SPAN .hilite 
+{
+	background-color: Highlight;
+	border-bottom-color: black;
+	border-left-color: black;
+	border-right-color: black;
+	border-top-color: black;
+	color: HighlightText;
+}
+.Calendar  TBODY TD .time  SPAN .active 
+{
+	background-color: black;
+	border-bottom-color: red;
+	border-left-color: red;
+	border-right-color: red;
+	border-top-color: red;
+	color: #0da53b;
+}
+.Calendar  TFOOT .ttip 
+{
+	background-color: ButtonFace;
+	border-bottom-color: ButtonHighlight;
+	border-left-color: ButtonHighlight;
+	border-right-color: ButtonHighlight;
+	border-top-color: ButtonHighlight;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	color: ButtonText;
+	text-align: center;
+}
+.Calendar  TFOOT .hilite 
+{
+	background-color: #b7b7b7;
+	border-style: none;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+}
+.Calendar  TFOOT .active 
+{
+	border-bottom-color: #3c80f5;
+	border-left-color: #3c80f5;
+	border-right-color: #3c80f5;
+	border-top-color: #3c80f5;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 0px;
+	padding-top: 2px;
+}
+.TextLikeLink  A
+{
+	text-decoration: none;
+	color: inherit;
+}
+.TextLikeLink  A:active
+{
+	text-decoration: none;
+	color: inherit;
+}
+.TextLikeLink  A:visited
+{
+	text-decoration: none;
+	color: inherit;
+}
+.TextLikeLink  A:focus
+{
+	text-decoration: none;
+	color: inherit;
+}
+.TextLikeLink  A:hover
+{
+	text-decoration: underline;
+}
+.ViewGrid  TR:hover .UpdateAttribute:hover 
+{
+	background-color: green;
+}
+.ViewGrid  TR:hover .DeleteAttribute:hover 
+{
+	background-color: red;
+}
+.ViewGrid  TR:hover .UpdateAttribute 
+{
+	background-color: #0da53b;
+}
+.ViewGrid  TR:hover .DeleteAttribute 
+{
+	background-color: #ffa7c0;
+}
+.ViewGrid  TR:hover .DisplayAttribute:hover 
+{
+	background-color: #3c80f5;
+}
+.ViewGrid  TR:hover .DisplayAttribute 
+{
+	background-color: #eaeaea;
+}
+.ViewGrid  TR:hover .ActionImageAttribute 
+{
+	background-color: #3c80f5;
+}
+.ViewGrid  TR:hover .ActionImageAttribute:hover 
+{
+	background-color: blue;
+}
+.ViewGrid  TR
+{
+	border-top: 1px solid #efefef;
+}
+.ViewGrid  TR .WWActionColumn  A:focus
+{
+	background-color: #eaeaea;
+	outline: none;
+}
+.ViewGrid  TR .DeleteAttribute 
+{
+	background-color: #eaeaea;
+}
+.ViewGrid  TR .UpdateAttribute 
+{
+	background-color: #eaeaea;
+}
+.ViewGrid  TR .ActionImageAttribute 
+{
+	background-color: #eaeaea;
+}
+.ViewGrid  TR A:focus .UpdateAttribute 
+{
+	background-color: #0da53b;
+}
+.WorkWith  TR:hover .UpdateAttribute:hover 
+{
+	background-color: green;
+}
+.WorkWith  TR:hover .DeleteAttribute:hover 
+{
+	background-color: red;
+}
+.WorkWith  TR:hover .UpdateAttribute 
+{
+	background-color: #0da53b;
+}
+.WorkWith  TR:hover .DeleteAttribute 
+{
+	background-color: #f56a67;
+}
+.WorkWith  TR:hover .DisplayAttribute:hover 
+{
+	background-color: #3c80f5;
+}
+.WorkWith  TR:hover .DisplayAttribute 
+{
+	background-color: #eaeaea;
+}
+.WorkWith  TR:hover .ActionImageAttribute 
+{
+	background-color: #3c80f5;
+}
+.WorkWith  TR:hover .ActionImageAttribute:hover 
+{
+	background-color: blue;
+}
+.WorkWith  TR
+{
+	border-top: 1px solid #efefef;
+}
+.WorkWith  TR .WWActionColumn  A:focus
+{
+	background-color: #eaeaea;
+	outline: none;
+}
+.WorkWith  TR .DeleteAttribute 
+{
+	background-color: #eaeaea;
+}
+.WorkWith  TR .UpdateAttribute 
+{
+	background-color: #eaeaea;
+}
+.WorkWith  TR .ActionImageAttribute 
+{
+	background-color: #eaeaea;
+}
+.WorkWith  TR A:focus .UpdateAttribute 
+{
+	background-color: #0da53b;
+}
+.RequiredAttributeLabel::after 
+{
+	text-align: left;
+	content:'*';
+	 color: red !important;
+}
+.input-group  .form-control:focus + span.input-group-btn > a.btn 
+{
+	border-bottom-color: #3c80f5;
+	border-left-color: #3c80f5;
+	border-right-color: #3c80f5;
+	border-top-color: #3c80f5;
+	border-style: solid;
+	border-width: 1px;
+	outline: 0 none;
+	 box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.input-group  .form-control + span.input-group-btn > a.btn 
+{
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+.input-group  .form-control.FilterComboAttribute + span.input-group-btn > a.btn 
+{
+	margin-top: 29px;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+.input-group  .FilterAttribute + span.input-group-btn > A.btn 
+{
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-top-color: transparent;
+	padding-bottom: 18px;
+	padding-top: 18px;
+}
+.input-group  .FilterAttribute:focus + span.input-group-btn > a.btn 
+{
+	border-color: transparent !important;
+	 box-shadow: 0 0 0 0 !important;
+}
+.input-group  .form-control 
+{
+	width: auto;
+	max-width: 100%;
+}
+.input-group  .FilterAttribute 
+{
+	width: 100%;
+}
+.input-group  .FilterAttribute + span.input-group-btn 
+{
+	width: 1%;
+}
+.input-group  .FilterPanel + span.input-group-btn > A.btn 
+{
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-top-color: transparent;
+	margin-top: -2px;
+	padding-bottom: 7px;
+	padding-top: 6px;
+	position: absolute;
+}
+.input-group  A.btn IMG
+{
+	max-height: 18px;
+}
+.input-group  A.btn-default:hover
+{
+	background-color: white;
+}
+.input-group  A.btn-default:focus
+{
+	background-color: white;
+}
+.input-group-btn 
+{
+	width: auto;
+}
+.LoginAttribute + .input-group-btn a.btn 
+{
+	border-bottom-color: #eaeaea;
+	border-right-color: #eaeaea;
+	border-top-color: #eaeaea;
+	border-left: none;
+	border-width: 2.5px;
+	margin-top: 15px;
+	padding-bottom: 14px;
+	padding-top: 13px;
+}
+.RecentsTitle  A
+{
+	display: block;
+	text-decoration: none;
+	color: inherit;
+}
+.RecentsTitle  A:focus
+{
+	text-decoration: none;
+	color: inherit;
+}
+.RecentsTitle  A:hover
+{
+	text-decoration: none;
+	color: inherit;
+}
+.GridTitle 
+{
+	border-style: none;
+	padding-bottom: 9px;
+	padding-top: 9px;
+}
+.FilterLabel  A
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-decoration: none;
+	color: inherit;
+	text-overflow: ellipsis;
+}
+.FilterLabel  A STRONG
+{
+	color: #0da53b;
+}
+.FilterLabel  A STRONG:before
+{
+	padding-right: 4px;
+	font-weight: normal;
+	color: #2a3143;
+	content: ':';
+}
+.FilterLabel  A:hover
+{
+	color: inherit;
+}
+.FilterLabel  A:focus
+{
+	color: inherit;
+}
+.WWAdvancedLabel  A
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-decoration: none;
+	color: inherit;
+	text-overflow: ellipsis;
+}
+.WWAdvancedLabel  A STRONG
+{
+	color: #0da53b;
+}
+.WWAdvancedLabel  A STRONG:before
+{
+	padding-right: 4px;
+	font-weight: normal;
+	color: #2a3143;
+	content: ':';
+}
+.WWAdvancedLabel  A:hover
+{
+	color: inherit;
+}
+.WWAdvancedLabel  A:focus
+{
+	color: inherit;
+}
+.ViewAdvancedBarCell  .Calendar 
+{
+	margin-top: 30px;
+}
+.ViewAdvancedBarCell  DIV .calendar  TABLE
+{
+	width: 100%;
+}
+.WorkWithTitle 
+{
+	overflow: hidden;
+	white-space: normal;
+	text-overflow: ellipsis;
+}
+.RecentLinksGrid > .row > div 
+{
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	width: auto;
+}
+.RecentLinksGrid > div.row > div:last-child  *.RecentLinkItem:after
+{
+	content: '';
+}
+.RecentLinksGrid > tbody > tr > td:last-child 
+{
+	display: block;
+}
+.RecentLinksGrid > tbody > tr > td:last-child  *.RecentLinkItem:after
+{
+	content: '';
+}
+.WWAdvancedLabel::after 
+{
+	border-top: 1px solid #2A3143;
+	margin-top: -1px;
+	height: 2px;
+	width: 20px;
+	display: block;
+	content: '';
+}
+BODY
+{
+	height: inherit;
+}
+HTML
+{
+	height: 100%;
+}
+DIV.suggestions
+{
+	background-color: white;
+	border-bottom-color: #efefef;
+	border-left-color: #efefef;
+	border-right-color: #efefef;
+	border-top-color: #efefef;
+	border-style: solid;
+	border-width: 1px;
+	box-sizing: border-box;
+	position: absolute;
+	width: 250px;
+	-moz-box-sizing: border-box;
+	font-family: Arial, Verdana;
+	font-size: 14px;
+	color: Grey;
+}
+DIV.suggestions DIV
+{
+	padding-bottom: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 2px;
+	cursor: pointer;
+	font-family: Arial, Verdana;
+	font-size: 14px;
+}
+DIV.suggestions DIV.current
+{
+	background-color: #b80545;
+	font-family: Arial, Verdana;
+	font-size: 14px;
+	color: white;
+}
+UL.Tabs
+{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	list-style-type: none;
+}
+UL.Tabs LI.Tab
+{
+	float: left;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+UL.Tabs LI.Tab A
+{
+	display: block;
+	text-decoration: none;
+}
+UL.Tabs LI.Tab SPAN
+{
+	display: block;
+}
+UL.Tabs LI.Tab SPAN.TabBackground
+{
+	overflow: hidden;
+}
+UL.Tabs LI.Tab SPAN.TabText
+{
+	white-space: nowrap;
+}
+DIV.gx-multimedia-upload
+{
+	border-bottom-color: #eaeaea;
+	border-left-color: #eaeaea;
+	border-right-color: #eaeaea;
+	border-top-color: #eaeaea;
+	border-style: solid;
+	border-width: 1px;
+	position: relative;
+	height: 72px;
+	width: 128px;
+	display: block;
+	text-align: center;
+	line-height:68px;
+}
+DIV.gx-multimedia-upload *
+{
+	text-align: left;
+	line-height:normal;
+}
+DIV.gx-multimedia-upload DIV.fields-ct
+{
+	background-color: white;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	height: 100%;
+	display: none;
+	white-space: nowrap;
+}
+DIV.gx-multimedia-upload A.action
+{
+	background-color: grey;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	position: absolute;
+	top: 0px;
+	cursor: pointer;
+	font-size: 11px;
+	color: white;
+	opacity:.7;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	line-height:15px;
+	-ms-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-webkit-transition: opacity .3s ease-in-out;
+}
+DIV.gx-multimedia-upload A.change-action
+{
+	background-position: 4px center;
+	background-repeat: no-repeat;
+	padding-bottom: 6px;
+	padding-left: 20px;
+	padding-right: 8px;
+	padding-top: 6px;
+	right: 26px;
+}
+DIV.gx-multimedia-upload A.clear-action
+{
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding-bottom: 14px;
+	padding-left: 13px;
+	padding-right: 12px;
+	padding-top: 13px;
+	right: 0px;
+}
+DIV.gx-multimedia-upload A.action:focus
+{
+	text-decoration: underline;
+	opacity:.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+DIV.gx-multimedia-upload INPUT.field
+{
+	border-style: solid;
+	float: none;
+	margin-top: 23px;
+	max-height: none;
+	width: 400px;
+	max-width: none;
+	display: none;
+}
+DIV.gx-multimedia-upload INPUT.field-selected
+{
+	display: inline;
+}
+DIV.gx-multimedia-upload LABEL.option
+{
+	clear: left;
+	float: left;
+	height: 60px;
+	width: 150px;
+	display: inline;
+	cursor: pointer;
+	font-size: 15px;
+}
+DIV.gx-multimedia-upload LABEL.option INPUT
+{
+	float: left;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 8px;
+	margin-top: 3px;
+	display: inline;
+	cursor: pointer;
+}
+DIV.gx-multimedia-upload INPUT.Button
+{
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	display: block;
+}
+DIV.gx-multimedia-upload INPUT.BtnEnter
+{
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+DIV.gx-multimedia-upload IMG
+{
+	padding-bottom: 2px;
+	padding-top: 2px;
+	vertical-align: middle;
+	max-width:124px;
+	max-height:68px;
+}
+DIV.gx-multimedia-upload A SPAN
+{
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 68px;
+	width: 124px;
+	color: transparent;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-unknown
+{
+	display: block;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-unknown SPAN.gx-video-placeholder
+{
+	opacity:1;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-unknown SPAN.gx-audio-placeholder
+{
+	opacity:1;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-unknown SPAN
+{
+	display: block;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-unknown IMG
+{
+	display: none;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-unknown SPAN.gx-download-placeholder
+{
+	opacity:1;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-download
+{
+	display: block;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-download SPAN.gx-video-placeholder
+{
+	opacity:1;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-download SPAN.gx-audio-placeholder
+{
+	opacity:1;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-download SPAN
+{
+	display: block;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-download IMG
+{
+	display: none;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-download SPAN.gx-download-placeholder
+{
+	opacity:1;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-empty
+{
+	display: block;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-empty SPAN
+{
+	display: block;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-empty IMG
+{
+	display: none;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-empty SPAN.gx-download-placeholder
+{
+	opacity:1;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-empty SPAN.gx-video-placeholder
+{
+	opacity:1;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-empty SPAN.gx-audio-placeholder
+{
+	opacity:1;
+}
+DIV.gx-multimedia-upload:hover A.action
+{
+	display: block;
+	opacity:.7;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+DIV.gx-multimedia-upload:hover A.action:hover
+{
+	text-decoration: underline;
+	opacity:.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+DIV.gx-multimedia-upload:hover A.action:focus
+{
+	text-decoration: underline;
+	opacity:.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+A:not([href]) SPAN.gx-download-placeholder
+{
+	opacity:.5;
+}
+A:not([href]) SPAN.gx-video-placeholder
+{
+	opacity:.5;
+}
+A:not([href]) SPAN.gx-audio-placeholder
+{
+	opacity:.5;
+}
+DIV.gx-mask
+{
+	background-color: black;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	animation: entermask 1s;
+	-webkit-animation: entermask 1s;
+	-ms-filter:"alpha(opacity=10)";
+	filter: alpha(opacity=10);
+	opacity:.10;
+}
+DIV.gx-unmask
+{
+	background-color: transparent;
+	animation: leavemask .3s;
+	-webkit-animation: leavemask .3s;
+}
+BODY.gx-masked DIV.gx-mask
+{
+	bottom: 0px;
+	position: fixed;
+}
+DIV.calendar
+{
+	border-bottom: 1px;
+	z-index: 500 !important;
+}
+DIV.calendar .calendar-nav 
+{
+	font-weight: normal;
+}
+DIV.calendar .calendarbutton 
+{
+	background-color: white;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	color: #2a3143;
+	text-align: center;
+}
+DIV.calendar .calendarcombo 
+{
+	background-color: #efefef;
+}
+DIV.calendar .calendarcombo  .label 
+{
+	padding-bottom: 2px;
+	padding-top: 2px;
+	display: block;
+	font-size: 12px;
+	font-weight: normal;
+	color: #2a3143;
+}
+DIV.calendar TABLE
+{
+	border-bottom-color: #b7b7b7;
+	border-left-color: #b7b7b7;
+	border-right-color: #b7b7b7;
+	border-top-color: #b7b7b7;
+	border-style: solid;
+	border-width: 1px;
+	border-spacing: 0;
+	box-shadow: 0px 8px 10px 0px black;
+	padding-top: 3px;
+	height: 281px;
+	width: 100%;
+	max-width: 280px;
+	table-layout: fixed;
+}
+DIV.calendar TABLE THEAD .calendartitle 
+{
+	background-color: white;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	color: #2a3143;
+	text-align: center;
+}
+DIV.calendar TABLE THEAD .name 
+{
+	background-color: #f9f9f9;
+	overflow: hidden;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	color: #2a3143;
+	text-align: center;
+}
+DIV.calendar TABLE THEAD .daynames 
+{
+	background-color: #f9f9f9;
+	border-bottom: none;
+	border-top-color: #f9f9f9;
+	border-top: 1px;
+}
+DIV.calendar TABLE THEAD TR:first-child
+{
+	background-color: transparent;
+}
+DIV.calendar TABLE THEAD TR.headrow
+{
+	background-color: white;
+	width: 280px;
+	color: #2a3143;
+}
+DIV.calendar TABLE THEAD TR
+{
+	height: 35px;
+}
+DIV.calendar TABLE TBODY
+{
+	background-color: #f9f9f9;
+}
+DIV.calendar TABLE TBODY .day 
+{
+	background-color: #f9f9f9;
+	background-image: none;
+	border-width: 0px;
+	height: 24px;
+	width: 27px;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+}
+DIV.calendar TABLE TBODY TD.selected
+{
+	background-color: #3c80f5;
+	border-top-left-radius: 1px;
+	border-top-right-radius: 1px;
+	border-bottom-right-radius: 1px;
+	border-bottom-left-radius: 1px;
+	color: white;
+}
+DIV.calendar TD.time .hour 
+{
+	background-color: white;
+	border-bottom-color: #efefef;
+	border-left-color: #efefef;
+	border-right-color: #efefef;
+	border-top-color: #efefef;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 1px;
+}
+DIV.calendar TD.time .minute 
+{
+	background-color: white;
+	border-bottom-color: #efefef;
+	border-left-color: #efefef;
+	border-right-color: #efefef;
+	border-top-color: #efefef;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 1px;
+}
+DIV.calendar TD.time .ampm 
+{
+	background-color: white;
+	border-bottom-color: #efefef;
+	border-left-color: #efefef;
+	border-right-color: #efefef;
+	border-top-color: #efefef;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 1px;
+}
+*.RecentLinkItem:after
+{
+	padding-left: 5px;
+	content: '—';
+}
+#gx_ajax_notification
+{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	position: absolute;
+	top: 21px;
+	z-index: 999;
+	height: 20px;
+	width: 100%;
+	display: block;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+}
+
+@media (max-width: 991px) AND (min-width: 768px) /*Small*/
+{
+/* [gx-css-import ignore - start] */
+
+.ResponsiveSlide #gx-column-targets {
+	display: block;
+	width: auto;
+	height: auto;
+}
+
+.ResponsiveSlide .gx-call-target {
+	overflow: auto;
+	position: fixed;
+	transition-property: transform;
+	transition-duration: .1s;
+	transition-timing-function: ease-in-out;
+	z-index: 1000;
+}
+
+.ResponsiveSlide .gx-call-target.top {
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	height: 15vh;
+}
+
+.ResponsiveSlide .gx-call-target.top.collapsed {
+	height: 10vw;
+}
+
+.ResponsiveSlide .gx-call-target.top.off {
+	transform: translate3d(0,-15vh,0);
+}
+
+.ResponsiveSlide .gx-call-target.right {
+	bottom: 0px;
+	right: 0px;
+	top: 0px;
+	width: 70vw;
+	display: block;
+}
+
+.ResponsiveSlide .gx-call-target.right.collapsed {
+	width: 20vw;
+}
+
+.ResponsiveSlide .gx-call-target.right.off {
+	transform: translate3d(70vw,0,0);
+}
+
+.ResponsiveSlide .gx-call-target.bottom {
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 10vh;
+}
+
+.ResponsiveSlide .gx-call-target.bottom.collapsed {
+	height: 10vh;
+}
+
+.ResponsiveSlide .gx-call-target.bottom.off {
+	transform: translate3d(0,10vh,0);
+}
+
+.ResponsiveSlide .gx-call-target.left {
+	bottom: 0px;
+	left: 0px;
+	top: 0px;
+	width: 70vw;
+	display: block;
+}
+
+.ResponsiveSlide .gx-call-target.left.collapsed {
+	width: 20vw;
+}
+
+.ResponsiveSlide .gx-call-target.left.off {
+	transform: translate3d(-70vw,0,0);
+}
+
+.ResponsiveSlide .gx-center-target {
+	transition: transform .1s ease-in-out;
+	display: block;
+}
+
+.ResponsiveSlide .gx-center-target.slideout {
+	cursor: pointer;
+}
+
+.ResponsiveSlide .gx-center-target.slideout.top {
+	transform: translate3d(0,15vh,0);
+}
+
+.ResponsiveSlide .gx-center-target.slideout.right {
+	transform: translate3d(-70vw,0,0);
+}
+
+.ResponsiveSlide .gx-center-target.slideout.bottom {
+	transform: translate3d(0,-10vh,0);
+}
+
+.ResponsiveSlide .gx-center-target.slideout.left {
+	transform: translate3d(70vw,0,0);
+}
+
+.ResponsiveSlide .gx-center-target.slideout.collapsed {
+	transform: none;
+}
+
+
+.Form #gx-column-targets {
+	display: block;
+	width: auto;
+	height: auto;
+}
+
+.Form .gx-call-target {
+	overflow: auto;
+	position: fixed;
+	transition-property: transform;
+	transition-duration: .1s;
+	transition-timing-function: ease-in-out;
+	z-index: 1000;
+}
+
+.Form .gx-call-target.top {
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	height: 15vh;
+}
+
+.Form .gx-call-target.top.collapsed {
+	height: 10vw;
+}
+
+.Form .gx-call-target.top.off {
+	transform: translate3d(0,-15vh,0);
+}
+
+.Form .gx-call-target.right {
+	bottom: 0px;
+	right: 0px;
+	top: 0px;
+	width: 70vw;
+	display: block;
+}
+
+.Form .gx-call-target.right.collapsed {
+	width: 20vw;
+}
+
+.Form .gx-call-target.right.off {
+	transform: translate3d(70vw,0,0);
+}
+
+.Form .gx-call-target.bottom {
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 10vh;
+}
+
+.Form .gx-call-target.bottom.collapsed {
+	height: 10vh;
+}
+
+.Form .gx-call-target.bottom.off {
+	transform: translate3d(0,10vh,0);
+}
+
+.Form .gx-call-target.left {
+	bottom: 0px;
+	left: 0px;
+	top: 0px;
+	width: 70vw;
+	display: block;
+}
+
+.Form .gx-call-target.left.collapsed {
+	width: 20vw;
+}
+
+.Form .gx-call-target.left.off {
+	transform: translate3d(-70vw,0,0);
+}
+
+.Form .gx-center-target {
+	transition: transform .1s ease-in-out;
+	display: block;
+}
+
+.Form .gx-center-target.slideout {
+	cursor: pointer;
+}
+
+.Form .gx-center-target.slideout.top {
+	transform: translate3d(0,15vh,0);
+}
+
+.Form .gx-center-target.slideout.right {
+	transform: translate3d(-70vw,0,0);
+}
+
+.Form .gx-center-target.slideout.bottom {
+	transform: translate3d(0,-10vh,0);
+}
+
+.Form .gx-center-target.slideout.left {
+	transform: translate3d(70vw,0,0);
+}
+
+.Form .gx-center-target.slideout.collapsed {
+	transform: none;
+}
+
+/* [gx-css-import ignore - end] */
+	.Title
+	{
+		font-size: 16px;
+	}
+	.GlobalTitle,.GlobalTitle>A,.BigGlobalTitle>A
+	{
+		font-size: 11px;
+	}
+	.BigGlobalTitle,.BigGlobalTitle>A
+	{
+		font-size: 17px;
+	}
+	.SubtitleLabel,.gx-label.SubtitleAttributeLabel,.gx-label.BlobContentSubtitleAttributeLabel,.gx-label.ReadonlyBlobContentSubtitleAttributeLabel,.gx-label.BlobInputSubtitleAttributeLabel,.gx-label.ReadonlySubtitleAttributeLabel
+	{
+		font-size: 11px;
+	}
+	.SubtitleAttribute
+	{
+		font-size: 13px;
+	}
+	.ReadonlySubtitleAttribute
+	{
+		font-size: 13px;
+	}
+	.Table435x370
+	{
+		box-shadow: 0px 40px 120px 0px #b7b7b7;
+	}
+	.LargeTableLogin
+	{
+		box-shadow: 0px 40px 120px 0px #b7b7b7;
+	}
+	.ErrorViewer
+	{
+		box-shadow: 0px 20px 30px 0px #b7b7b7;
+	}
+	.OptionalColumn
+	{
+		display: none;
+	}
+	.WWOptionalColumn
+	{
+		display: none;
+	}
+	.WWAdvancedBarCell
+	{
+		width: 25%;
+	}
+	.PromptAdvancedBarCell
+	{
+		width: 25%;
+	}
+	.WWGridCell
+	{
+		margin-left: 29%;
+		width: 68%;
+	}
+	.MainMenu
+	{
+		margin-left: -35px;
+		margin-right: -35px;
+	}
+	.Popup,.Form .gx-popup.gx-popup-default
+	{
+		margin-top: 0px;
+	}
+}
+
+@media (max-width: 767px) /*ExtraSmall*/
+{
+/* [gx-css-import ignore - start] */
+
+.ResponsiveSlide #gx-column-targets {
+	display: block;
+	width: auto;
+	height: auto;
+}
+
+.ResponsiveSlide .gx-call-target {
+	overflow: auto;
+	position: fixed;
+	transition-property: transform;
+	transition-duration: .1s;
+	transition-timing-function: ease-in-out;
+	z-index: 1000;
+}
+
+.ResponsiveSlide .gx-call-target.top {
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	height: 15vh;
+}
+
+.ResponsiveSlide .gx-call-target.top.collapsed {
+	height: 10vw;
+}
+
+.ResponsiveSlide .gx-call-target.top.off {
+	transform: translate3d(0,-15vh,0);
+}
+
+.ResponsiveSlide .gx-call-target.right {
+	bottom: 0px;
+	right: 0px;
+	top: 0px;
+	width: 70vw;
+	display: block;
+}
+
+.ResponsiveSlide .gx-call-target.right.collapsed {
+	width: 20vw;
+}
+
+.ResponsiveSlide .gx-call-target.right.off {
+	transform: translate3d(70vw,0,0);
+}
+
+.ResponsiveSlide .gx-call-target.bottom {
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 10vh;
+}
+
+.ResponsiveSlide .gx-call-target.bottom.collapsed {
+	height: 10vh;
+}
+
+.ResponsiveSlide .gx-call-target.bottom.off {
+	transform: translate3d(0,10vh,0);
+}
+
+.ResponsiveSlide .gx-call-target.left {
+	bottom: 0px;
+	left: 0px;
+	top: 0px;
+	width: 70vw;
+	display: block;
+}
+
+.ResponsiveSlide .gx-call-target.left.collapsed {
+	width: 20vw;
+}
+
+.ResponsiveSlide .gx-call-target.left.off {
+	transform: translate3d(-70vw,0,0);
+}
+
+.ResponsiveSlide .gx-center-target {
+	transition: transform .1s ease-in-out;
+	display: block;
+}
+
+.ResponsiveSlide .gx-center-target.slideout {
+	cursor: pointer;
+}
+
+.ResponsiveSlide .gx-center-target.slideout.top {
+	transform: translate3d(0,15vh,0);
+}
+
+.ResponsiveSlide .gx-center-target.slideout.right {
+	transform: translate3d(-70vw,0,0);
+}
+
+.ResponsiveSlide .gx-center-target.slideout.bottom {
+	transform: translate3d(0,-10vh,0);
+}
+
+.ResponsiveSlide .gx-center-target.slideout.left {
+	transform: translate3d(70vw,0,0);
+}
+
+.ResponsiveSlide .gx-center-target.slideout.collapsed {
+	transform: none;
+}
+
+
+.Form #gx-column-targets {
+	display: block;
+	width: auto;
+	height: auto;
+}
+
+.Form .gx-call-target {
+	overflow: auto;
+	position: fixed;
+	transition-property: transform;
+	transition-duration: .1s;
+	transition-timing-function: ease-in-out;
+	z-index: 1000;
+}
+
+.Form .gx-call-target.top {
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	height: 15vh;
+}
+
+.Form .gx-call-target.top.collapsed {
+	height: 10vw;
+}
+
+.Form .gx-call-target.top.off {
+	transform: translate3d(0,-15vh,0);
+}
+
+.Form .gx-call-target.right {
+	bottom: 0px;
+	right: 0px;
+	top: 0px;
+	width: 70vw;
+	display: block;
+}
+
+.Form .gx-call-target.right.collapsed {
+	width: 20vw;
+}
+
+.Form .gx-call-target.right.off {
+	transform: translate3d(70vw,0,0);
+}
+
+.Form .gx-call-target.bottom {
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 10vh;
+}
+
+.Form .gx-call-target.bottom.collapsed {
+	height: 10vh;
+}
+
+.Form .gx-call-target.bottom.off {
+	transform: translate3d(0,10vh,0);
+}
+
+.Form .gx-call-target.left {
+	bottom: 0px;
+	left: 0px;
+	top: 0px;
+	width: 70vw;
+	display: block;
+}
+
+.Form .gx-call-target.left.collapsed {
+	width: 20vw;
+}
+
+.Form .gx-call-target.left.off {
+	transform: translate3d(-70vw,0,0);
+}
+
+.Form .gx-center-target {
+	transition: transform .1s ease-in-out;
+	display: block;
+}
+
+.Form .gx-center-target.slideout {
+	cursor: pointer;
+}
+
+.Form .gx-center-target.slideout.top {
+	transform: translate3d(0,15vh,0);
+}
+
+.Form .gx-center-target.slideout.right {
+	transform: translate3d(-70vw,0,0);
+}
+
+.Form .gx-center-target.slideout.bottom {
+	transform: translate3d(0,-10vh,0);
+}
+
+.Form .gx-center-target.slideout.left {
+	transform: translate3d(70vw,0,0);
+}
+
+.Form .gx-center-target.slideout.collapsed {
+	transform: none;
+}
+
+/* [gx-css-import ignore - end] */
+	.TextBlockHeader
+	{
+		margin-left: 0px;
+		font-size: 30px;
+	}
+	.PopupTitle
+	{
+		margin-left: 0px;
+		font-size: 30px;
+	}
+	.RecentsTitle
+	{
+		margin-left: 0px;
+	}
+	.SubTitle
+	{
+		height: inherit;
+	}
+	.LogoutMenuOption
+	{
+		display: inline;
+	}
+	.SelectedMainMenuItem,.SelectedMainMenuItem:hover,.gx-navbar.MainMenu .navbar-nav>li.active>a,.MainMenu.gx-dropdown-menu.dropdown-menu>li.active>a
+	{
+		border-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	.SelectedSubMenuItem,.SelectedSubMenuItem:hover,.SubMenuItem:hover,.gx-navbar.Submenu .navbar-nav>li:hover,.Submenu.gx-dropdown-menu.dropdown-menu>li>a:hover, .gx-navbar.Submenu .navbar-nav>li>a:hover, .gx-navbar.Submenu .navbar-nav>li.dropdown>a:hover,.gx-navbar.Submenu .navbar-nav>li.active>a,.Submenu.gx-dropdown-menu.dropdown-menu>li.active>a
+	{
+		background-color: transparent;
+		font-size: 16px;
+		color: white;
+	}
+	.MainMenuItem,.MainMenuItem:hover,.MainMenuItemHovered:hover,.gx-navbar.MainMenu .navbar-nav>li,.MainMenu.gx-dropdown-menu.dropdown-menu>li>a, .gx-navbar.MainMenu .navbar-nav>li>a, .gx-navbar.MainMenu .navbar-nav>li.dropdown>a
+	{
+		background-color: transparent;
+		padding-bottom: 2px;
+		padding-top: 2px;
+		font-size: 18px;
+		color: white;
+	}
+	.SubMenuItem,.gx-navbar.Submenu .navbar-nav>li,.Submenu.gx-dropdown-menu.dropdown-menu>li>a, .gx-navbar.Submenu .navbar-nav>li>a, .gx-navbar.Submenu .navbar-nav>li.dropdown>a
+	{
+		font-size: 16px;
+		color: #ffa7c0;
+	}
+	.Attribute
+	{
+		width: 100%;
+		max-width: 324px;
+	}
+	.LoginAttribute
+	{
+		width: 100%;
+	}
+	.LoginComboAttribute
+	{
+		margin-left: 0px;
+		width: 200px;
+	}
+	.RegistrationAttribute
+	{
+		width: 100%;
+	}
+	.RequiredAttribute
+	{
+		max-width: 324px;
+	}
+	.SubtitleAttribute
+	{
+		margin-top: 10px;
+		font-size: 12px;
+	}
+	.ReadonlySubtitleAttribute
+	{
+		margin-top: 10px;
+		font-size: 12px;
+	}
+	.FilterSearchAttribute
+	{
+		margin-left: -13px;
+	}
+	.BtnLogin
+	{
+		width: 100%;
+		max-width: 300px;
+		min-width: 120px;
+	}
+
+	.HideFiltersButton
+	{
+		background-position: center;
+		background-image: url(../CarmineGAM/GenericFilter.png);
+		font-size: 0px;
+		height: 29px;
+		width: 20px;
+		text-align: right;
+	}
+
+	.ShowFiltersButton
+	{
+		background-position: center;
+		background-image: url(../CarmineGAM/GenericFilter.png);
+		font-size: 0px;
+		height: 29px;
+		width: 20px;
+	}
+
+	.UnauthorizedImage
+	{
+		margin-top: 65px;
+	}
+	.RecentLinksMainTable
+	{
+		overflow: hidden;
+		max-height: 20px;
+		-moz-transition: max-height 0.5s ease-in-out;
+		 -webkit-transition: max-height 0.5s ease-in-out;
+		 -ms-transition: max-height 0.5s ease-in-out;
+		 transition: max-height 0.5s ease-in-out;
+	}
+	.RecentLinksMainTableExpanded
+	{
+		max-height: 500px;
+	}
+	.TableTopSearch
+	{
+		padding-left: 30px;
+	}
+	.TableButtons
+	{
+		width: 100%;
+	}
+	.Table435x370
+	{
+		box-shadow: 0px 40px 120px 0px #b7b7b7;
+		width: 100%;
+		min-width: 90vw;
+	}
+	.SmallTableLogin
+	{
+		box-shadow: 0px 40px 120px 0px #b7b7b7;
+		height: 290px;
+		width: 100%;
+	}
+	.LargeTableLogin
+	{
+		box-shadow: 0px 40px 120px 0px #b7b7b7;
+		height: 1035px;
+		width: 100%;
+	}
+	.WelcomeTable
+	{
+		box-shadow: 0px 40px 120px 0px #b7b7b7;
+		margin-left: -15px;
+		margin-top: -20px;
+		height: 100vh;
+		width: 100vw;
+		max-width: 100vw;
+	}
+	.LoginContainer
+	{
+		margin-top: 20px;
+	}
+	.HeaderContainer
+	{
+		padding-bottom: 5px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 5px;
+		height: 90px;
+	}
+	.RecentLinksContainer
+	{
+		padding-bottom: 2px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 2px;
+	}
+	.AdvancedContainer
+	{
+		left: 0px;
+		width: 230px;
+		height: auto;
+		 min-height: calc(100vh - 160px);
+		 -webkit-transition: left .3s ease;
+		 -moz-transition: left .3s ease;
+		 -ms-transition: left .3s ease;
+		 -o-transition: left .3s ease;
+		 transition: left .3s ease;
+		 z-index:10;
+	}
+	.AdvancedContainerVisible
+	{
+		left: -100%;
+		padding-left: 25px;
+		width: 235px;
+	}
+	.ActionsContainer
+	{
+		position: absolute;
+		right: 4px;
+		background-color: #efefef;
+		transition: opacity 0.5s ease;
+		 z-index: -1;
+		 opacity: 0;
+	}
+	.ActionsContainerItem
+	{
+		margin-right: 0px;
+		margin-top: 0px;
+		width: auto;
+	}
+	.ActionsContainerVisible
+	{
+		box-shadow: 0PX 4px 5px 0px black;
+		position: absolute;
+		right: 5px;
+		background-color: #efefef;
+		border-bottom-color: #b7b7b7;
+		border-left-color: #b7b7b7;
+		border-right-color: #b7b7b7;
+		border-top-color: #b7b7b7;
+		border-style: solid;
+		border-width: 1px;
+		transition: opacity 0.5s ease;
+		 z-index: 8;
+		 opacity: 1;
+	}
+	.ViewAdvancedContainer
+	{
+		left: 0px;
+		width: 230px;
+		height: auto;
+		 -webkit-transition: left .3s ease;
+		 -moz-transition: left .3s ease;
+		 -ms-transition: left .3s ease;
+		 -o-transition: left .3s ease;
+		 transition: left .3s ease;
+		 z-index:10;
+	}
+	.ViewAdvancedContainerVisible
+	{
+		left: -100%;
+		padding-left: 25px;
+		width: 235px;
+	}
+	.ErrorViewer
+	{
+		box-shadow: 0px 20px 30px 0px #b7b7b7;
+	}
+	.OptionalColumn
+	{
+		display: none;
+	}
+	.WWOptionalColumn
+	{
+		display: none;
+	}
+	.WWSecondaryColumn
+	{
+		display: none;
+	}
+	.WWFiltersCellCollapsed
+	{
+		left: -250px;
+	}
+	.WWAdvancedBarCell
+	{
+		width: 230px;
+	}
+	.PromptAdvancedBarCell
+	{
+		padding-top: 40px;
+		width: 230px;
+	}
+	.WWGridCell
+	{
+		margin-left: 0px;
+		width: 100%;
+	}
+	.ViewGridCellAdvanced
+	{
+		margin-left: 0px;
+		width: 100%;
+	}
+	.WWGridCellExpanded
+	{
+		margin-left: 0px;
+		width: 100%;
+	}
+	.Submenu
+	{
+		padding-bottom: 2px;
+		padding-top: 2px;
+	}
+	.Confirm
+	{
+		margin-bottom: 10px;
+		margin-top: 20px;
+		width: 280px;
+	}
+	.Popup,.Form .gx-popup.gx-popup-default
+	{
+		margin-top: 0px;
+	}
+	DIV.gx-multimedia-upload INPUT.field
+	{
+		width: auto;
+	}
+}
+/* [gx-css-import ignore - start] */
+
+@keyframes entermask {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: black;
+  }
+}
+
+@keyframes leavemask {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: transparent;
+  }
+}
+div[data-align="center"] > div[data-align-outer] {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+div[data-align="right"] > div[data-align-outer] {
+  display: table;
+  margin-left: auto;
+}
+div[data-valign="middle"] > div[data-align-outer] {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+div[data-valign="middle"] > div[data-align-outer] > div[data-align-inner] {
+  display: table-cell;
+  vertical-align: middle;
+}
+div[data-valign="bottom"] > div[data-align-outer] {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+div[data-valign="bottom"] > div[data-align-outer] > div[data-align-inner] {
+  display: table-cell;
+  vertical-align: bottom;
+}
+td[data-cell-valign="top"] {
+  vertical-align: top;
+}
+td[data-cell-valign="middle"] {
+  vertical-align: middle;
+}
+td[data-cell-valign="bottom"] {
+  vertical-align: bottom;
+}
+div[data-cell-valign="middle"] {
+  display: table-cell;
+  vertical-align: middle;
+}
+div[data-cell-valign="bottom"] {
+  display: table-cell;
+  vertical-align: bottom;
+}
+div[data-align="center"] > div[data-align-outer] {
+  width: auto;
+}
+div[data-align="right"] > div[data-align-outer] {
+  width: auto;
+}
+div[data-align][data-align-image] > div[data-align-outer] {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  height: 100%;
+}
+div[data-align][data-align-image]
+  > div[data-align-outer]
+  > div[data-align-inner] {
+  height: 100%;
+}
+div[data-valign][data-align-image]
+  > div[data-align-outer]
+  > div[data-align-inner] {
+  display: block;
+  height: 100%;
+}
+div[data-align="center"][data-align-image] img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+div[data-align="right"][data-align-image] img {
+  margin-left: auto;
+  display: block;
+}
+div[data-align="center"]:not([data-valign])[data-align-image] img {
+  background-position: center top;
+}
+div[data-align="center"][data-valign="middle"][data-align-image] img {
+  background-position: center center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+div[data-valign][data-align-image] div[data-align-inner] {
+  position: relative;
+}
+div[data-valign][data-align-image] img {
+  position: absolute;
+  margin: auto;
+}
+div[data-align="center"][data-valign="bottom"][data-align-image] img {
+  background-position: center bottom;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+div[data-align="right"]:not([data-valign])[data-align-image] img {
+  background-position: right top;
+}
+div[data-align="right"][data-valign="middle"][data-align-image] img {
+  background-position: right center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+div[data-align="right"][data-valign="bottom"][data-align-image] img {
+  background-position: right bottom;
+  right: 0;
+  bottom: 0;
+}
+div:not([data-align])[data-valign="middle"][data-align-image] img {
+  background-position: left center;
+  top: 0;
+  bottom: 0;
+}
+div:not([data-align])[data-valign="bottom"][data-align-image] img {
+  background-position: left bottom;
+  bottom: 0;
+}
+div[data-align="center"]
+  > div
+  > div
+  > div.gx-attribute
+  > p.form-control-static {
+  text-align: center;
+}
+div[data-align="right"] > div > div > div.gx-attribute > p.form-control-static {
+  text-align: right;
+}
+
+[data-gx-flex] {
+  display: flex;
+}
+
+div[data-gx-canvas] {
+  position: relative;
+}
+
+div[data-gx-canvas-cell] > div.gx-attribute {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: inherit;
+  align-items: inherit;
+}
+
+div[data-gx-smarttable] {
+  display:grid;
+}
+
+div[data-gx-smarttable-cell] > div [data-gxgridid] {
+  width: 100%;
+  height: 100%;
+}
+
+div[data-gx-smarttable-cell] > div.gx-attribute {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: inherit;
+  align-items: inherit;
+}
+
+.gxlivepreview-hidesubelements {
+  visibility: hidden;
+}
+.gx-responsive-grid .gx-remove-row {
+  position: absolute;
+  z-index: 1;
+}
+
+.gx-responsive-grid .gx-remove-row-right {
+  right: 10px;
+}
+
+.gx-responsive-grid .gx-remove-row-top {
+  top: 0;
+}
+
+.gx-responsive-grid .gx-remove-row-bottom {
+  bottom: 0;
+}
+
+[data-gxrow].RowDeleted div {
+  text-decoration: inherit;
+}
+
+[data-gxgridid] > [data-gx-flex] > [data-gxrow] > .gx-remove-row + div,
+[data-gxgridid] > [data-gx-flex] > [data-gxrow] > .gx-remove-row + table {
+  margin: 15px;
+}
+
+[data-gxgridid] > [data-gx-flex] > [data-gxrow] {
+  position: relative;
+}
+
+.gx-responsive-grid > [data-gx-flex] > [data-gxrow] > .gx-remove-row-right {
+  right: 0;
+}
+
+.gx-popup-frame-mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+form[tabindex="-1"] {
+  outline: none;
+}
+
+.gx-navbar .gx-attribute,
+.gx-action-group .gx-attribute,
+.gx-action-group .gx-button {
+  display: inline-block;
+}
+
+.gx-action-group .gx-form-group {
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.gx-radio-button-vertical,
+.gx-radio-button-vertical label {
+  display: block;
+  line-height: 25px;
+}
+
+label.gx-radio-label.disabled.active {
+  box-shadow: inset 0 0px 7px rgba(0, 0, 0, 0.28);
+}
+
+.gx-prompt.gx-disabled {
+  display: none;
+}
+
+.input-group input.form-control.gx-invisible + span > a.gx-image-link,
+.input-group input.form-control[disabled] + span > a.gx-image-link {
+  display: none;
+}
+
+div.gxwebcomponent > div.gx-mask {
+  position: absolute;
+}
+
+html.gx-blocking,
+html.gx-blocking body {
+  overflow: hidden;
+}
+
+.gx-call-target.empty {
+  display: none !important;
+}
+
+.gx-invisible,
+.gx-sr-only,
+[data-gx-sr-only] {
+  display: none !important;
+}
+
+.gx-grid [data-gx-grid-nodata] + .GridNoDataText {
+  display: block;
+}
+
+.gx-grid .GridNoDataText {
+  display: none;
+}
+
+TD.gx-attribute .form-control {
+  display: inline-block;
+  width: 100%;
+  }
+
+.MainContainer .gx-infinite-scrolling-container, .container-fluid .gx-infinite-scrolling-container {
+	padding-left:15px;
+	padding-right:15px;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.gx-infinite-scrolling-container table,
+.gx-infinite-scrolling-container thead {
+  overflow-x: hidden;
+  display: block;
+  width: 100%;
+}
+
+.gx-infinite-scrolling-container > table {
+  width:100%;  
+}
+
+.gx-infinite-scrolling-element {
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.gx-grid .gx-grid-fixed-height {
+  overflow-y: scroll;
+  display: inline-block;
+}
+
+.gx-grid-fixed-header-ie7 > table > thead > tr {
+  display: block;
+  position: absolute;
+}
+.gx-grid-fixed-header-ie7 {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.gx-grid-fixed-header-ie7 > table > tbody {
+  height: auto;
+}
+.gx-grid-fixed-header-ie7 > table {
+  width: auto;
+}
+
+table > .gx-infinite-scrolling-element {
+  width: 100%;
+  display: block;
+}
+
+.gx-tbldsp-container {
+  display: table;
+}
+.gx-tbldsp-container > div {
+  display: table-cell;
+}
+[data-gx-evt],
+[data-gx-evt-control] {
+  cursor: pointer;
+}
+.gx-disabled[data-gx-evt],
+.gx-disabled[data-gx-evt-control] {
+  cursor: auto;
+}
+
+span.gx-disabled > a {	
+	color: inherit;
+	cursor: inherit;
+	text-decoration: inherit;
+}
+
+/* Start Responsive Popups required Styling */
+.gx-responsive-popup.gx-popup {
+  position: fixed;
+  z-index: 1500;
+  margin-top: 0px;
+}
+
+.gx-responsive-popup .gx-popup-content > iframe {
+  border: none;
+}
+
+.gx-responsive-popup div.gx-popup-pdf {
+  overflow: hidden;
+}
+
+body.gx-popup-opened {
+  overflow: hidden;
+}
+
+div[data-gx-dynitem-container] {
+  display: inline;
+}
+
+li[data-gx-dynitem-hook],
+input[type="checkbox"].gx-invisible + label {
+  display: none;
+}
+
+.input-group input[data-gx-password-reveal] {
+  width: 100%;
+}
+
+input[data-gx-password-reveal] + .gx-pwd-reveal-btn {
+  display: table-cell;
+}
+
+.gx-pwd-reveal-btn {
+  display: none;
+}
+
+input[data-gx-password-reveal]::-ms-reveal {
+  display: none;
+}
+
+.gxwebcomponent-loading {
+  opacity: 0;
+}
+
+.gx-label {
+  font-weight: 700;
+}
+
+.gx-form-item {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.gx-default-form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.gx-default-form-group.gx-label-top {
+  flex-wrap: wrap;
+}
+
+[data-gx-checkbox-title] {
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+.gx-checkbox-wrapper {
+  min-height: 27px;
+  display: inline-block;
+  padding-top: 7px;
+  padding-left: 20px;
+}
+
+.gx-checkbox-wrapper > input {
+  position: absolute;
+  margin-left: -20px;
+}
+
+.form-control[type="checkbox"] {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+body:not(.gx-show-input-spinner) input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+body:not(.gx-show-input-spinner)
+  input[type="number"]::-webkit-inner-spin-button,
+body:not(.gx-show-input-spinner)
+  input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media (min-width: 736px) {
+  /* Just in case for compatibility reasons.*/
+  .gx-responsive-popup .gx-popup-header {
+    float: none;
+    width: auto;
+  }
+
+  .gx-popup-opened,
+  .gx-popup-opened form {
+    overflow: hidden;
+  }
+
+  .gx-responsive-popup .gx-popup-content iframe {
+    overflow: auto;
+  }
+  .gx-responsive-popup .gx-popup-resize {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+  }
+
+  .gx-responsive-popup div.iframe-container {
+    max-height: calc(100vh - 80px);
+  }
+
+  .gx-responsive-popup div.iframe-container > iframe {
+    max-height: none !important;
+  }
+
+  .gx-responsive-popup.gx-popup-initial .gx-popup-content iframe {
+    max-height: calc(
+      100vh - 80px
+    ); /* 80px harcoded for Header Popup Height. Not good. Flexbox instead? */
+    max-width: 100vw;
+  }
+  .gx-responsive-popup.gx-popup-centered {
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    left: 50% !important;
+    top: 50% !important;
+  }
+
+  .gx-responsive-popup.gx-popup-horizontal-center {
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    left: 50%;
+  }
+}
+@media (max-width: 736px) /*Small and ExtraSmall*/ {
+  .gx-responsive-popup .gx-popup-header {
+    height: 40px;
+  }
+  .gx-responsive-popup.gx-popup {
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+  }
+  .gx-responsive-popup .gx-popup-content {
+    height: calc(
+      100% - 40px
+    ); /* 40px harcoded for Header Popup Height. Not good. Flexbox instead? */
+    width: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .gx-responsive-popup .gx-popup-content > iframe {
+    width: 100vw !important;
+  }
+  .gx-responsive-popup .gx-popup-resize {
+    display: none;
+  }
+
+  body.gx-popup-opened {
+    position: fixed;
+  }
+
+  .gx-popup-document {
+    width: 100% !important;
+  }
+}
+
+.gx-multimedia-ro img:not([src=""]) {
+  background-image: none;
+}
+
+.gx-multimedia-ro img:not([src=""]) + * {
+  display: none;
+}
+/* Bootstrap Float Labels  https://github.com/tonystar/bootstrap-float-label/blob/master/bootstrap-float-label.css */
+
+.has-float-label {
+  display: block;
+  position: relative;
+}
+.has-float-label label,
+.has-float-label > span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: text;
+  font-size: 75%;
+  opacity: 1;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  top: -0.5em;
+  left: 0.75rem;
+  z-index: 3;
+  line-height: 1;
+  padding: 0 1px;
+}
+.has-float-label label::after,
+.has-float-label > span::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  background: white;
+  height: 2px;
+  top: 50%;
+  left: -0.2em;
+  right: -0.2em;
+  z-index: -1;
+}
+.has-float-label .form-control::-webkit-input-placeholder {
+  opacity: 1;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.has-float-label .form-control::-moz-placeholder {
+  opacity: 1;
+  transition: all 0.2s;
+}
+.has-float-label .form-control:-ms-input-placeholder {
+  opacity: 1;
+  transition: all 0.2s;
+}
+.has-float-label .form-control::placeholder {
+  opacity: 1;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.has-float-label
+  .form-control:placeholder-shown:not(:focus)::-webkit-input-placeholder {
+  opacity: 0;
+}
+.has-float-label .form-control:placeholder-shown:not(:focus)::-moz-placeholder {
+  opacity: 0;
+}
+.has-float-label
+  .form-control:placeholder-shown:not(:focus):-ms-input-placeholder {
+  opacity: 0;
+}
+.has-float-label .form-control:placeholder-shown:not(:focus)::placeholder {
+  opacity: 0;
+}
+.has-float-label .form-control:placeholder-shown:not(:focus) + * {
+  font-size: 125%;
+  opacity: 0.5;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.input-group .has-float-label {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.input-group .has-float-label .form-control {
+  width: 100%;
+  border-radius: 0.25rem;
+}
+.input-group .has-float-label:not(:last-child),
+.input-group .has-float-label:not(:last-child) .form-control {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-right: 0;
+}
+.input-group .has-float-label:not(:first-child),
+.input-group .has-float-label:not(:first-child) .form-control {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+
+/* [gx-css-import ignore - end] */

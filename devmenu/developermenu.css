@@ -1,0 +1,314 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+#header
+{
+  font-family: DINPro, Arial, sans-serif;
+  font-size: 35px;
+  color: #FFF;
+  background: #b80545;
+  padding: 28px 0 28px 21px;
+  text-transform: uppercase;
+}
+.nav-menu ul
+{
+  margin: 0;
+  padding: 23px 0;
+  text-align: center;
+  background-color: #F8F8F8;
+}
+.nav-menu li
+{
+  display: inline-block;
+  margin: 0 10px;
+}
+.nav-menu a
+{
+  font-size: 14px;
+  color: #ADADAC;
+  text-decoration: none;
+}
+.nav-menu a:hover
+{
+  color: #8B8B8B;
+}
+.nav-menu a.selected
+{
+  color: #C60C46;
+}
+.box
+{
+  margin-top: 71px;
+  box-sizing: border-box;
+  width: 60vw;
+  min-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box .box-title h1
+{
+  color: #093038;
+  font-size: 23px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 65px;
+}
+.sd-off #sdapps-box, .sd-off #kbn-box, .sd-off .nav-menu
+{
+  display: none;
+}
+.loading .link-list:empty, .loading #sdapps-box-content:empty {
+  background-image: url(../indicator.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 50px;
+}
+.link-list
+{
+  box-sizing: border-box;
+  background-color: #f4f5ef;
+  padding: 40px;
+}
+.link-list li
+{
+  box-sizing: border-box;
+  display: inline-block;
+  list-style-type: none;
+  width: 40%;
+  width: calc(20vw - 40px);
+  margin: 8px 0;
+  font-size: 14px;
+  color: #2a3143;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+.link-list a
+{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #2a3143;
+  text-decoration: none;
+  padding-left: 20px;
+  background-repeat: no-repeat;
+  background-size: 16px;
+  display: block;
+}
+.link-list a:hover
+{
+  text-decoration: underline;
+}
+.action-box
+{
+  box-sizing: border-box;
+  background-color: #f4f5ef;
+  float: left;
+  width: 40%;
+  width: calc(30vw - 20px);
+  min-height: 300px;
+  text-align: center;
+  padding: 45px 30px;
+}
+.action-box
+{
+  margin: 0 20px 20px;
+}
+.action-box:nth-child(odd)
+{
+  margin-left: 0;
+}
+.action-box:nth-child(even)
+{
+  margin-right: 0;
+}
+.download-box
+{
+  padding: 60px 30px 45px 30px;
+}
+.qrcode-box
+{
+  position: relative;
+}
+.qrcode
+{
+  width: 129px;
+  height: 129px;
+  transition-property: width, height;
+  transition-duration: .3s;
+}
+#kbn-icon
+{
+  width: 66px;
+}
+figure
+{
+  margin: 0;
+}
+figcaption header
+{
+  font-family: Arial, sans-serif;
+  color:  #2a3143;
+  font-size: 14px;
+  font-weight: 700;
+}
+figcaption header h2
+{
+  margin-bottom: 20px;
+}
+a
+{
+  color:  #b80545;
+  font-weight: 400;
+  text-decoration: underline;
+}
+p
+{
+  color: #9f9f9f;
+  font-size: 14px;
+}
+.qrcode-zoom
+{
+  position: absolute;
+  top: 160px;
+  left: 50%;
+  margin-left: 70px;
+  cursor: pointer;
+  display: none;
+  width: 16px;
+}
+.qrcode-box:hover .qrcode-zoom
+{
+  display: block;
+}
+.clearfix:after
+{
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.hidden
+{
+  display: none !important;
+}
+.obj-class-0
+{
+  background-image: url(transaction.ico);
+}
+.obj-class-1
+{
+  background-image: url(procedure.ico);
+}
+.obj-class-2
+{
+  background-image: url(report.ico);
+}
+.obj-class-12
+{
+  background-image: url(prompt.ico);
+}
+.obj-class-13
+{
+  background-image: url(webpanel.ico);
+}
+.obj-class-17
+{
+  background-image: url(mbr.ico);
+}
+.qrcode-box.zoomed
+{
+  padding: 20px 5px 10px 5px;
+}
+.qrcode-box.zoomed .qrcode
+{
+  width: 200px;
+  height: 200px;
+}
+.qrcode-box.zoomed figcaption a
+{
+  display: none;
+}
+.qrcode-box.zoomed .qrcode-zoom {
+  margin-left: 110px;
+  top: 200px;
+}
+.qrcode-box.off:before {
+  content: 'Package is not available for download';
+  display: block;
+  position: absolute;
+  bottom: 46px;
+  left: 0;
+  right: 0;
+  font-size: 14px;
+}
+.qrcode-box.off .qrcode  {
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+}
+.ie .qrcode-box.off .qrcode  {
+  filter: progid:DXImageTransform.Microsoft.blur(pixelradius=3);
+}
+.qrcode-box.off .qrcode-zoom, .qrcode-box.off figcaption a {
+  visibility: hidden;
+}
+@media (max-width: 1024px) AND (min-width: 768px)
+{
+  .link-list li
+  {
+    width: 40%;
+    width: calc(50% - 20px);
+  }
+  .box
+  {
+    width: 70vw;
+  }
+  .action-box
+  {
+    width: 40%;
+    width: calc(35vw - 20px);
+  }
+}
+@media (max-width: 768px)
+{
+  .box
+  {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .link-list li
+  {
+    width: 90%;
+    width: calc(50% - 20px);
+  }
+  .action-box
+  {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 480px)
+{
+  .box
+  {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .link-list li
+  {
+    width: 90%;
+    width: calc(100% - 20px);
+  }
+}
+@font-face {
+  font-family: DINPro;
+  src: url(DINPro-Regular.otf);
+}

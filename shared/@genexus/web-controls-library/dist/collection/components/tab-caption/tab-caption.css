@@ -1,0 +1,7 @@
+gx-tab-caption {
+  display: block; }
+  gx-tab-caption[hidden] {
+    display: none; }
+    gx-tab-caption[hidden][invisible-mode="keep-space"] {
+      display: block;
+      visibility: hidden; }

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		   targetNamespace="qv"
+		   xmlns="qv"
+		   elementFormDefault="qualified">
+	<xs:element name="Objects">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Object" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:attribute name="name" type="xs:string" use="required"/>
+						<xs:attribute name="securityLevel" type="securityLevel" use="required"/>
+						<xs:attribute name="permissionPrefix" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="securityLevel">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="SecurityNone"/>
+			<xs:enumeration value="SecurityLow"/>
+			<xs:enumeration value="SecurityHigh"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

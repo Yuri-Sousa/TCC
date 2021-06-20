@@ -1,0 +1,333 @@
+<configuration>
+   <configSections>
+      <section  name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler, log4net" requirePermission="false"/>
+      <sectionGroup  name="languages" type="System.Configuration.NameValueSectionHandler">
+         <section  name="Portuguese" type="System.Configuration.SingleTagSectionHandler" requirePermission="false"/>
+      </sectionGroup>
+      <section  name="sustainsys.saml2" type="Sustainsys.Saml2.Configuration.SustainsysSaml2Section, Sustainsys.Saml2"/>
+      <section  name="system.identityModel" type="System.IdentityModel.Configuration.SystemIdentityModelSection, System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=B77A5C561934E089"/>
+   </configSections>
+   <appSettings>
+      <add  key="AppMainNamespace" value="GeneXus.Programs"/>
+      <add  key="DataStore1" value="GAM"/>
+      <add  key="DataStore2" value="Default"/>
+      <add  key="DataStore-Count" value="2"/>
+      <add  key="Connection-GAM-DBMS" value="sqlserver"/>
+      <add  key="Connection-GAM-Port" value=""/>
+      <add  key="Connection-GAM-LockTimeout" value="0"/>
+      <add  key="Connection-GAM-LockRetryCount" value="10"/>
+      <add  key="Connection-GAM-IsolationLevel" value="CR"/>
+      <add  key="Connection-GAM-Datasource" value="n8x1SI8fzdXF+/H2elnPzlXTwCR+Y/tGH6OErrkboV0="/>
+      <add  key="Connection-GAM-User" value="Elj20MqY44RPdvT8FEpDD0=="/>
+      <add  key="Connection-GAM-Password" value="qeCH4vaQ7rD1P/p8oOmLfO=="/>
+      <add  key="Connection-GAM-DB" value="TCCBD_GAM"/>
+      <add  key="Connection-GAM-Schema" value="AcNMu2fK7ytcxZ3B9UN+W0=="/>
+      <add  key="Connection-GAM-Opts" value=";Integrated Security=no;"/>
+      <add  key="Connection-GAM-TrnInt" value="1"/>
+      <add  key="Connection-Default-DBMS" value="sqlserver"/>
+      <add  key="Connection-Default-Port" value=""/>
+      <add  key="Connection-Default-LockTimeout" value="0"/>
+      <add  key="Connection-Default-LockRetryCount" value="10"/>
+      <add  key="Connection-Default-IsolationLevel" value="CR"/>
+      <add  key="Connection-Default-Datasource" value="n8x1SI8fzdXF+/H2elnPzlXTwCR+Y/tGH6OErrkboV0="/>
+      <add  key="Connection-Default-User" value="Elj20MqY44RPdvT8FEpDD0=="/>
+      <add  key="Connection-Default-Password" value="qeCH4vaQ7rD1P/p8oOmLfO=="/>
+      <add  key="Connection-Default-DB" value="TCCBD"/>
+      <add  key="Connection-Default-Schema" value="82sPNmMP8O3TlpdEZk1r8E=="/>
+      <add  key="Connection-Default-Opts" value=";Integrated Security=no;"/>
+      <add  key="Connection-Default-TrnInt" value="1"/>
+      <add  key="DateFormat" value="DMY"/>
+      <add  key="YearLimit" value="1940"/>
+      <add  key="TimeAmPmFormat" value="24"/>
+      <add  key="VER_STAMP" value="20210429.210742"/>
+      <add  key="CS_BLOB_PATH" value="PublicTempStorage"/>
+      <add  key="TMPMEDIA_DIR" value="PrivateTempStorage"/>
+      <add  key="PRINT_LAYOUT_METADATA_DIR" value="LayoutMetadata"/>
+      <add  key="StorageTimeZone" value="1"/>
+      <add  key="LOGIN_AS_USERID" value="0"/>
+      <add  key="LANGUAGE" value="por"/>
+      <add  key="LANG_NAME" value="Portuguese"/>
+      <add  key="DECIMAL_POINT" value=","/>
+      <add  key="DATE_FMT" value="DMY"/>
+      <add  key="CTOD_DATE_FMT" value="L"/>
+      <add  key="Culture" value="pt-BR"/>
+      <add  key="Theme" value="WorkWithPlusTheme"/>
+      <add  key="UseNamedParameters" value="1"/>
+      <add  key="EnableIntegratedSecurity" value="1"/>
+      <add  key="IntegratedSecurityLoginWeb" value="gamexamplelogin,objects"/>
+      <add  key="IntegratedSecurityNotAuthorizedWeb" value="gamexamplenotauthorized,objects"/>
+      <add  key="MAX_CURSOR" value="100"/>
+      <add  key="STATIC_CONTENT" value=""/>
+      <add  key="GX_BUILD_NUMBER" value="8534944"/>
+      <add  key="CACHE_CONTENT_EXPIRATION" value="36"/>
+      <add  key="FTP_DEFAULT_USER" value="Zd8hx1OPJaolo5nN5s4nmc=="/>
+      <add  key="FTP_DEFAULT_PASSWORD" value="kvwmxbHzjMA66dQNAHRlhn=="/>
+      <add  key="ENABLE_MANAGEMENT" value="0"/>
+      <add  key="COMPRESS_HTML" value="0"/>
+      <add  key="IE_COMPATIBILITY_VIEW" value="edge"/>
+      <add  key="DocumentType" value="HTML5"/>
+      <add  key="EXPOSE_METADATA" value="0"/>
+      <add  key="SMART_CACHING" value="0"/>
+      <add  key="wcf:serviceHostingEnvironment:useClassicReadEntityBodyMode" value="true"/>
+      <add  key="CACHE_INVALIDATION_TOKEN" value="20216201718148"/>
+   </appSettings>
+   <languages >
+      <Portuguese  code="por" time_fmt="24" decimal_point="," thousand_sep="." date_fmt="DMY" culture="pt-BR"/>
+   </languages>
+   <log4net  configSource="log.config"/>
+   <system.web>
+      <trace  enabled="false"/>
+      <httpRuntime  requestValidationMode="2.0" targetFramework="4.6" requestPathInvalidCharacters=""/>
+      <compilation  optimizeCompilations="true">
+         <assemblies>
+            <remove  assembly="GxClasses_16.0.7"/>
+         </assemblies>
+      </compilation>
+   </system.web>
+   <system.serviceModel>
+      <client>
+      </client>
+      <serviceHostingEnvironment  aspNetCompatibilityEnabled="true"/>
+      <services>
+         <service  name="GeneXus.Programs.mapaloaddvcombo_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.mapaloaddvcombo_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.mapaloaddvcombo_services"/>
+         </service>
+         <service  name="GeneXus.Programs.enviarnotificacaowebsocket_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.enviarnotificacaowebsocket_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.enviarnotificacaowebsocket_services"/>
+         </service>
+         <service  name="GeneXus.Programs.comandoenviadoloaddvcombo_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.comandoenviadoloaddvcombo_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.comandoenviadoloaddvcombo_services"/>
+         </service>
+         <service  name="GeneXus.Programs.wcenviarcomandoloaddvcombo_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.wcenviarcomandoloaddvcombo_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.wcenviarcomandoloaddvcombo_services"/>
+         </service>
+         <service  name="GeneXus.Programs.relatorioutilizacaoloaddvcombo_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.relatorioutilizacaoloaddvcombo_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.relatorioutilizacaoloaddvcombo_services"/>
+         </service>
+         <service  name="GeneXus.Programs.debugtotext_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.debugtotext_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.debugtotext_services"/>
+         </service>
+         <service  name="GeneXus.Programs.relatoriohorastrabalhadasloaddvcombo_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.relatoriohorastrabalhadasloaddvcombo_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.relatoriohorastrabalhadasloaddvcombo_services"/>
+         </service>
+         <service  name="GeneXus.Programs.relatorioposicaoloaddvcombo_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.relatorioposicaoloaddvcombo_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.relatorioposicaoloaddvcombo_services"/>
+         </service>
+         <service  name="GeneXus.Programs.wwpbaseobjects.discussions.wwp_getusersfordiscussionmentions_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.wwpbaseobjects.discussions.wwp_getusersfordiscussionmentions_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.wwpbaseobjects.discussions.wwp_getusersfordiscussionmentions_services"/>
+         </service>
+      </services>
+      <extensions>
+         <behaviorExtensions>
+            <add  name="customWebHttp" type="GeneXus.Utils.CustomHttpBehaviorExtensionElement, GxClasses, Version=11.0.0.0, Culture=neutral, PublicKeyToken=6f5bf81c27b6b8aa"/>
+         </behaviorExtensions>
+      </extensions>
+      <behaviors>
+         <endpointBehaviors>
+            <behavior  name="ServiceRestBehavior">
+               <customWebHttp />
+            </behavior>
+         </endpointBehaviors>
+         <serviceBehaviors>
+            <behavior  name="ServiceDefaultBehavior">
+               <serviceMetadata  httpGetEnabled="true"/>
+               <dataContractSerializer  maxItemsInObjectGraph="2147483647"/>
+            </behavior>
+         </serviceBehaviors>
+      </behaviors>
+      <bindings>
+         <webHttpBinding>
+            <binding  name="CustomBinding" maxReceivedMessageSize="10485760">
+               <security  mode="None">
+                  <transport  clientCredentialType="None"/>
+               </security>
+               <readerQuotas  maxStringContentLength="10485760"/>
+            </binding>
+         </webHttpBinding>
+         <basicHttpBinding>
+            <binding  name="CustomBinding" maxReceivedMessageSize="10485760">
+               <security  mode="None">
+                  <transport  clientCredentialType="None"/>
+               </security>
+               <readerQuotas  maxStringContentLength="10485760"/>
+            </binding>
+         </basicHttpBinding>
+      </bindings>
+   </system.serviceModel>
+   <system.webServer>
+      <rewrite>
+         <rules>
+            <rule  name="GXObject" stopProcessing="true">
+               <match  url="^GXObject$"/>
+               <action  type="Rewrite" url="GXObject.aspx"/>
+            </rule>
+            <rule  name="gx_valid_service" stopProcessing="true">
+               <match  url="^gx_valid_service(.*)$"/>
+               <action  type="Rewrite" url="gx_valid_service.aspx{R:1}"/>
+            </rule>
+            <rule  name="gxmulticall" stopProcessing="true">
+               <match  url="^gxmulticall(.*)$"/>
+               <action  type="Rewrite" url="gxmulticall.aspx{R:1}"/>
+            </rule>
+            <rule  name="metadata" stopProcessing="true">
+               <match  url="^rest/metadata/(.*).json$"/>
+               <action  type="Rewrite" url="gxmetadata/{R:1}.json"/>
+            </rule>
+            <rule  name="metadataList" stopProcessing="true">
+               <match  url="^rest/metadata$"/>
+               <action  type="Rewrite" url="gxmetadata/gx_entity_list.json"/>
+            </rule>
+            <rule  name="metadataImg" stopProcessing="true">
+               <match  url="^rest/metadata/images/(.*)$"/>
+               <action  type="Rewrite" url="gxmetadata/images/{R:1}"/>
+            </rule>
+            <rule  name="metadataJson" stopProcessing="true">
+               <match  url="^rest/metadata/(.*)$"/>
+               <action  type="Rewrite" url="gxmetadata/{R:1}.json"/>
+            </rule>
+            <rule  name="GXOAuthAccessToken" stopProcessing="true">
+               <match  url="^oauth/access_token$"/>
+               <action  type="Rewrite" url="GXOAuthAccessToken.aspx"/>
+            </rule>
+            <rule  name="GXOAuthLogout" stopProcessing="true">
+               <match  url="^oauth/logout$"/>
+               <action  type="Rewrite" url="GXOAuthLogout.aspx"/>
+            </rule>
+            <rule  name="GXOAuthUserInfo" stopProcessing="true">
+               <match  url="^oauth/userinfo$"/>
+               <action  type="Rewrite" url="GXOAuthUserInfo.aspx"/>
+            </rule>
+            <rule  name="GXGamSignIn" stopProcessing="true">
+               <match  url="^oauth/gam/signin$"/>
+               <action  type="Rewrite" url="agamextauthinput.aspx"/>
+            </rule>
+            <rule  name="GXGamCallback" stopProcessing="true">
+               <match  url="^oauth/gam/callback$"/>
+               <action  type="Rewrite" url="agamextauthinput.aspx"/>
+            </rule>
+            <rule  name="GXGamAccessToken" stopProcessing="true">
+               <match  url="^oauth/gam/access_token$"/>
+               <action  type="Rewrite" url="agamoauth20getaccesstoken.aspx"/>
+            </rule>
+            <rule  name="GXGamUserInfo" stopProcessing="true">
+               <match  url="^oauth/gam/userinfo$"/>
+               <action  type="Rewrite" url="agamoauth20getuserinfo.aspx"/>
+            </rule>
+            <rule  name="GXGamSignOut" stopProcessing="true">
+               <match  url="^oauth/gam/signout$"/>
+               <action  type="Rewrite" url="agamextauthinput.aspx"/>
+            </rule>
+            <rule  name="GXGamSamlSignin" stopProcessing="true">
+               <match  url="^saml/gam/signin$"/>
+               <action  type="Rewrite" url="Saml2/SignIn"/>
+            </rule>
+            <rule  name="GXGamSamlCallBack" stopProcessing="true">
+               <match  url="^saml/gam/callback$"/>
+               <action  type="Rewrite" url="gamexternalauthenticationinputsaml20_ws.aspx"/>
+            </rule>
+            <rule  name="GXGamSamlSignout" stopProcessing="true">
+               <match  url="^saml/gam/signout$"/>
+               <action  type="Rewrite" url="Saml2/Logout"/>
+            </rule>
+            <rule  name="GXGamRequestTokenService" stopProcessing="true">
+               <match  url="^oauth/requesttokenservice$"/>
+               <action  type="Rewrite" url="agamstsauthappgetaccesstoken.aspx"/>
+            </rule>
+            <rule  name="GXGamQueryAccessToken" stopProcessing="true">
+               <match  url="^oauth/queryaccesstoken$"/>
+               <action  type="Rewrite" url="agamstsauthappvalidaccesstoken.aspx"/>
+            </rule>
+            <rule  name="GamAccessTokenV2" stopProcessing="true">
+               <match  url="^oauth/gam/v2.0/access_token$"/>
+               <action  type="Rewrite" url="agamoauth20getaccesstoken_v20.aspx"/>
+            </rule>
+            <rule  name="OAuthUserInfoV2" stopProcessing="true">
+               <match  url="^oauth/gam/v2.0/userinfo$"/>
+               <action  type="Rewrite" url="agamoauth20getuserinfo_v20.aspx"/>
+            </rule>
+            <rule  name="OAuthSSORestV2" stopProcessing="true">
+               <match  url="^oauth/gam/v2.0/RequestTokenAndUserinfo$"/>
+               <action  type="Rewrite" url="aGAMSSORestRequestTokenAndUserInfo_v20.aspx"/>
+            </rule>
+            <rule  name="GX REST Services" stopProcessing="true">
+               <match  url="^rest/((?:/?[\w \.-]+)+)/?(.*)$"/>
+               <action  type="Rewrite" url="{R:1}.svc/rest/{R:2}"/>
+            </rule>
+         </rules>
+      </rewrite>
+      <httpErrors  errorMode="Detailed"/>
+      <staticContent>
+         <remove  fileExtension=".json"/>
+         <remove  fileExtension=".woff"/>
+         <remove  fileExtension=".woff2"/>
+         <remove  fileExtension=".tmp"/>
+         <remove  fileExtension=".otf"/>
+         <remove  fileExtension=".apk"/>
+         <remove  fileExtension=".properties"/>
+         <mimeMap  fileExtension=".json" mimeType="application/json"/>
+         <mimeMap  fileExtension=".woff" mimeType="font/woff"/>
+         <mimeMap  fileExtension=".woff2" mimeType="font/woff2"/>
+         <mimeMap  fileExtension=".tmp" mimeType="image/jpeg"/>
+         <mimeMap  fileExtension=".otf" mimeType="font/opentype"/>
+         <mimeMap  fileExtension=".gxsd" mimeType="application/zip"/>
+         <mimeMap  fileExtension=".apk" mimeType="application/vnd.android.package-archive"/>
+         <mimeMap  fileExtension=".properties" mimeType="text/plain"/>
+         <remove  fileExtension=".cod"/>
+         <mimeMap  fileExtension=".cod" mimeType="application/vnd.rim.cod"/>
+         <mimeMap  fileExtension=".jad" mimeType="text/vnd.sun.j2me.app-descriptor"/>
+         <mimeMap  fileExtension=".caf" mimeType="audio/x-caf"/>
+         <mimeMap  fileExtension=".yaml" mimeType="text/yaml"/>
+         <mimeMap  fileExtension=".usdz" mimeType="model/vnd.pixar.usd"/>
+         <mimeMap  fileExtension=".sfb" mimeType="model/sfb"/>
+         <mimeMap  fileExtension=".gltf" mimeType="model/gltf+json"/>
+      </staticContent>
+      <handlers>
+         <add  name="GeneXus WebSocket Handler" verb="*" path="gxwebsocket.svc" type="GeneXus.Http.WSHttpHandler,gxwebsocket"/>
+         <add  name="GeneXus.HttpHandlerFactory.HandlerFactory" verb="*" path="*.aspx" type="GeneXus.HttpHandlerFactory.HandlerFactory,gxclasses"/>
+         <remove  name="WebDAV"/>
+      </handlers>
+      <modules>
+         <add  name="GXStaticContentCache" type="GeneXus.Http.HttpModules.GXStaticCacheModule,gxclasses"/>
+         <add  name="GXAPIServices" type="GeneXus.Http.HttpModules.GXAPIModule,gxclasses"/>
+         <add  name="GXRewriter" type="GeneXus.Http.HttpModules.GXRewriter,gxclasses"/>
+         <add  name="SessionAuthenticationModule" type="System.IdentityModel.Services.SessionAuthenticationModule, System.IdentityModel.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+         <add  name="Saml2AuthenticationModule" type="Sustainsys.Saml2.HttpModule.Saml2AuthenticationModule, Sustainsys.Saml2.HttpModule"/>
+         <remove  name="WebDAVModule"/>
+      </modules>
+      <validation  validateIntegratedModeConfiguration="false"/>
+      <security>
+         <requestFiltering  allowDoubleEscaping="true">
+            <hiddenSegments>
+               <add  segment="PrivateTempStorage"/>
+               <add  segment="private"/>
+            </hiddenSegments>
+         </requestFiltering>
+      </security>
+   </system.webServer>
+   <location  path="PublicTempStorage">
+      <system.webServer>
+         <handlers>
+            <clear />
+            <add  name="StaticFile" path="*" verb="*" modules="StaticFileModule,DefaultDocumentModule,DirectoryListingModule" resourceType="Either" requireAccess="Read"/>
+         </handlers>
+      </system.webServer>
+   </location>
+</configuration>

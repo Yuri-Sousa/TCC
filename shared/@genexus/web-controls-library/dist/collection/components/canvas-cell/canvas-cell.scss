@@ -1,0 +1,6 @@
+@import "../common/_base";
+
+gx-canvas-cell {
+  position: absolute;
+  @include containerCell();
+}
